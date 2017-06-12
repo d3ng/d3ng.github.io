@@ -2,15 +2,89 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>D3p</title>
+  <title>d3ng</title>
   <base href="/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <!--<link href="../node_modules/@angular/material/prebuilt-themes/indigo-pink.css" rel="stylesheet">-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-</head>
+<link href="styles.ceab2e53fa4d7e3c7d15.bundle.css" rel="stylesheet"/></head>
 <body>
+  <style>
+    a {
+     color: #005A9C;
+    }
+    #disclaimer {
+      background: #000000;
+      color: #FFF;
+      opacity: 0.9;
+      width: 100%;
+      bottom: 0;
+      left: 0;
+      z-index: 10000;
+      position: fixed;
+      text-align: left;
+      font-size: 12px;
+      font-weight: 100;
+    }
+
+    #disclaimer-content {
+      margin: 10px 10px 30px 10px;
+    }
+
+    .button {
+      margin: 10px;
+      padding: 5px 12px;
+
+      cursor: pointer;
+      user-select: none;
+      transition: all 60ms ease-in-out;
+      text-align: center;
+      white-space: nowrap;
+      text-decoration: none !important;
+      text-transform: none;
+      text-transform: capitalize;
+
+      color: #fff;
+      border: 0 none;
+      border-radius: 4px;
+
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 1.3;
+
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+
+      justify-content: center;
+      align-items: center;
+    }
+
+    .button.-regular {
+      color: #202129;
+      background-color: #edeeee;
+    }
+  </style>
+  <script>
+    function __d3ng_hideDisclaimer() {
+      document.getElementById("disclaimer").remove();
+    }
+  </script>
+  <div id="disclaimer">
+    <div id="disclaimer-content">
+    <p>
+      Be aware that <b>d3ng</b> and this demonstration of it are <b>under development</b>, and we had not yet time to
+    add proper support for a wide range of browsers and platforms. But, we are confident it'll run properly  at least on
+      the current desktop versions of <b>chrome</b> and <b>safari</b>. If something unexpected happens, feel free to <b>reload</b>
+    this page and try again.
+    </p>
+    <p>
+      Also, this site uses cookies to anonymously track user behaviour; learn more <a style="color: white;" href="https://ico.org.uk/for-organisations/guide-to-pecr/cookies-and-similar-technologies/">here</a>.
+      <a class="button -regular" onclick="__d3ng_hideDisclaimer()">Got it.</a>
+    </p>
+    </div>
+  </div>
   <app-root>Loading...</app-root>
-<script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="polyfills.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script></body>
+<script type="text/javascript" src="inline.337d9f7dd0a796c019ad.bundle.js"></script><script type="text/javascript" src="polyfills.7cd9f7343d7daa30ed55.bundle.js"></script><script type="text/javascript" src="vendor.af0425235485e93cfa93.bundle.js"></script><script type="text/javascript" src="main.c2b88f280b509559938c.bundle.js"></script></body>
 </html>
