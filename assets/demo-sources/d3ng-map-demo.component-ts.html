@@ -1,0 +1,26 @@
+<span class="hljs-keyword">import</span> { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">'@angular/core'</span>;
+<span class="hljs-keyword">import</span> {Http, Response} <span class="hljs-keyword">from</span> <span class="hljs-string">"@angular/http"</span>;
+<span class="hljs-keyword">import</span> * <span class="hljs-keyword">as</span> d3 <span class="hljs-keyword">from</span> <span class="hljs-string">"d3"</span>;
+
+<span class="hljs-meta">@Component</span>({
+  selector: <span class="hljs-string">'d3ng-map-demos'</span>,
+  template: <span class="hljs-string">`
+    &lt;h2&gt;D3ng Map Demo&lt;/h2&gt;
+    &lt;h3&gt;A World Map&lt;/h3&gt;
+    &lt;d3ng-map [data]="data" dimension="value"&gt;&lt;/d3ng-map&gt;
+  `</span>,
+  styles: [ ]
+})
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> D3ngMapDemoComponent {
+
+  data = [];
+
+  <span class="hljs-keyword">constructor</span>(<span class="hljs-params">http: Http</span>) {
+    http.get(<span class="hljs-string">'/assets/natural-population-growth.csv'</span>)
+      .map(<span class="hljs-function">(<span class="hljs-params">res: Response</span>) =&gt;</span> res)
+      .subscribe(<span class="hljs-function"><span class="hljs-params">res</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.data = d3.csv.parse(res.text()).filter(<span class="hljs-function"><span class="hljs-params">d</span>=&gt;</span>d.year == <span class="hljs-number">2005</span>);
+      });
+  }
+}

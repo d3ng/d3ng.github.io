@@ -1,0 +1,46 @@
+<span class="hljs-keyword">import</span> {Component, Input, OnInit} <span class="hljs-keyword">from</span> <span class="hljs-string">'@angular/core'</span>;
+<span class="hljs-keyword">import</span> {D3ngGroupContext} <span class="hljs-keyword">from</span> <span class="hljs-string">"../../../lib/d3ng-groups.component"</span>;
+
+<span class="hljs-meta">@Component</span>({
+  selector: <span class="hljs-string">'d3ng-story'</span>,
+  templateUrl: <span class="hljs-string">'./d3ng-story.component.html'</span>,
+  styleUrls: [<span class="hljs-string">'./d3ng-story.component.css'</span>]
+})
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> D3ngStoryComponent <span class="hljs-keyword">implements</span> OnInit {
+
+  <span class="hljs-meta">@Input</span>() title;
+
+  <span class="hljs-keyword">constructor</span>(<span class="hljs-params"></span>) { }
+
+  ngOnInit() {
+  }
+
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">abstract</span> <span class="hljs-keyword">class</span> D3ngStoryBase {
+  <span class="hljs-keyword">public</span> context = <span class="hljs-keyword">new</span> D3ngGroupContext;
+  <span class="hljs-keyword">public</span> data = <span class="hljs-keyword">this</span>.createDummyData(<span class="hljs-string">'container'</span>, <span class="hljs-number">1.5</span>, <span class="hljs-number">1.5</span>, <span class="hljs-number">0.5</span>, <span class="hljs-function">(<span class="hljs-params">x,y</span>)=&gt;</span><span class="hljs-keyword">this</span>.createDummyData(<span class="hljs-string">'contents'</span>, x,y,<span class="hljs-number">0.15</span>));
+  <span class="hljs-keyword">public</span> scatterPlotConfig = {
+    extent: [[<span class="hljs-number">0.5</span>,<span class="hljs-number">2.5</span>],[<span class="hljs-number">0.5</span>,<span class="hljs-number">2.5</span>]],
+    ticks: [<span class="hljs-number">5</span>,<span class="hljs-number">5</span>]
+  };
+  <span class="hljs-keyword">public</span> dimensions = [ <span class="hljs-string">'x'</span>, <span class="hljs-string">'y'</span> ];
+  <span class="hljs-keyword">private</span> createDummyData(t, x, y, size, childrenFunction?:<span class="hljs-function">(<span class="hljs-params">x,y</span>)=&gt;</span><span class="hljs-built_in">any</span>) {
+    <span class="hljs-keyword">return</span> [
+      { x: <span class="hljs-number">-1</span>, y: <span class="hljs-number">-1</span> },
+      { x: <span class="hljs-number">1</span>, y: <span class="hljs-number">-1</span> },
+      { x: <span class="hljs-number">-1</span>, y: <span class="hljs-number">1</span> },
+      { x: <span class="hljs-number">1</span>, y: <span class="hljs-number">1</span> },
+    ].map(<span class="hljs-function"><span class="hljs-params">o</span> =&gt;</span> {
+      <span class="hljs-keyword">const</span> result = {
+        <span class="hljs-keyword">type</span>: t,
+        x: (o.x * size + x),
+        y: (o.y * size + y),
+      };
+      <span class="hljs-keyword">if</span> (childrenFunction) {
+        result[<span class="hljs-string">'children'</span>] = childrenFunction(result.x, result.y);
+      }
+      <span class="hljs-keyword">return</span> result;
+    });
+  }
+}

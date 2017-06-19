@@ -1,0 +1,45 @@
+<span class="hljs-keyword">import</span> { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">'@angular/core'</span>;
+
+<span class="hljs-meta">@Component</span>({
+  selector: <span class="hljs-string">'d3ng-chord-diagram-demo'</span>,
+  template: <span class="hljs-string">`
+    &lt;h2&gt;D3ng Chord Diagram Demo&lt;/h2&gt;
+    &lt;d3ng-chord-diagram [data]="data" [(selected)]="selection"&gt;&lt;/d3ng-chord-diagram&gt;
+  `</span>,
+  styles: [ <span class="hljs-string">'d3ng-chord-diagram { width : 300px; }'</span> ]
+})
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> D3ngChordDiagramDemoComponent {
+  selection: <span class="hljs-built_in">any</span>[] = [];
+  data = [
+    {
+      id: <span class="hljs-string">"a"</span>,
+      label: <span class="hljs-string">"DefaulA"</span>,
+      color: <span class="hljs-string">"#f22"</span>,
+      dependencies: [
+        { id: <span class="hljs-string">"a"</span>, value: <span class="hljs-number">3</span> },
+        { id: <span class="hljs-string">"b"</span>, value: <span class="hljs-number">4</span> },
+        { id: <span class="hljs-string">"c"</span>, value: <span class="hljs-number">10</span> }
+      ]
+    },
+    {
+      id: <span class="hljs-string">"b"</span>,
+      label: <span class="hljs-string">"BarB"</span>,
+      color: <span class="hljs-string">"#2f2"</span>,
+      dependencies: [
+        { id: <span class="hljs-string">"a"</span>, value: <span class="hljs-number">1</span> },
+        { id: <span class="hljs-string">"c"</span>, value: <span class="hljs-number">3</span> }
+      ]
+    },
+    {
+      id: <span class="hljs-string">"c"</span>,
+      label: <span class="hljs-string">"FooC"</span>,
+      color: <span class="hljs-string">"#22f"</span>,
+      dependencies: [
+        { id: <span class="hljs-string">"a"</span>, value: <span class="hljs-number">6</span> },
+        { id: <span class="hljs-string">"b"</span>, value: <span class="hljs-number">3</span> },
+        { id: <span class="hljs-string">"c"</span>, value: <span class="hljs-number">1</span> }
+      ]
+    },
+  ];
+}

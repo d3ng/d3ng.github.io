@@ -1,0 +1,34 @@
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"explanations"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+    To allow you to visualize the relationships between data and its different visualizations, d3ng allows you
+    to connect individual simple visualizations via user interactions. D3ng uses selections and selection groups
+    to connect different representations of the same data-points.
+    This kind of visual analysis task is known as <span class="hljs-tag">&lt;<span class="hljs-name">b</span>&gt;</span>brushing<span class="hljs-tag">&lt;/<span class="hljs-name">b</span>&gt;</span> and <span class="hljs-tag">&lt;<span class="hljs-name">b</span>&gt;</span>linking<span class="hljs-tag">&lt;/<span class="hljs-name">b</span>&gt;</span>.
+  <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
+    D3ng support 4 different types of possible chart combinations, each employing brushing and linking in a different manner.
+  <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"container"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">md-list</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">md-list-item</span> *<span class="hljs-attr">ngFor</span>=<span class="hljs-string">"let story of mstories; let i = index"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">md-list-icon</span>=<span class="hljs-string">""</span>&gt;</span>{{story.id}}<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h4</span> <span class="hljs-attr">md-line</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> [<span class="hljs-attr">routerLink</span>]=<span class="hljs-string">"story.path"</span>&gt;</span>{{story.title}}<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">h4</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">md-line</span>&gt;</span>{{story.subtitle}}<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">md-list-item</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">md-list</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"content"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> *<span class="hljs-attr">ngIf</span>=<span class="hljs-string">"config"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"story"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>{{config.title}}<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"description"</span> [<span class="hljs-attr">innerHTML</span>]=<span class="hljs-string">"config.description"</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"body"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">d3ng-demo-viewer</span> [<span class="hljs-attr">sourceBasePath</span>]=<span class="hljs-string">"config.sourceBasePath"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">router-outlet</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">router-outlet</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">d3ng-demo-viewer</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>

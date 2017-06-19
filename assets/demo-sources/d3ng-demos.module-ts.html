@@ -1,0 +1,104 @@
+<span class="hljs-keyword">import</span> {NgModule} <span class="hljs-keyword">from</span> <span class="hljs-string">"@angular/core"</span>;
+<span class="hljs-keyword">import</span> {RouterModule, Routes} <span class="hljs-keyword">from</span> <span class="hljs-string">"@angular/router"</span>;
+<span class="hljs-keyword">import</span> {D3ngDemosComponent} <span class="hljs-keyword">from</span> <span class="hljs-string">"./d3ng-demos.component"</span>;
+<span class="hljs-keyword">import</span> {D3ngListDemoComponent} <span class="hljs-keyword">from</span> <span class="hljs-string">"./d3ng-list-demo.component"</span>;
+<span class="hljs-keyword">import</span> {D3ngParallelCoordinatesDemoComponent} <span class="hljs-keyword">from</span> <span class="hljs-string">"./d3ng-parallel-coordinates-demo.component"</span>;
+<span class="hljs-keyword">import</span> {D3ngScatterPlotDemoComponent} <span class="hljs-keyword">from</span> <span class="hljs-string">"./d3ng-scatter-plot-demo.component"</span>;
+<span class="hljs-keyword">import</span> {D3ngTreeMapDemoComponent} <span class="hljs-keyword">from</span> <span class="hljs-string">"./d3ng-tree-map-demo.component"</span>;
+<span class="hljs-keyword">import</span> {D3ngPatternDemoComponent} <span class="hljs-keyword">from</span> <span class="hljs-string">"./d3ng-pattern-demo.component"</span>;
+<span class="hljs-keyword">import</span> {D3ngRadialEdgeBundlingDemoComponent} <span class="hljs-keyword">from</span> <span class="hljs-string">"./d3ng-radial-edge-bundling-demo.component"</span>;
+<span class="hljs-keyword">import</span> {D3ngChordDiagramDemoComponent} <span class="hljs-keyword">from</span> <span class="hljs-string">"./d3ng-chord-diagram-demo.component"</span>;
+<span class="hljs-keyword">import</span> {D3ngForceGraphDemoComponent} <span class="hljs-keyword">from</span> <span class="hljs-string">"./d3ng-force-graph-demo.component"</span>;
+<span class="hljs-keyword">import</span> {D3ngCollapsibleIndentedTreeDemoComponent} <span class="hljs-keyword">from</span> <span class="hljs-string">"./d3ng-collapsible-indented-tree-demo.component"</span>;
+<span class="hljs-keyword">import</span> {BrowserModule} <span class="hljs-keyword">from</span> <span class="hljs-string">"@angular/platform-browser"</span>;
+<span class="hljs-keyword">import</span> {BrowserAnimationsModule} <span class="hljs-keyword">from</span> <span class="hljs-string">"@angular/platform-browser/animations"</span>;
+<span class="hljs-keyword">import</span> {
+  MdButtonModule,
+  MdButtonToggleModule, MdCardModule, MdIconModule, MdListModule, MdSidenavModule,
+  MdTabsModule
+} <span class="hljs-keyword">from</span> <span class="hljs-string">"@angular/material"</span>;
+<span class="hljs-keyword">import</span> <span class="hljs-string">'hammerjs'</span>;
+<span class="hljs-keyword">import</span> {D3ngComponentsModule} <span class="hljs-keyword">from</span> <span class="hljs-string">"../../lib/d3ng.module"</span>;
+<span class="hljs-keyword">import</span> {D3ngHistogramDemoComponent} <span class="hljs-keyword">from</span> <span class="hljs-string">"./d3ng-histogram-demo.component"</span>;
+<span class="hljs-keyword">import</span> {D3ngMapDemoComponent} <span class="hljs-keyword">from</span> <span class="hljs-string">"./d3ng-map-demo.component"</span>;
+<span class="hljs-keyword">import</span> {D3ngShadredModule} <span class="hljs-keyword">from</span> <span class="hljs-string">"../shared/d3ng-shared.module"</span>;
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> demosRouting: Routes = [
+  {
+    path: <span class="hljs-string">'list'</span>,
+    component: D3ngListDemoComponent
+  },
+  {
+    path: <span class="hljs-string">'pattern'</span>,
+    component: D3ngPatternDemoComponent
+  },
+  {
+    path: <span class="hljs-string">'parallel-coordinates'</span>,
+    component: D3ngParallelCoordinatesDemoComponent
+  },
+  {
+    path: <span class="hljs-string">'scatter-plot'</span>,
+    component: D3ngScatterPlotDemoComponent
+  },
+  {
+    path: <span class="hljs-string">'tree-map'</span>,
+    component: D3ngTreeMapDemoComponent
+  },
+  {
+    path: <span class="hljs-string">'collapsible-indented-tree'</span>,
+    component: D3ngCollapsibleIndentedTreeDemoComponent
+  },
+  {
+    path: <span class="hljs-string">'chord-diagram'</span>,
+    component: D3ngChordDiagramDemoComponent
+  },
+  {
+    path: <span class="hljs-string">'force-graph'</span>,
+    component: D3ngForceGraphDemoComponent
+  },
+  {
+    path: <span class="hljs-string">'radial-edge-bundling'</span>,
+    component: D3ngRadialEdgeBundlingDemoComponent
+  },
+  {
+    path: <span class="hljs-string">'histogram'</span>,
+    component: D3ngHistogramDemoComponent
+  },
+  {
+    path: <span class="hljs-string">'map'</span>,
+    component: D3ngMapDemoComponent
+  }
+];
+
+<span class="hljs-meta">@NgModule</span>({
+  declarations: [
+    D3ngDemosComponent,
+    D3ngListDemoComponent,
+    D3ngChordDiagramDemoComponent,
+    D3ngCollapsibleIndentedTreeDemoComponent,
+    D3ngForceGraphDemoComponent,
+    D3ngParallelCoordinatesDemoComponent,
+    D3ngPatternDemoComponent,
+    D3ngRadialEdgeBundlingDemoComponent,
+    D3ngScatterPlotDemoComponent,
+    D3ngTreeMapDemoComponent,
+    D3ngHistogramDemoComponent,
+    D3ngMapDemoComponent
+  ],
+  imports: [
+    BrowserModule, <span class="hljs-comment">// before other material modules are imported</span>
+    BrowserAnimationsModule, <span class="hljs-comment">// before other material modules are imported</span>
+    MdListModule,
+    MdSidenavModule,
+    D3ngShadredModule,
+    D3ngComponentsModule,
+    RouterModule.forChild(demosRouting),
+  ],
+  exports: [
+    RouterModule,
+    D3ngDemosComponent,
+  ],
+  bootstrap: [D3ngDemosComponent],
+  providers: [],
+})
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> D3ngDemosModule { }

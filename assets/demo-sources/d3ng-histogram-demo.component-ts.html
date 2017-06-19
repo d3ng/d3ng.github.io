@@ -1,0 +1,28 @@
+<span class="hljs-keyword">import</span> { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">'@angular/core'</span>;
+
+<span class="hljs-meta">@Component</span>({
+  selector: <span class="hljs-string">'d3ng-histogram-demos'</span>,
+  template: <span class="hljs-string">`
+    &lt;h2&gt;D3ng Histogram Demo&lt;/h2&gt;
+    &lt;d3ng-histogram [data]="listData" [(selected)]="selection" property="a"&gt;&lt;/d3ng-histogram&gt;
+    
+    &lt;h3&gt;Control list&lt;/h3&gt;
+    &lt;d3ng-list [data]="listData" [(selected)]="selection" labelKey="a"&gt;&lt;/d3ng-list&gt;
+  `</span>,
+  styles: [ <span class="hljs-string">'d3ng-histogram { height : 300px; display:block; }'</span> ]
+})
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> D3ngHistogramDemoComponent {
+  selection: <span class="hljs-built_in">any</span>[] = [];
+  listData = [
+    { a: <span class="hljs-string">"One"</span>, b: <span class="hljs-number">2</span>, c:<span class="hljs-string">"++"</span> },
+    { a: <span class="hljs-string">"Two"</span> },
+    { a: <span class="hljs-string">"Two"</span> },
+    { a: <span class="hljs-string">"Threes"</span> },
+    { a: <span class="hljs-string">"Threes"</span> },
+    { a: <span class="hljs-string">"Four"</span> },
+    { a: <span class="hljs-string">"One"</span> },
+    { a: <span class="hljs-string">"One"</span> },
+    { a: <span class="hljs-string">"One"</span> },
+  ];
+}

@@ -1,0 +1,29 @@
+<span class="hljs-keyword">import</span> { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">'@angular/core'</span>;
+
+<span class="hljs-meta">@Component</span>({
+  selector: <span class="hljs-string">'d3ng-list-demos'</span>,
+  template: <span class="hljs-string">`
+    &lt;h2&gt;D3ng List Demo&lt;/h2&gt;
+    &lt;h3&gt;A list&lt;/h3&gt;
+    &lt;d3ng-list [data]="listData" [(selected)]="selection" [customLabel]="label"&gt;&lt;/d3ng-list&gt;
+    &lt;h3&gt;A list connected with the other list&lt;/h3&gt;
+    &lt;d3ng-list [data]="listData" [(selected)]="selection" [customLabel]="label" [multiselect]="true"&gt;&lt;/d3ng-list&gt;
+  `</span>,
+  styles: [ ]
+})
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> D3ngListDemoComponent {
+
+  selection: <span class="hljs-built_in">any</span>[] = [];
+
+  label = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">d</span>) </span>{
+    <span class="hljs-keyword">return</span> d;
+  };
+
+  listData = [
+    <span class="hljs-string">"One"</span>,
+    <span class="hljs-string">"Two"</span>,
+    <span class="hljs-string">"Three"</span>,
+    <span class="hljs-string">"Four"</span>
+  ]
+}

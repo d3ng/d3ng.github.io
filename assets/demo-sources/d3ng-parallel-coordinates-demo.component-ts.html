@@ -1,0 +1,23 @@
+<span class="hljs-keyword">import</span> { Component } <span class="hljs-keyword">from</span> <span class="hljs-string">'@angular/core'</span>;
+
+<span class="hljs-meta">@Component</span>({
+  selector: <span class="hljs-string">'d3ng-parallel-coordinates-demo'</span>,
+  template: <span class="hljs-string">`
+    &lt;h2&gt;D3ng Parallel Coordinates Demo&lt;/h2&gt;
+    &lt;d3ng-parallel-coordinates [data]="data" [dimensions]="[ 'a', 'b', 'c' ]" [(selected)]="selection"&gt;&lt;/d3ng-parallel-coordinates&gt;
+  `</span>,
+  styles: [ <span class="hljs-string">'d3ng-parallel-coordinates { height : 300px; }'</span> ]
+})
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> D3ngParallelCoordinatesDemoComponent {
+
+  selection: <span class="hljs-built_in">any</span>[] = [];
+
+  data = [
+    { id: <span class="hljs-string">"a"</span>, a: <span class="hljs-number">10</span>, b: <span class="hljs-number">20</span>, c:<span class="hljs-number">5</span> },
+    { id: <span class="hljs-string">"b"</span>, a: <span class="hljs-number">12</span>, b: <span class="hljs-number">10</span>, c:<span class="hljs-number">7</span> },
+    { id: <span class="hljs-string">"c"</span>, a: <span class="hljs-number">8</span>, b: <span class="hljs-number">15</span>, c:<span class="hljs-number">14</span> },
+    { id: <span class="hljs-string">"e"</span>, a: <span class="hljs-number">2</span>, b: <span class="hljs-number">14</span>, c:<span class="hljs-number">8</span> },
+    { id: <span class="hljs-string">"f"</span>, a: <span class="hljs-number">12.2</span>, b: <span class="hljs-number">11</span>, c:<span class="hljs-number">3.2</span> },
+  ]
+}

@@ -1,0 +1,87 @@
+<span class="hljs-keyword">import</span> {Component} <span class="hljs-keyword">from</span> <span class="hljs-string">"@angular/core"</span>;
+<span class="hljs-keyword">import</span> {D3ngSelectionGroupStoryComponent} <span class="hljs-keyword">from</span> <span class="hljs-string">"../d3ng-selection-group-story/d3ng-selection-group-story.component"</span>;
+<span class="hljs-keyword">import</span> {D3ngInputSelectionStoryComponent} <span class="hljs-keyword">from</span> <span class="hljs-string">"../d3ng-input-selection-story/d3ng-input-selection-story.component"</span>;
+<span class="hljs-keyword">import</span> {D3ngOverlappingGroupsStoryComponent} <span class="hljs-keyword">from</span> <span class="hljs-string">"../d3ng-overlapping-groups-story/d3ng-overlapping-groups-story.component"</span>;
+<span class="hljs-keyword">import</span> {D3ngMixedLevelsStoryComponent} <span class="hljs-keyword">from</span> <span class="hljs-string">"../d3ng-mixed-levels-story/d3ng-mixed-levels-story.component"</span>;
+<span class="hljs-keyword">import</span> {D3ngComparisonStoryComponent} <span class="hljs-keyword">from</span> <span class="hljs-string">"../d3ng-comparison-story/d3ng-comparison-story.component"</span>;
+<span class="hljs-keyword">import</span> {NavigationEnd, Router} <span class="hljs-keyword">from</span> <span class="hljs-string">"@angular/router"</span>;
+
+<span class="hljs-meta">@Component</span>({
+  selector: <span class="hljs-string">'d3ng-stories'</span>,
+  templateUrl: <span class="hljs-string">'./d3ng-stories.component.html'</span>,
+  styleUrls: [<span class="hljs-string">'./d3ng-stories.component.css'</span>]
+})
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> D3ngStoriesComponent {
+
+  <span class="hljs-keyword">static</span> stories = [
+    {
+      id: <span class="hljs-string">"A"</span>,
+      path: <span class="hljs-string">"selection-group"</span>,
+      title: <span class="hljs-string">"Selection Group"</span>,
+      subtitle: <span class="hljs-string">"Multiple charts share selections."</span>,
+      description:
+        <span class="hljs-string">`Interactive selection in one chart is reflected in the selection of other charts.
+        Charts that interact via selections form &lt;i&gt;selection groups&lt;/i&gt;.`</span>,
+      component: D3ngSelectionGroupStoryComponent
+    },
+    {
+      id: <span class="hljs-string">"B"</span>,
+      path: <span class="hljs-string">"overlapping-groups"</span>,
+      title: <span class="hljs-string">"Overlapping groups"</span>,
+      subtitle: <span class="hljs-string">"A chart within multiple groups."</span>,
+      description:
+        <span class="hljs-string">`Each selection group is associated with a color to distinguish selection groups and selections belonging to
+         different groups.`</span>,
+      component: D3ngOverlappingGroupsStoryComponent
+    },
+    {
+      id: <span class="hljs-string">"C"</span>,
+      path: <span class="hljs-string">"mixed-levels"</span>,
+      title: <span class="hljs-string">"Mixed Hierarchy Levels"</span>,
+      subtitle: <span class="hljs-string">"Grouped charts with data on different levels."</span>,
+      description:
+        <span class="hljs-string">`If data is hierarchical, charts might represent data on different hierarchy levels.
+         In this case, a data point (parent) in one chart can represent multiple data points (children) in another chart.`</span>,
+      component: D3ngMixedLevelsStoryComponent
+    },
+    {
+      id: <span class="hljs-string">"D"</span>,
+      path: <span class="hljs-string">"input-selection"</span>,
+      title: <span class="hljs-string">"Input from Selections"</span>,
+      subtitle: <span class="hljs-string">"Chart input from the selection of a group."</span>,
+      description: <span class="hljs-string">`Often we want to use a chart or selection group to select the input data for other charts.`</span>,
+      component: D3ngInputSelectionStoryComponent
+    },
+    {
+      id: <span class="hljs-string">"BD"</span>,
+      path: <span class="hljs-string">"comparison"</span>,
+      title: <span class="hljs-string">"Comparisons"</span>,
+      subtitle: <span class="hljs-string">"Use groups and input to compare data."</span>,
+      description: <span class="hljs-string">`We can use the selections from two selection groups as input for different charts to compare data from two selections.`</span>,
+      component: D3ngComparisonStoryComponent
+    }
+  ];
+
+  mstories = D3ngStoriesComponent.stories;
+
+  <span class="hljs-keyword">private</span> config: <span class="hljs-built_in">any</span> = <span class="hljs-literal">null</span>;
+
+  <span class="hljs-keyword">constructor</span>(<span class="hljs-params"><span class="hljs-keyword">private</span> router: Router</span>) {
+    router.events.subscribe(<span class="hljs-function"><span class="hljs-params">event</span> =&gt;</span> {
+      <span class="hljs-keyword">if</span> (event <span class="hljs-keyword">instanceof</span> NavigationEnd) {
+        <span class="hljs-keyword">let</span> state = router.routerState.root;
+        <span class="hljs-keyword">let</span> parent = <span class="hljs-literal">null</span>;
+        <span class="hljs-keyword">while</span> (state.firstChild) {
+          parent = state;
+          state = state.firstChild;
+        }
+        <span class="hljs-keyword">if</span> (parent &amp;&amp; parent.routeConfig &amp;&amp; parent.routeConfig.path == <span class="hljs-string">"stories"</span>) {
+          <span class="hljs-keyword">this</span>.config = state.routeConfig;
+          <span class="hljs-keyword">this</span>.config.sourceBasePath = <span class="hljs-string">`/assets/story-sources/d3ng-<span class="hljs-subst">${state.routeConfig.path}</span>-story.component`</span>;
+        } <span class="hljs-keyword">else</span> {
+          <span class="hljs-keyword">this</span>.config = <span class="hljs-literal">null</span>;
+        }
+      }
+    });
+  }
+}

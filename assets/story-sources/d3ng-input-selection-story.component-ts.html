@@ -1,0 +1,16 @@
+<span class="hljs-keyword">import</span> {Component} <span class="hljs-keyword">from</span> <span class="hljs-string">"@angular/core"</span>;
+<span class="hljs-keyword">import</span> {D3ngStoryBase} <span class="hljs-keyword">from</span> <span class="hljs-string">"../d3ng-story-base"</span>;
+
+<span class="hljs-meta">@Component</span>({
+  selector: <span class="hljs-string">'d3ng-input-selection-story'</span>,
+  templateUrl: <span class="hljs-string">'./d3ng-input-selection-story.component.html'</span>,
+  styleUrls: [<span class="hljs-string">'./d3ng-input-selection-story.component.css'</span>]
+})
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> D3ngInputSelectionStoryComponent <span class="hljs-keyword">extends</span> D3ngStoryBase {
+  selection = []; <span class="hljs-comment">// without this initialization the child chart is not drawn initially, since it only updates on changing source data</span>
+
+  selectedChanged(event:<span class="hljs-built_in">any</span>) {
+    <span class="hljs-built_in">console</span>.log(event);
+  }
+}
+

@@ -1,0 +1,44 @@
+<span class="hljs-keyword">import</span> {NgModule, NO_ERRORS_SCHEMA} <span class="hljs-keyword">from</span> <span class="hljs-string">"@angular/core"</span>;
+<span class="hljs-keyword">import</span> {D3ngComponentsModule} <span class="hljs-keyword">from</span> <span class="hljs-string">"../../lib/d3ng.module"</span>;
+<span class="hljs-keyword">import</span> {BrowserModule} <span class="hljs-keyword">from</span> <span class="hljs-string">"@angular/platform-browser"</span>;
+<span class="hljs-keyword">import</span> {BrowserAnimationsModule} <span class="hljs-keyword">from</span> <span class="hljs-string">"@angular/platform-browser/animations"</span>;
+<span class="hljs-keyword">import</span> {MdListModule, MdSidenavModule} <span class="hljs-keyword">from</span> <span class="hljs-string">"@angular/material"</span>;
+<span class="hljs-keyword">import</span> {RouterModule, Routes} <span class="hljs-keyword">from</span> <span class="hljs-string">"@angular/router"</span>;
+<span class="hljs-keyword">import</span> {D3ngStoriesComponent} <span class="hljs-keyword">from</span> <span class="hljs-string">"./d3ng-stories/d3ng-stories.component"</span>;
+<span class="hljs-keyword">import</span> {D3ngSelectionGroupStoryComponent} <span class="hljs-keyword">from</span> <span class="hljs-string">"./d3ng-selection-group-story/d3ng-selection-group-story.component"</span>;
+<span class="hljs-keyword">import</span> {D3ngInputSelectionStoryComponent} <span class="hljs-keyword">from</span> <span class="hljs-string">"./d3ng-input-selection-story/d3ng-input-selection-story.component"</span>;
+<span class="hljs-keyword">import</span> {D3ngOverlappingGroupsStoryComponent} <span class="hljs-keyword">from</span> <span class="hljs-string">"./d3ng-overlapping-groups-story/d3ng-overlapping-groups-story.component"</span>;
+<span class="hljs-keyword">import</span> {D3ngMixedLevelsStoryComponent} <span class="hljs-keyword">from</span> <span class="hljs-string">"./d3ng-mixed-levels-story/d3ng-mixed-levels-story.component"</span>;
+<span class="hljs-keyword">import</span> {D3ngComparisonStoryComponent} <span class="hljs-keyword">from</span> <span class="hljs-string">"./d3ng-comparison-story/d3ng-comparison-story.component"</span>;
+<span class="hljs-keyword">import</span> {D3ngShadredModule} <span class="hljs-keyword">from</span> <span class="hljs-string">"../shared/d3ng-shared.module"</span>;
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> storiesRouting: Routes = D3ngStoriesComponent.stories;
+
+<span class="hljs-meta">@NgModule</span>({
+  imports: [
+    BrowserModule, <span class="hljs-comment">// before other material modules are imported</span>
+    BrowserAnimationsModule, <span class="hljs-comment">// before other material modules are imported</span>
+    MdListModule,
+    MdSidenavModule,
+    D3ngComponentsModule,
+    D3ngShadredModule,
+    RouterModule.forChild(storiesRouting),
+  ],
+  declarations: [
+    D3ngStoriesComponent,
+    D3ngSelectionGroupStoryComponent,
+    D3ngInputSelectionStoryComponent,
+    D3ngOverlappingGroupsStoryComponent,
+    D3ngMixedLevelsStoryComponent,
+    D3ngComparisonStoryComponent
+  ],
+  exports: [
+    RouterModule,
+    D3ngStoriesComponent,
+  ],
+  bootstrap: [D3ngStoriesComponent],
+  providers: [],
+  schemas: [ NO_ERRORS_SCHEMA ] <span class="hljs-comment">// necessary for transclusion with new tag names</span>
+
+})
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> D3ngStoriesModule { }

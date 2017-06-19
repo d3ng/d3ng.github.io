@@ -1,0 +1,62 @@
+<span class="hljs-keyword">import</span> {Component, Injectable, Pipe, PipeTransform} <span class="hljs-keyword">from</span> <span class="hljs-string">'@angular/core'</span>;
+<span class="hljs-keyword">import</span> {NavigationEnd, Router} <span class="hljs-keyword">from</span> <span class="hljs-string">"@angular/router"</span>;
+<span class="hljs-keyword">import</span> {Http} <span class="hljs-keyword">from</span> <span class="hljs-string">"@angular/http"</span>;
+
+<span class="hljs-meta">@Component</span>({
+  selector: <span class="hljs-string">'d3ng-demos'</span>,
+  template: <span class="hljs-string">`
+    &lt;div class="explanations"&gt;
+      &lt;p&gt;
+        D3ng uses &lt;a href="http://d3.js"&gt;D3.js&lt;/a&gt; to implement a variety of chart types. This pages demonstrates each individual chart type.
+        For your own visualizations, you probably want to implement new chart types. To do so you only have to
+        implement to methods. One drawing data with D3.js; and another one that add styling based on selections.
+      &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="container"&gt;
+      &lt;div class="nav"&gt;
+        &lt;md-list&gt;
+          &lt;md-list-item&gt;&lt;a routerLink="list"&gt;List&lt;/a&gt;&lt;/md-list-item&gt;
+          &lt;md-list-item&gt;&lt;a routerLink="pattern"&gt;Pattern&lt;/a&gt;&lt;/md-list-item&gt;
+          &lt;md-list-item&gt;&lt;a routerLink="parallel-coordinates"&gt;Parallel Coordinates&lt;/a&gt;&lt;/md-list-item&gt;
+          &lt;md-list-item&gt;&lt;a routerLink="scatter-plot"&gt;Scatter Plot&lt;/a&gt;&lt;/md-list-item&gt;
+          &lt;md-list-item&gt;&lt;a routerLink="tree-map"&gt;Tree Map&lt;/a&gt;&lt;/md-list-item&gt;
+          &lt;md-list-item&gt;&lt;a routerLink="chord-diagram"&gt;Chord Diagram&lt;/a&gt;&lt;/md-list-item&gt;
+          &lt;md-list-item&gt;&lt;a routerLink="radial-edge-bundling"&gt;Radial Edge Bundling&lt;/a&gt;&lt;/md-list-item&gt;
+          &lt;md-list-item&gt;&lt;a routerLink="force-graph"&gt;Force Graph&lt;/a&gt;&lt;/md-list-item&gt;
+          &lt;md-list-item&gt;&lt;a routerLink="collapsible-indented-tree"&gt;Collapsible Indented Tree&lt;/a&gt;&lt;/md-list-item&gt;
+          &lt;md-list-item&gt;&lt;a routerLink="histogram"&gt;Histogram&lt;/a&gt;&lt;/md-list-item&gt;
+          &lt;md-list-item&gt;&lt;a routerLink="map"&gt;Map&lt;/a&gt;&lt;/md-list-item&gt;
+        &lt;/md-list&gt;
+      &lt;/div&gt;
+      &lt;div class="content"&gt;
+        &lt;d3ng-demo-viewer *ngIf="sourceBasePath" [sourceBasePath]="sourceBasePath"&gt;
+          &lt;router-outlet&gt;&lt;/router-outlet&gt;
+        &lt;/d3ng-demo-viewer&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  `</span>,
+  styleUrls: [ <span class="hljs-string">'./d3ng-demos.component.css'</span>]
+})
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> D3ngDemosComponent {
+
+  <span class="hljs-keyword">private</span> sourceBasePath = <span class="hljs-literal">null</span>;
+
+  <span class="hljs-keyword">constructor</span>(<span class="hljs-params"><span class="hljs-keyword">private</span> router: Router, http: Http</span>) {
+    router.events.subscribe(<span class="hljs-function"><span class="hljs-params">event</span> =&gt;</span> {
+      <span class="hljs-keyword">if</span> (event <span class="hljs-keyword">instanceof</span> NavigationEnd) {
+        <span class="hljs-keyword">let</span> state = router.routerState.root;
+        <span class="hljs-keyword">let</span> parent = <span class="hljs-literal">null</span>;
+        <span class="hljs-keyword">while</span> (state.firstChild) {
+          parent = state;
+          state = state.firstChild;
+        }
+        <span class="hljs-keyword">if</span> (parent &amp;&amp; parent.routeConfig &amp;&amp; parent.routeConfig.path == <span class="hljs-string">"demos"</span>) {
+          <span class="hljs-keyword">this</span>.sourceBasePath = <span class="hljs-string">`/assets/demo-sources/d3ng-<span class="hljs-subst">${state.routeConfig.path}</span>-demo.component`</span>;
+        } <span class="hljs-keyword">else</span> {
+          <span class="hljs-keyword">this</span>.sourceBasePath = <span class="hljs-literal">null</span>;
+        }
+      }
+    });
+  }
+}

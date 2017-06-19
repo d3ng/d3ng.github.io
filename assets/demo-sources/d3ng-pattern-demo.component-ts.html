@@ -1,0 +1,26 @@
+<span class="hljs-keyword">import</span> {Component, Injectable} <span class="hljs-keyword">from</span> <span class="hljs-string">'@angular/core'</span>;
+<span class="hljs-keyword">import</span> {Http, Response} <span class="hljs-keyword">from</span> <span class="hljs-string">"@angular/http"</span>;
+<span class="hljs-keyword">import</span> <span class="hljs-string">'rxjs/Rx'</span>;
+
+<span class="hljs-meta">@Component</span>({
+  selector: <span class="hljs-string">'d3ng-pattern-demo'</span>,
+  template: <span class="hljs-string">`
+    &lt;h2&gt;D3ng pattern Demo&lt;/h2&gt;
+    &lt;d3ng-list d3ngSource [source]="source" pattern="package[!type]" [(selected)]="selection"&gt;&lt;/d3ng-list&gt;
+  `</span>,
+  styles: [ ]
+})
+
+<span class="hljs-meta">@Injectable</span>()
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> D3ngPatternDemoComponent {
+  selection: <span class="hljs-built_in">any</span>[] = [];
+  source = [];
+
+  <span class="hljs-keyword">constructor</span>(<span class="hljs-params">http:Http</span>) {
+    http.get(<span class="hljs-string">'/assets/de.hub.srcrepo.json'</span>)
+      .map(<span class="hljs-function">(<span class="hljs-params">res: Response</span>) =&gt;</span> res.json())
+      .subscribe(<span class="hljs-function"><span class="hljs-params">res</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.source = res;
+      });
+  }
+}
