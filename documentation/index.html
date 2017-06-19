@@ -375,32 +375,186 @@
                <div class="content readme">
                    <div class="content-data">
 <h1 id="d3ng">D3ng</h1>
-<p>D3ng is a web-based framework for interactive visual analysis of complex data-sets. It is build on top of Angular2 and D3.js. It allows you to combine multiple individual visualizations (charts) with user interactions that allow to explore the relationships between the data shown in different visual representations.</p>
+<p>D3ng is a web-based framework for interactive visual analysis of complex data-sets. It is build on top of <strong>Angular2</strong> and <strong>D3.js</strong>. It allows you to combine multiple individual visualizations (charts) with user interactions that allow to explore the relationships between the data shown in different visual representations.</p>
 <p>Have a look at our example visualizations build with <em>d3ng</em> <a href="http://d3ng.github.io/owid">here</a>.</p>
-<h1 id="getting-started-with-using-d3ng">Getting started with using d3ng</h1>
-<h2 id="you-do-not-already-have-a-angular-2-app-">You do not already have a Angular 2 app?</h2>
-<p>Use the <a href="httpss//github.com/markus1978/d3ng.example">d3ng.example</a> project as a scaffold.</p>
-<h2 id="you-are-already-have-an-angular-2-app-">You are already have an Angular 2 app?</h2>
-<p>First, add the dependency with <code>npm install --save d3ng</code>.</p>
-<p>Secondly, d3ng uses angular material and you need to add <code>@import &#39;~@angular/material/prebuilt-themes/deeppurple-amber.css&#39;;</code> to your global <code>styles.css</code>. Off course you can use other themes. Refer to <a href="https://material.angular.io/guide/theming">Angular material docs</a> for details.</p>
-<p>Thirdly, import the module <code>D3ngComponentsModule</code> in your <code>app.modules.ts</code>.</p>
-<p>Lastly, start using it in your components! Look at our example components for <a href="https://github.com/markus1978/d3ng/tree/master/src/app/code-viz">software visualization</a> and <a href="https://github.com/markus1978/d3ng/tree/master/src/app/owid">Our World in Data</a>, or our component demos components <a href="https://github.com/markus1978/d3ng/tree/master/src/app/demos">here</a>.</p>
-<h1 id="getting-started-with-developing-d3ng">Getting started with developing d3ng</h1>
-<p>This project was generated with <a href="https://github.com/angular/angular-cli">Angular CLI</a> version 1.0.0.</p>
-<h2 id="development-server-for-the-demo-app">Development server for the demo app</h2>
-<p>Run <code>ng serve</code> for a dev server. Navigate to <code>http://localhost:4200/</code>. The app will automatically reload if you change any of the source files.</p>
-<h2 id="build">Build</h2>
+<p>Some features of this READ.me work better in d3ng&#39;s <a href="http://github.com/markus1978/d3ng">github page</a>.</p>
+<h2 id="table-of-contents">Table of contents</h2>
+<ol>
+<li><a href="#getting-started">Getting started</a></li>
+<li><a href="#documentation">Documentation</a></li>
+<li><a href="#contributing">Contributing</a></li>
+<li><a href="#license">License</a></li>
+</ol>
+<h2 id="getting-started">Getting started</h2>
+<p>Install the <code>d3ng</code> component library from <code>npm</code>:</p>
+<pre class="line-numbers"><code class="language-none">npm install --save d3ng</code></pre><p>Import the <code>D3ngComponentsModule</code> to your modules (e.g. <code>app.module.ts</code>):</p>
+<pre class="line-numbers"><code class="language-typescript">import { BrowserModule } from &#39;&#40;angular/platform-browser&#39;;
+import { NgModule } from &#39;&#40;angular/core&#39;;
+import { D3ngComponentsModule } from &#39;d3ng&#39;;
+
+&#40;NgModule({
+  imports: [
+    BrowserModule,
+    D3ngComponentsModule,
+    ...
+  ],
+  ...
+})
+...</code></pre><p>D3ng uses angular material and you should add a material theme to your <code>styles.css</code>:</p>
+<pre class="line-numbers"><code class="language-css">&#40;import &#39;~&#40;angular/material/prebuilt-themes/deeppurple-amber.css&#39;;</code></pre><p>Refer to <a href="https://material.angular.io/guide/theming">Angular material docs</a> to learn about other and your own custom themes. This step is optional, only some components use material.</p>
+<p>Use your first d3ng component. For example:</p>
+<pre class="line-numbers"><code class="language-typescript">import {Component, Injectable} from &#39;&#40;angular/core&#39;;
+import {Http, Response} from &quot;&#40;angular/http&quot;;
+import &#39;rxjs/Rx&#39;;
+import * as d3 from &quot;d3&quot;;
+
+&#40;Component({
+  selector: &#39;app-root&#39;,
+  template: `
+    &lt;d3ng-scatter-plot [data]=&quot;data&quot; 
+                       [dimensions]=&quot;dimensions&quot;&gt;
+    &lt;/d3ng-scatter-plot&gt;`,
+  styles: [&#39;d3ng-scatter-plot { width: 400px; height: 300px; }&#39;]
+})
+
+&#40;Injectable()
+export class AppComponent {
+  data: any[] = null;
+  dimensions = [&#39;sepal length&#39;,    &#39;sepal width&#39;, &#39;petal length&#39;, &#39;petal width&#39;];
+
+  constructor(http: Http) {
+    http.get(&quot;http://mbostock.github.io/d3/talk/20111116/iris.csv&quot;)
+      .map((res: Response) =&gt; res)
+      .subscribe(res =&gt; {
+        this.data = d3.csv.parse(res.text()).map(d =&gt; {
+          // convert data, since d3 creates strings and not numbers
+          const result = {};
+          this.dimensions.forEach(dim =&gt; result[dim] = parseFloat(d[dim]));
+          return result;
+        });
+      });
+  }
+}</code></pre><p>Add brushing and linking with the use if selection groups:</p>
+<pre class="line-numbers"><code class="language-html">&lt;d3ng-groups [context]=&quot;context&quot;&gt;
+  &lt;d3ng-scatter-plot [data]=&quot;data&quot;
+                     x=&quot;sepal length&quot; y=&quot;sepal width&quot;
+                     [dimensions]=&quot;dimensions&quot;&gt;
+  &lt;/d3ng-scatter-plot&gt;  
+&lt;/d3ng-groups&gt;
+
+&lt;d3ng-groups [context]=&quot;context&quot;&gt;
+  &lt;d3ng-scatter-plot [data]=&quot;data&quot;
+                     x=&quot;petal length&quot; y=&quot;petal width&quot;
+                     [dimensions]=&quot;dimensions&quot;&gt;
+  &lt;/d3ng-scatter-plot&gt;
+&lt;/d3ng-groups&gt;</code></pre><p>Don&#39;t forget to declare the group context:</p>
+<pre class="line-numbers"><code class="language-typescript">context = new D3ngGroupContext();</code></pre><p>You can also look at or fork our <a href="https//github.com/markus1978/d3ng.example">example and skeleton project</a> to get a working sandbox.</p>
+<h2 id="documentation">Documentation</h2>
+<p>There is a generated API documentation of the d3ng component library <a href="http://d3ng.github.io/documentation">here</a>.</p>
+<h3 id="charts">Charts</h3>
+<p>D3ng contains components for various types of charts. Refer to our running <a href="http://d3ng.github.io/demos">example app</a> for a list and source code snippets.</p>
+<p>All charts define an input property called <code>data</code>. It accepts arrays at values, where each item represents a data point. Data-points are objects. We refer to their keys as <code>dimensions</code>. Many charts have a <code>string[]</code>property <code>dimensions</code> to declare those data-point keys that refer to representable data. </p>
+<p>Data-points can have a <code>label</code> key that is used to render titles. The label key can be customized by redefining <code>labelKey</code> or <code>getLabel</code>. </p>
+<p>To write new chart components, you have to inherit from <code>D3ngChart</code> and implements the <code>draw</code>, <code>clear</code> and <code>drawSelection</code> methods respectively. Thereby, you define how your chart is drawn, removed (before redrawn), and how the current selection is drawn onto the chart.</p>
+<p>The simplest concrete chart component that you can use as a blue print is d3ng-list:</p>
+<pre class="line-numbers"><code class="language-typescript">import {Component, OnChanges, ViewChild} from &quot;&#40;angular/core&quot;;
+import * as d3 from &quot;d3&quot;;
+import {D3ngChart, D3ngSelection} from &quot;./d3ng-chart&quot;;
+
+&#40;Component({
+  selector: &#39;d3ng-list&#39;,
+  template: `
+    &lt;div #chart&gt;&lt;/div&gt;`,
+  styles: []
+})
+
+export class D3ngListComponent extends D3ngChart implements OnChanges {
+
+  &#40;ViewChild(&#39;chart&#39;) chart;
+
+  private d3Chart = null;
+
+  protected drawSelection(selection: D3ngSelection): void {
+    if (this.d3Chart) {
+      this.d3Chart.style(&quot;color&quot;, dataPoint =&gt; selection.selectionColor(dataPoint));
+    }
+  }
+
+  protected clear() {
+    // d3 is used to update the existing chart
+  }
+
+  protected draw() {
+    const self = this;
+    this.d3Chart = d3.select(this.chart.nativeElement)
+      .selectAll(&quot;p&quot;)
+      .data(this.data)
+      .enter().append(&quot;p&quot;)
+      .text(d =&gt; &quot;# &quot; + self.getLabel(d))
+      .on(&quot;click&quot;, d =&gt; {
+        self.setDirectSelection([ d ]);
+      });
+  }
+}</code></pre><h3 id="selections-and-groups">Selections and groups</h3>
+<p>D3ng implements brushing and linking via selections and selection groups. Users can select data in one chart (brushing) and their selection is displayed
+in other related charts as well (linking).</p>
+<p>There are several ways to combine charts via selection groups. Refer to the respective part in our demo app for examples and code snippits <a href="http://d3ng.github.io/stories">here</a>.</p>
+<h3 id="complex-data-and-pattern">Complex data and pattern</h3>
+<p>Imagine, you organised your complex multi modal, multi variant data as a complex json data structure.</p>
+<p>The D3ngSource directive allows to use a <em>source</em> tree of different types of <em>data-points</em> and uses <em>patterns</em> to select data from sources. The directive defines the <code>source</code> property that takes an array of tree-nodes. Each node needs to define a <code>type</code> and can define <code>label</code> and <code>children</code> keys. </p>
+<p>Type needs to be a string, and children an array of child nodes.</p>
+<p>Each node can define more keys to keep the actual data variables. All nodes of the same type, need to define the same data keys. </p>
+<p>Patterns of types can be used to select data from trees. Here is a simple example that selects all <code>class</code> typed nodes from a tree of <code>packages</code> and `classes, based on the given json data:</p>
+<pre class="line-numbers"><code class="language-typescript">&lt;d3ng-scatter-plot [source]=&quot;source&quot; pattern=&quot;package/type&quot; 
+                   [dimensions]=&quot;[&#39;WMC&#39;, &#39;RFC&#39;, &#39;LOC&#39;]&quot;&gt;
+&lt;/d3ng-scatter-plot&gt;
+
+source = [{
+  type = &quot;package&quot;,
+  label = &quot;example-project&quot;,
+  children = [{
+    type = &quot;class&quot;,
+    label = &quot;HelloWorld&quot;,
+    WMC = 5,
+    LOC = 15,
+    RFC = 3
+  }, ...]
+},...]</code></pre><h2 id="contributing">Contributing</h2>
+<p>Is very much appreciated. Feel free to add bug reports and feature requests. If you have bug fixes, new charts, etc. pull requests welcome. Also, if you like d3ng, please share and spread the word!</p>
+<h3 id="requirments">Requirments</h3>
+<ol>
+<li>node.js</li>
+<li>npm</li>
+<li><a href="https://github.com/angular/angular-cli/blob/master/README.md">angular-cli</a></li>
+<li>git</li>
+</ol>
+<h3 id="getting-started">Getting started</h3>
+<p>Clone (or fork and clone) the master branch:</p>
+<pre class="line-numbers"><code class="language-none">git clone https://github.com/markus1978/d3ng.git
+cd d3ng</code></pre><p>Get all dependencies via <code>npm</code>:</p>
+<pre class="line-numbers"><code class="language-none">npm update</code></pre><p>Start the for dev server that hosts the example and demo app:</p>
+<pre class="line-numbers"><code class="language-none">npm run start</code></pre><p>Navigate to <code>http://localhost:4200/</code>. The app will automatically reload if you change any of the source files.</p>
+<h3 id="add-new-chart-components">Add new chart components</h3>
+<ol>
+<li>See <a href="#documentation">documentation</a> on writing chart components.</li>
+<li>Add you chart component to the d3ng components module (<code>lib</code> and <code>lib/d3ng-components.module.ts</code>).</li>
+<li>Add a demo component to the demo module (<code>app/demos</code> and <code>app/demos/d3ng-demos.module.ts</code>).</li>
+<li>Add a routing link to the demos navigation in <code>app/demos/d3ng-demos.component.ts</code>. Add routing information to <code>demosRouting</code> in <code>app/demos/d3ng-demos.module.ts</code>.</li>
+</ol>
+<h3 id="npm-scripts">npm scripts</h3>
 <p>Run <code>ng build:app</code> to build the example and demo app. The build artifacts will be stored in the <code>dist/app</code> directory.</p>
 <p>Run <code>ng build:lib</code> to build the component library as a npm package in <code>dist/lib</code>.</p>
-<h2 id="running-unit-tests">Running unit tests</h2>
+<p>There are more scipts, have a look at <code>package.json</code>.</p>
+<h3 id="running-unit-tests">Running unit tests</h3>
 <p>There are no tests yet :-(.</p>
 <p>Run <code>ng test</code> to execute the unit tests via <a href="https://karma-runner.github.io">Karma</a>.</p>
-<h2 id="running-end-to-end-tests">Running end-to-end tests</h2>
+<h3 id="running-end-to-end-tests">Running end-to-end tests</h3>
 <p>There are no tests yet :-(.</p>
 <p>Run <code>ng e2e</code> to execute the end-to-end tests via <a href="http://www.protractortest.org/">Protractor</a>.
 Before running the tests make sure you are serving the app via <code>ng serve</code>.</p>
-<h2 id="further-help">Further help</h2>
-<p>To get more help on the Angular CLI use <code>ng help</code> or go check out the <a href="https://github.com/angular/angular-cli/blob/master/README.md">Angular CLI README</a>.</p>
+<h2 id="license">License</h2>
+<p><a href="https://github.com/markus1978/d3ng/blob/master/LICENSE">MIT License</a></p>
+<p>Copyright (c) 2017 Markus Scheidgen</p>
 
 
 
