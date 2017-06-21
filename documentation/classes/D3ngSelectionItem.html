@@ -737,8 +737,15 @@ export abstract class D3ngChart implements OnChanges {
     }
   }
 
+  public selectionFilter: (any) &#x3D;&gt; boolean &#x3D; null;
+
   public setDirectSelection(selected: Array&lt;any&gt;) {
-    if (this.multiselect &amp;&amp; selected.length !&#x3D; 0) {
+    const originalSelected &#x3D; selected;
+    if (this.selectionFilter) {
+      selected &#x3D; selected.filter(this.selectionFilter);
+    }
+
+    if (this.multiselect &amp;&amp; originalSelected.length !&#x3D; 0) {
       const currentDirectSelection &#x3D; this.currentSelection.getSelection(this.currentSelectionGroup, true);
       if (currentDirectSelection) {
         if (selected.length &#x3D;&#x3D; 1 &amp;&amp; currentDirectSelection.selected.lastIndexOf(selected[0]) !&#x3D; -1) {
