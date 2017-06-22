@@ -411,12 +411,6 @@
             <code><a href="../classes/D3ngChart.html" target="_self" >D3ngChart</a></code>
     </p>
 
-    <p class="comment">
-        <h3>Implements</h3>
-    </p>
-    <p class="comment">
-                <code><a href="https://angular.io/docs/ts/latest/api/core/index/OnChanges-interface.html" target="_blank" >OnChanges</a></code>
-    </p>
 
 
 <section>
@@ -456,12 +450,12 @@
 
             <tr>
                 <td class="col-md-3">template</td>
-                <td class="col-md-9"><pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;y-controls&quot;&gt;
+                <td class="col-md-9"><pre class="line-numbers"><code class="language-html">&lt;div #xSelect class&#x3D;&quot;y-controls&quot;&gt;
   &lt;md-select [(ngModel)]&#x3D;&quot;y&quot; (change)&#x3D;&quot;onYChange($event)&quot;&gt;
     &lt;md-option *ngFor&#x3D;&quot;let dim of dimensions ? dimensions : [y]&quot; [value]&#x3D;&quot;dim&quot;&gt;{{ dim }}&lt;/md-option&gt;
   &lt;/md-select&gt;
 &lt;/div&gt;
-&lt;div class&#x3D;&quot;x-controls&quot;&gt;
+&lt;div #ySelect class&#x3D;&quot;x-controls&quot;&gt;
   &lt;md-select [(ngModel)]&#x3D;&quot;x&quot; (change)&#x3D;&quot;onXChange($event)&quot;&gt;
     &lt;md-option *ngFor&#x3D;&quot;let dim of dimensions ? dimensions : [x]&quot; [value]&#x3D;&quot;dim&quot;&gt;{{ dim }}&lt;/md-option&gt;
   &lt;/md-select&gt;
@@ -492,7 +486,7 @@
                     </tr>
                         <tr>
                             <td class="col-md-2" colspan="2">
-                                <div class="io-line">Defined in <a href="" data-line="34" class="link-to-prism">src/lib/d3ng-scatter-plot.component.ts:34</a></div>
+                                <div class="io-line">Defined in <a href="" data-line="36" class="link-to-prism">src/lib/d3ng-scatter-plot.component.ts:36</a></div>
                             </td>
                         </tr>
                 </tbody>
@@ -512,7 +506,7 @@
                     </tr>
                         <tr>
                             <td class="col-md-2" colspan="2">
-                                <div class="io-line">Defined in <a href="" data-line="30" class="link-to-prism">src/lib/d3ng-scatter-plot.component.ts:30</a></div>
+                                <div class="io-line">Defined in <a href="" data-line="32" class="link-to-prism">src/lib/d3ng-scatter-plot.component.ts:32</a></div>
                             </td>
                         </tr>
                 </tbody>
@@ -532,7 +526,7 @@
                     </tr>
                         <tr>
                             <td class="col-md-2" colspan="2">
-                                <div class="io-line">Defined in <a href="" data-line="27" class="link-to-prism">src/lib/d3ng-scatter-plot.component.ts:27</a></div>
+                                <div class="io-line">Defined in <a href="" data-line="29" class="link-to-prism">src/lib/d3ng-scatter-plot.component.ts:29</a></div>
                             </td>
                         </tr>
                 </tbody>
@@ -552,7 +546,7 @@
                     </tr>
                         <tr>
                             <td class="col-md-2" colspan="2">
-                                <div class="io-line">Defined in <a href="" data-line="28" class="link-to-prism">src/lib/d3ng-scatter-plot.component.ts:28</a></div>
+                                <div class="io-line">Defined in <a href="" data-line="30" class="link-to-prism">src/lib/d3ng-scatter-plot.component.ts:30</a></div>
                             </td>
                         </tr>
                 </tbody>
@@ -582,7 +576,7 @@
     
                         <tr>
                             <td class="col-md-4">
-                                <div class="io-line">Defined in <a href="" data-line="39" class="link-to-prism">src/lib/d3ng-scatter-plot.component.ts:39</a></div>
+                                <div class="io-line">Defined in <a href="" data-line="41" class="link-to-prism">src/lib/d3ng-scatter-plot.component.ts:41</a></div>
                             </td>
                         </tr>
     
@@ -613,7 +607,7 @@
     
                         <tr>
                             <td class="col-md-4">
-                                <div class="io-line">Defined in <a href="" data-line="45" class="link-to-prism">src/lib/d3ng-scatter-plot.component.ts:45</a></div>
+                                <div class="io-line">Defined in <a href="" data-line="47" class="link-to-prism">src/lib/d3ng-scatter-plot.component.ts:47</a></div>
                             </td>
                         </tr>
     
@@ -647,7 +641,7 @@
     
                         <tr>
                             <td class="col-md-4">
-                                <div class="io-line">Defined in <a href="" data-line="51" class="link-to-prism">src/lib/d3ng-scatter-plot.component.ts:51</a></div>
+                                <div class="io-line">Defined in <a href="" data-line="53" class="link-to-prism">src/lib/d3ng-scatter-plot.component.ts:53</a></div>
                             </td>
                         </tr>
     
@@ -681,7 +675,7 @@
     
                         <tr>
                             <td class="col-md-4">
-                                <div class="io-line">Defined in <a href="" data-line="57" class="link-to-prism">src/lib/d3ng-scatter-plot.component.ts:57</a></div>
+                                <div class="io-line">Defined in <a href="" data-line="59" class="link-to-prism">src/lib/d3ng-scatter-plot.component.ts:59</a></div>
                             </td>
                         </tr>
     
@@ -715,7 +709,7 @@
     
                         <tr>
                             <td class="col-md-4">
-                                <div class="io-line">Defined in <a href="" data-line="65" class="link-to-prism">src/lib/d3ng-scatter-plot.component.ts:65</a></div>
+                                <div class="io-line">Defined in <a href="" data-line="67" class="link-to-prism">src/lib/d3ng-scatter-plot.component.ts:67</a></div>
                             </td>
                         </tr>
     
@@ -750,7 +744,7 @@
     
                         <tr>
                             <td class="col-md-4">
-                                <div class="io-line">Defined in <a href="" data-line="76" class="link-to-prism">src/lib/d3ng-scatter-plot.component.ts:76</a></div>
+                                <div class="io-line">Defined in <a href="" data-line="78" class="link-to-prism">src/lib/d3ng-scatter-plot.component.ts:78</a></div>
                             </td>
                         </tr>
     
@@ -812,7 +806,57 @@
                     </tr>
                         <tr>
                             <td class="col-md-4">
-                                <div class="io-line">Defined in <a href="" data-line="32" class="link-to-prism">src/lib/d3ng-scatter-plot.component.ts:32</a></div>
+                                <div class="io-line">Defined in <a href="" data-line="34" class="link-to-prism">src/lib/d3ng-scatter-plot.component.ts:34</a></div>
+                            </td>
+                        </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b> xSelect</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <code>xSelect:     <code>any</code>
+    </bcode>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Decorators : </i><code>ViewChild</code>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="26" class="link-to-prism">src/lib/d3ng-scatter-plot.component.ts:26</a></div>
+                            </td>
+                        </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b> ySelect</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <code>ySelect:     <code>any</code>
+    </bcode>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Decorators : </i><code>ViewChild</code>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="27" class="link-to-prism">src/lib/d3ng-scatter-plot.component.ts:27</a></div>
                             </td>
                         </tr>
                 </tbody>
@@ -830,12 +874,12 @@ import {D3ngChart, D3ngSelection} from &quot;./d3ng-chart&quot;;
   selector: &#x27;d3ng-scatter-plot&#x27;,
   providers: [{provide: D3ngChart, useExisting: forwardRef(() &#x3D;&gt; D3ngScatterPlotComponent)}],
   template: &#x60;
-    &lt;div class&#x3D;&quot;y-controls&quot;&gt;
+    &lt;div #xSelect class&#x3D;&quot;y-controls&quot;&gt;
       &lt;md-select [(ngModel)]&#x3D;&quot;y&quot; (change)&#x3D;&quot;onYChange($event)&quot;&gt;
         &lt;md-option *ngFor&#x3D;&quot;let dim of dimensions ? dimensions : [y]&quot; [value]&#x3D;&quot;dim&quot;&gt;{{ dim }}&lt;/md-option&gt;
       &lt;/md-select&gt;
     &lt;/div&gt;
-    &lt;div class&#x3D;&quot;x-controls&quot;&gt;
+    &lt;div #ySelect class&#x3D;&quot;x-controls&quot;&gt;
       &lt;md-select [(ngModel)]&#x3D;&quot;x&quot; (change)&#x3D;&quot;onXChange($event)&quot;&gt;
         &lt;md-option *ngFor&#x3D;&quot;let dim of dimensions ? dimensions : [x]&quot; [value]&#x3D;&quot;dim&quot;&gt;{{ dim }}&lt;/md-option&gt;
       &lt;/md-select&gt;
@@ -844,9 +888,11 @@ import {D3ngChart, D3ngSelection} from &quot;./d3ng-chart&quot;;
   styleUrls: [ &#x27;./d3ng-scatter-plot.component.css&#x27; ]
 })
 
-export class D3ngScatterPlotComponent extends D3ngChart implements OnChanges {
+export class D3ngScatterPlotComponent extends D3ngChart {
 
   @ViewChild(&#x27;chart&#x27;) chart;
+  @ViewChild(&#x27;xSelect&#x27;) xSelect;
+  @ViewChild(&#x27;ySelect&#x27;) ySelect;
 
   @Input() x: string;
   @Input() y: string;
@@ -1011,7 +1057,7 @@ export class D3ngScatterPlotComponent extends D3ngChart implements OnChanges {
 <script src="../js/libs/htmlparser.js"></script>
 <script src="../js/libs/deep-iterator.js"></script>
 <script>
-        var COMPONENT_TEMPLATE = '<div><div class="y-controls">  <md-select [(ngModel)]="y" (change)="onYChange($event)">    <md-option *ngFor="let dim of dimensions ? dimensions : [y]" [value]="dim">{{ dim }}</md-option>  </md-select></div><div class="x-controls">  <md-select [(ngModel)]="x" (change)="onXChange($event)">    <md-option *ngFor="let dim of dimensions ? dimensions : [x]" [value]="dim">{{ dim }}</md-option>  </md-select></div><div #chart class="content"></div></div>'
+        var COMPONENT_TEMPLATE = '<div><div #xSelect class="y-controls">  <md-select [(ngModel)]="y" (change)="onYChange($event)">    <md-option *ngFor="let dim of dimensions ? dimensions : [y]" [value]="dim">{{ dim }}</md-option>  </md-select></div><div #ySelect class="x-controls">  <md-select [(ngModel)]="x" (change)="onXChange($event)">    <md-option *ngFor="let dim of dimensions ? dimensions : [x]" [value]="dim">{{ dim }}</md-option>  </md-select></div><div #chart class="content"></div></div>'
     var COMPONENTS = [{'name': 'D3ngChordDiagramComponent', 'selector': 'd3ng-chord-diagram'},{'name': 'D3ngCollapsibleIndentedTreeComponent', 'selector': 'd3ng-collapsible-indented-tree'},{'name': 'D3ngForceGraphComponent', 'selector': 'd3ng-force-graph'},{'name': 'D3ngGroupSelectionComponent', 'selector': 'd3ng-group-selection'},{'name': 'D3ngGroupsComponent', 'selector': 'd3ng-groups'},{'name': 'D3ngHistogramComponent', 'selector': 'd3ng-histogram'},{'name': 'D3ngListComponent', 'selector': 'd3ng-list'},{'name': 'D3ngMapComponent', 'selector': 'd3ng-map'},{'name': 'D3ngParallelCoordinatesComponent', 'selector': 'd3ng-parallel-coordinates'},{'name': 'D3ngRadialEdgeBundlingComponent', 'selector': 'd3ng-radial-edge-bundling'},{'name': 'D3ngScatterPlotComponent', 'selector': 'd3ng-scatter-plot'},{'name': 'D3ngTreeMapComponent', 'selector': 'd3ng-tree-map'}];
     var DIRECTIVES = [{'name': 'D3ngSourceDirective', 'selector': '[d3ngSource]'}];
     var ACTUAL_COMPONENT = {'name': 'D3ngScatterPlotComponent'};
