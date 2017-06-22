@@ -685,7 +685,7 @@
     
                         <tr>
                             <td class="col-md-4">
-                                <div class="io-line">Defined in <a href="" data-line="184" class="link-to-prism">src/lib/d3ng-parallel-coordinates.component.ts:184</a></div>
+                                <div class="io-line">Defined in <a href="" data-line="182" class="link-to-prism">src/lib/d3ng-parallel-coordinates.component.ts:182</a></div>
                             </td>
                         </tr>
     
@@ -719,7 +719,7 @@
     
                         <tr>
                             <td class="col-md-4">
-                                <div class="io-line">Defined in <a href="" data-line="188" class="link-to-prism">src/lib/d3ng-parallel-coordinates.component.ts:188</a></div>
+                                <div class="io-line">Defined in <a href="" data-line="186" class="link-to-prism">src/lib/d3ng-parallel-coordinates.component.ts:186</a></div>
                             </td>
                         </tr>
     
@@ -924,9 +924,7 @@ export class D3ngParallelCoordinatesComponent extends D3ngChart implements OnCha
       .attr(&quot;d&quot;, path);
     self.lines &#x3D; foreground;
 
-    foreground.append(&quot;title&quot;).text(function(d) {
-      return self.getQualifiedLabel(d);
-    });
+    this.appendTooltip(foreground);
 
     let i &#x3D; 0;
 

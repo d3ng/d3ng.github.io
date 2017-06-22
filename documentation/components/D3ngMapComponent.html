@@ -684,7 +684,7 @@
     
                         <tr>
                             <td class="col-md-4">
-                                <div class="io-line">Defined in <a href="" data-line="122" class="link-to-prism">src/lib/d3ng-map.component.ts:122</a></div>
+                                <div class="io-line">Defined in <a href="" data-line="124" class="link-to-prism">src/lib/d3ng-map.component.ts:124</a></div>
                             </td>
                         </tr>
     
@@ -943,7 +943,7 @@ export class D3ngMapComponent extends D3ngChart {
     const states &#x3D; svg.append(&quot;svg:g&quot;)
       .attr(&quot;id&quot;, &quot;states&quot;);
 
-    states.selectAll(&quot;path&quot;)
+    const paths &#x3D; states.selectAll(&quot;path&quot;)
       .data(this.geoData)
       .enter().append(&quot;svg:path&quot;)
       .style(&quot;fill&quot;, d &#x3D;&gt; this.colorize(d))
@@ -954,7 +954,9 @@ export class D3ngMapComponent extends D3ngChart {
         } else {
           this.setDirectSelection([]);
         }
-      }).append(&#x27;title&#x27;).text(d &#x3D;&gt; d.properties.name);
+      });
+
+    this.appendTooltip(paths, d &#x3D;&gt; d.properties.name);
   }
 
   private colorize(d) {

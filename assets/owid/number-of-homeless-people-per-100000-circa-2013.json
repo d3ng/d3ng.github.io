@@ -1,0 +1,62 @@
+[
+  {
+    "code": "USA",
+    "label": "United States",
+    "years": [
+      2012
+    ],
+    "values": [
+      177.1037872
+    ]
+  },
+  {
+    "code": "CHL",
+    "label": "Chile",
+    "years": [
+      2012
+    ],
+    "values": [
+      155.7152648
+    ]
+  },
+  {
+    "code": "FRA",
+    "label": "France",
+    "years": [
+      2012
+    ],
+    "values": [
+      216.7685967
+    ]
+  },
+  {
+    "code": "IRL",
+    "label": "Ireland",
+    "years": [
+      2012
+    ],
+    "values": [
+      78.31151305
+    ]
+  },
+  {
+    "code": "PRT",
+    "label": "Portugal",
+    "years": [
+      2012
+    ],
+    "values": [
+      20.19310019
+    ]
+  },
+  {
+    "code": "ESP",
+    "label": "Spain",
+    "years": [
+      2012
+    ],
+    "values": [
+      49.38259379
+    ]
+  }
+]

@@ -1,0 +1,338 @@
+[
+  {
+    "code": "USA",
+    "label": "United States",
+    "years": [
+      2005,
+      2005,
+      2005
+    ],
+    "values": [
+      16.6,
+      16.6,
+      16.6
+    ]
+  },
+  {
+    "code": "AUS",
+    "label": "Australia",
+    "years": [
+      2005,
+      2005,
+      2005
+    ],
+    "values": [
+      34.3,
+      34.3,
+      34.3
+    ]
+  },
+  {
+    "code": "AUT",
+    "label": "Austria",
+    "years": [
+      2005,
+      2005,
+      2005
+    ],
+    "values": [
+      38.7,
+      38.7,
+      38.7
+    ]
+  },
+  {
+    "code": "BEL",
+    "label": "Belgium",
+    "years": [
+      2005,
+      2005,
+      2005
+    ],
+    "values": [
+      45.1,
+      45.1,
+      45.1
+    ]
+  },
+  {
+    "code": "CAN",
+    "label": "Canada",
+    "years": [
+      2005,
+      2005,
+      2005
+    ],
+    "values": [
+      27.3,
+      27.3,
+      27.3
+    ]
+  },
+  {
+    "code": "CZE",
+    "label": "Czech Republic",
+    "years": [
+      2005,
+      2005,
+      2005
+    ],
+    "values": [
+      43.4,
+      43.4,
+      43.4
+    ]
+  },
+  {
+    "code": "DNK",
+    "label": "Denmark",
+    "years": [
+      2005,
+      2005,
+      2005
+    ],
+    "values": [
+      44.2,
+      44.2,
+      44.2
+    ]
+  },
+  {
+    "code": "FIN",
+    "label": "Finland",
+    "years": [
+      2005,
+      2005,
+      2005
+    ],
+    "values": [
+      30.3,
+      30.3,
+      30.3
+    ]
+  },
+  {
+    "code": "FRA",
+    "label": "France",
+    "years": [
+      2005,
+      2005,
+      2005
+    ],
+    "values": [
+      41.7,
+      41.7,
+      41.7
+    ]
+  },
+  {
+    "code": "DEU",
+    "label": "Germany",
+    "years": [
+      2005,
+      2005,
+      2005
+    ],
+    "values": [
+      41.2,
+      41.2,
+      41.2
+    ]
+  },
+  {
+    "code": "ISL",
+    "label": "Iceland",
+    "years": [
+      2005,
+      2005,
+      2005
+    ],
+    "values": [
+      24.1,
+      24.1,
+      24.1
+    ]
+  },
+  {
+    "code": "IRL",
+    "label": "Ireland",
+    "years": [
+      2005,
+      2005,
+      2005
+    ],
+    "values": [
+      21,
+      21,
+      21
+    ]
+  },
+  {
+    "code": "ITA",
+    "label": "Italy",
+    "years": [
+      2005,
+      2005,
+      2005
+    ],
+    "values": [
+      36.8,
+      36.8,
+      36.8
+    ]
+  },
+  {
+    "code": "JPN",
+    "label": "Japan",
+    "years": [
+      2005,
+      2005,
+      2005
+    ],
+    "values": [
+      27.7,
+      27.7,
+      27.7
+    ]
+  },
+  {
+    "code": "LUX",
+    "label": "Luxembourg",
+    "years": [
+      2005,
+      2005,
+      2005
+    ],
+    "values": [
+      43.2,
+      43.2,
+      43.2
+    ]
+  },
+  {
+    "code": "NLD",
+    "label": "Netherlands",
+    "years": [
+      2005,
+      2005,
+      2005
+    ],
+    "values": [
+      35.9,
+      35.9,
+      35.9
+    ]
+  },
+  {
+    "code": "NZL",
+    "label": "New Zealand",
+    "years": [
+      2005,
+      2005,
+      2005
+    ],
+    "values": [
+      29.2,
+      29.2,
+      29.2
+    ]
+  },
+  {
+    "code": "NOR",
+    "label": "Norway",
+    "years": [
+      2005,
+      2005,
+      2005
+    ],
+    "values": [
+      36.3,
+      36.3,
+      36.3
+    ]
+  },
+  {
+    "code": "POL",
+    "label": "Poland",
+    "years": [
+      2005,
+      2005,
+      2005
+    ],
+    "values": [
+      34.5,
+      34.5,
+      34.5
+    ]
+  },
+  {
+    "code": "SVK",
+    "label": "Slovakia",
+    "years": [
+      2005,
+      2005,
+      2005
+    ],
+    "values": [
+      41.6,
+      41.6,
+      41.6
+    ]
+  },
+  {
+    "code": "KOR",
+    "label": "South Korea",
+    "years": [
+      2005,
+      2005,
+      2005
+    ],
+    "values": [
+      7.8,
+      7.8,
+      7.8
+    ]
+  },
+  {
+    "code": "SWE",
+    "label": "Sweden",
+    "years": [
+      2005,
+      2005,
+      2005
+    ],
+    "values": [
+      45.8,
+      45.8,
+      45.8
+    ]
+  },
+  {
+    "code": "CHE",
+    "label": "Switzerland",
+    "years": [
+      2005,
+      2005,
+      2005
+    ],
+    "values": [
+      21.8,
+      21.8,
+      21.8
+    ]
+  },
+  {
+    "code": "GBR",
+    "label": "United Kingdom",
+    "years": [
+      2005,
+      2005,
+      2005
+    ],
+    "values": [
+      27.2,
+      27.2,
+      27.2
+    ]
+  }
+]

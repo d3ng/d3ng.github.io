@@ -958,16 +958,15 @@ export class D3ngScatterPlotComponent extends D3ngChart implements OnChanges {
       .attr(&quot;class&quot;, &quot;y axis&quot;)
       .call(yAxis);
 
-    svg.selectAll(&quot;.dot&quot;)
+    const dots &#x3D; svg.selectAll(&quot;.dot&quot;)
       .data(self.data)
-      .enter().append(&quot;circle&quot;)
-      .attr(&quot;class&quot;, &quot;dot&quot;)
+      .enter().append(&quot;circle&quot;);
+    dots.attr(&quot;class&quot;, &quot;dot&quot;)
       .attr(&quot;r&quot;, 3.5)
       .attr(&quot;cx&quot;, function(d) { return scales.x(d[self.x]); })
-      .attr(&quot;cy&quot;, function(d) { return scales.y(d[self.y]); })
-      .append(&quot;title&quot;).text(function(d) {
-        return self.getQualifiedLabel(d);
-      });
+      .attr(&quot;cy&quot;, function(d) { return scales.y(d[self.y]); });
+
+    this.appendTooltip(dots);
 
     const brush &#x3D; d3.svg.brush()
       .x(scales.x).y(scales.y)

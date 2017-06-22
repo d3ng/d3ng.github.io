@@ -1,0 +1,52 @@
+[
+  {
+    "code": "USA",
+    "label": "United States",
+    "years": [
+      2003
+    ],
+    "values": [
+      6.2
+    ]
+  },
+  {
+    "code": "BEL",
+    "label": "Belgium",
+    "years": [
+      2003
+    ],
+    "values": [
+      3.4
+    ]
+  },
+  {
+    "code": "DEU",
+    "label": "Germany",
+    "years": [
+      2003
+    ],
+    "values": [
+      2.4
+    ]
+  },
+  {
+    "code": "ITA",
+    "label": "Italy",
+    "years": [
+      2003
+    ],
+    "values": [
+      4
+    ]
+  },
+  {
+    "code": "GBR",
+    "label": "United Kingdom",
+    "years": [
+      2003
+    ],
+    "values": [
+      7.7
+    ]
+  }
+]

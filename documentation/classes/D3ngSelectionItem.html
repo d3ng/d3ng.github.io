@@ -429,7 +429,7 @@
                             </tr>
                                 <tr>
                                     <td class="col-md-4">
-                                        <div class="io-line">Defined in <a href="" data-line="5" class="link-to-prism">src/lib/d3ng-chart.ts:5</a></div>
+                                        <div class="io-line">Defined in <a href="" data-line="6" class="link-to-prism">src/lib/d3ng-chart.ts:6</a></div>
                                     </td>
                                 </tr>
                         </tbody>
@@ -454,7 +454,7 @@
                                 </tr>
                                 <tr>
                                     <td class="col-md-4">
-                                        <div class="io-line">Defined in <a href="" data-line="4" class="link-to-prism">src/lib/d3ng-chart.ts:4</a></div>
+                                        <div class="io-line">Defined in <a href="" data-line="5" class="link-to-prism">src/lib/d3ng-chart.ts:5</a></div>
                                     </td>
                                 </tr>
                         </tbody>
@@ -474,7 +474,7 @@
                             </tr>
                                 <tr>
                                     <td class="col-md-4">
-                                        <div class="io-line">Defined in <a href="" data-line="6" class="link-to-prism">src/lib/d3ng-chart.ts:6</a></div>
+                                        <div class="io-line">Defined in <a href="" data-line="7" class="link-to-prism">src/lib/d3ng-chart.ts:7</a></div>
                                     </td>
                                 </tr>
                         </tbody>
@@ -483,6 +483,7 @@
     </div>
     <div class="tab-pane fade tab-source-code" id="source">
         <pre class="line-numbers"><code class="language-typescript">import {EventEmitter, HostListener, Input, OnChanges, Output, SimpleChanges} from &quot;@angular/core&quot;;
+import * as d3 from &quot;d3&quot;;
 
 export class D3ngSelectionItem {
   group &#x3D; 0;
@@ -870,12 +871,60 @@ export abstract class D3ngChart implements OnChanges {
    * @param node
    * @returns {any}
    */
-  public getDescription(node: Object): String {
+  public getDescription(node: Object): string {
     return node[&quot;description&quot;];
   }
 
-  public getDimensionLabel(dim: any): String {
+  public getDimensionLabel(dim: any): string {
     return dim;
+  }
+
+  /**
+   * Helper function that adds a mouseover tooltip to d3 elements.
+   * @param vis is a d3 selection with all the elements that a mouseover tooltip shall be applied to.
+   * @parem label function that produces the tooltip texts from data objects. this.getQualifiedLabel is used as a default.
+   */
+  public appendTooltip(vis: any, label?: (any, number?) &#x3D;&gt; string) {
+    const body &#x3D; d3.select(&#x27;body&#x27;);
+    const bodyNode &#x3D; body.node();
+    if (!label) {
+      label &#x3D; (data) &#x3D;&gt; this.getQualifiedLabel(data);
+    }
+
+    vis.on(&#x27;mouseover&#x27;, (data, index) &#x3D;&gt; {
+      body.select(&#x27;.tooltip&#x27;).remove();
+      const text &#x3D; label(data, index);
+
+      if (text) {
+        const mousePos &#x3D; d3.mouse(bodyNode);
+        body.append(&#x27;div&#x27;)
+          .attr(&#x27;class&#x27;, &#x27;tooltip&#x27;)
+          .style({
+            left: (mousePos[0] + 20) + &#x27;px&#x27;,
+            top: mousePos[1] + &#x27;px&#x27;,
+            position: &quot;absolute&quot;,
+            &#x27;box-shadow&#x27;: &#x27;0 1px 2px 0 #656565&#x27;,
+            &#x27;background-color&#x27;: &#x27;white&#x27;,
+            padding: &#x27;3px&#x27;,
+            &#x27;z-index&#x27;: 5,
+            &#x27;font-size&#x27;: &quot;10px&quot;,
+            &#x27;max-width&#x27;: &quot;150px&quot;
+          })
+          .html(label(data, index));
+      }
+    });
+
+    vis.on(&#x27;mousemove&#x27;, function() {
+      const mousePos &#x3D; d3.mouse(bodyNode);
+      body.select(&#x27;.tooltip&#x27;).style({
+        left: (mousePos[0] + 20) + &#x27;px&#x27;,
+        top: mousePos[1] + &#x27;px&#x27;
+      });
+    });
+
+    vis.on(&#x27;mouseout&#x27;, function() {
+      body.select(&#x27;.tooltip&#x27;).remove();
+    });
   }
 }
 </code></pre>

@@ -686,7 +686,7 @@
     
                         <tr>
                             <td class="col-md-4">
-                                <div class="io-line">Defined in <a href="" data-line="219" class="link-to-prism">src/lib/d3ng-radial-edge-bundling.component.ts:219</a></div>
+                                <div class="io-line">Defined in <a href="" data-line="220" class="link-to-prism">src/lib/d3ng-radial-edge-bundling.component.ts:220</a></div>
                             </td>
                         </tr>
     
@@ -720,7 +720,7 @@
     
                         <tr>
                             <td class="col-md-4">
-                                <div class="io-line">Defined in <a href="" data-line="229" class="link-to-prism">src/lib/d3ng-radial-edge-bundling.component.ts:229</a></div>
+                                <div class="io-line">Defined in <a href="" data-line="230" class="link-to-prism">src/lib/d3ng-radial-edge-bundling.component.ts:230</a></div>
                             </td>
                         </tr>
     
@@ -754,7 +754,7 @@
     
                         <tr>
                             <td class="col-md-4">
-                                <div class="io-line">Defined in <a href="" data-line="239" class="link-to-prism">src/lib/d3ng-radial-edge-bundling.component.ts:239</a></div>
+                                <div class="io-line">Defined in <a href="" data-line="240" class="link-to-prism">src/lib/d3ng-radial-edge-bundling.component.ts:240</a></div>
                             </td>
                         </tr>
     
@@ -1067,7 +1067,7 @@ export class D3ngRadialEdgeBundlingComponent extends D3ngDependencyChart impleme
       return (n &gt; 0 &amp;&amp; s.length &gt; n) ? s.substr(0, n-5) + &#x27;...&#x27; + s.substr(s.length-3, s.length): s;
     };
 
-    svg.selectAll(&quot;g.node&quot;)
+    const names &#x3D; svg.selectAll(&quot;g.node&quot;)
       .data(nodes.filter(function (n) {
         return !n.children;
       }))
@@ -1090,6 +1090,7 @@ export class D3ngRadialEdgeBundlingComponent extends D3ngDependencyChart impleme
       .on(&quot;click&quot;, (d) &#x3D;&gt; {
         self.setDirectSelection([ d.original ]);
       });
+    this.appendTooltip(names, d &#x3D;&gt; this.getQualifiedLabel(d.original));
 
     d3.select(window)
       .on(&quot;mousemove&quot;, mousemove)
