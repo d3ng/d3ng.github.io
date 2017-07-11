@@ -1,0 +1,245 @@
+{
+  "key": "Trust in police",
+  "countries": [
+    {
+      "label": "Austria",
+      "code": "AUT",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "7.2"
+      ]
+    },
+    {
+      "label": "Belgium",
+      "code": "BEL",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "6.1"
+      ]
+    },
+    {
+      "label": "Czech Republic",
+      "code": "CZE",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.9"
+      ]
+    },
+    {
+      "label": "Denmark",
+      "code": "DNK",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "7.9"
+      ]
+    },
+    {
+      "label": "Estonia",
+      "code": "EST",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "6"
+      ]
+    },
+    {
+      "label": "Finland",
+      "code": "FIN",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "8.2"
+      ]
+    },
+    {
+      "label": "France",
+      "code": "FRA",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "5.7"
+      ]
+    },
+    {
+      "label": "Germany",
+      "code": "DEU",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "6.4"
+      ]
+    },
+    {
+      "label": "Greece",
+      "code": "GRC",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "5"
+      ]
+    },
+    {
+      "label": "Hungary",
+      "code": "HUN",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "5.7"
+      ]
+    },
+    {
+      "label": "Iceland",
+      "code": "ISL",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "7.7"
+      ]
+    },
+    {
+      "label": "Ireland",
+      "code": "IRL",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "6.9"
+      ]
+    },
+    {
+      "label": "Italy",
+      "code": "ITA",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "5.8"
+      ]
+    },
+    {
+      "label": "Luxembourg",
+      "code": "LUX",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "6.1"
+      ]
+    },
+    {
+      "label": "Netherlands",
+      "code": "NLD",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "6.6"
+      ]
+    },
+    {
+      "label": "Norway",
+      "code": "NOR",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "7.5"
+      ]
+    },
+    {
+      "label": "Poland",
+      "code": "POL",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "5.2"
+      ]
+    },
+    {
+      "label": "Portugal",
+      "code": "PRT",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "5.4"
+      ]
+    },
+    {
+      "label": "Slovakia",
+      "code": "SVK",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.4"
+      ]
+    },
+    {
+      "label": "Slovenia",
+      "code": "SVN",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "5.5"
+      ]
+    },
+    {
+      "label": "Spain",
+      "code": "ESP",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "5.4"
+      ]
+    },
+    {
+      "label": "Sweden",
+      "code": "SWE",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "7.1"
+      ]
+    },
+    {
+      "label": "Switzerland",
+      "code": "CHE",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "7.4"
+      ]
+    },
+    {
+      "label": "United Kingdom",
+      "code": "GBR",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "6.4"
+      ]
+    }
+  ]
+}

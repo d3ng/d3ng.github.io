@@ -22,6 +22,7 @@
 <span class="hljs-keyword">import</span> {D3ngHistogramDemoComponent} <span class="hljs-keyword">from</span> <span class="hljs-string">"./d3ng-histogram-demo.component"</span>;
 <span class="hljs-keyword">import</span> {D3ngMapDemoComponent} <span class="hljs-keyword">from</span> <span class="hljs-string">"./d3ng-map-demo.component"</span>;
 <span class="hljs-keyword">import</span> {D3ngShadredModule} <span class="hljs-keyword">from</span> <span class="hljs-string">"../shared/d3ng-shared.module"</span>;
+<span class="hljs-keyword">import</span> {D3ngBubbleHistogramDemoComponent} <span class="hljs-keyword">from</span> <span class="hljs-string">"./d3ng-bubble-histogram-demo.component"</span>;
 
 <span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> demosRouting: Routes = [
   {
@@ -67,6 +68,10 @@
   {
     path: <span class="hljs-string">'map'</span>,
     component: D3ngMapDemoComponent
+  },
+  {
+    path: <span class="hljs-string">'bubble-histogram'</span>,
+    component: D3ngBubbleHistogramDemoComponent
   }
 ];
 
@@ -83,7 +88,8 @@
     D3ngScatterPlotDemoComponent,
     D3ngTreeMapDemoComponent,
     D3ngHistogramDemoComponent,
-    D3ngMapDemoComponent
+    D3ngMapDemoComponent,
+    D3ngBubbleHistogramDemoComponent
   ],
   imports: [
     BrowserModule, <span class="hljs-comment">// before other material modules are imported</span>

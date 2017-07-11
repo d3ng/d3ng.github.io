@@ -1,0 +1,25 @@
+<span class="hljs-keyword">import</span> {Component} <span class="hljs-keyword">from</span> <span class="hljs-string">'@angular/core'</span>;
+
+<span class="hljs-meta">@Component</span>({
+  selector: <span class="hljs-string">'d3ng-bubble-histogram-demo'</span>,
+  template: <span class="hljs-string">`
+    &lt;h2&gt;D3ng Bubble Histogram Demo&lt;/h2&gt;
+    &lt;d3ng-bubble-histogram [data]="data" xKey="x" valueKey="value" categoryKey="cat"&gt;&lt;/d3ng-bubble-histogram&gt;
+  `</span>,
+  styles: [ ]
+})
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> D3ngBubbleHistogramDemoComponent {
+
+  data = [
+    { x : <span class="hljs-number">1900</span>, value: <span class="hljs-number">10</span>, cat: <span class="hljs-string">"one"</span> },
+    { x : <span class="hljs-number">1950</span>, value: <span class="hljs-number">20</span>, cat: <span class="hljs-string">"one"</span> },
+    { x : <span class="hljs-number">2000</span>, value: <span class="hljs-number">22</span>, cat: <span class="hljs-string">"one"</span> },
+    { x : <span class="hljs-number">1900</span>, value: <span class="hljs-number">10</span>, cat: <span class="hljs-string">"two"</span> },
+    { x : <span class="hljs-number">1950</span>, value: <span class="hljs-number">20</span>, cat: <span class="hljs-string">"two"</span> },
+    { x : <span class="hljs-number">2000</span>, value: <span class="hljs-number">22</span>, cat: <span class="hljs-string">"two"</span> },
+    { x : <span class="hljs-number">2025</span>, value: <span class="hljs-number">23</span>, cat: <span class="hljs-string">"two"</span> },
+    { x : <span class="hljs-number">1950</span>, value: <span class="hljs-number">2</span>, cat: <span class="hljs-string">"three"</span> },
+    { x : <span class="hljs-number">2000</span>, value: <span class="hljs-number">8</span>, cat: <span class="hljs-string">"three"</span> }
+  ];
+}

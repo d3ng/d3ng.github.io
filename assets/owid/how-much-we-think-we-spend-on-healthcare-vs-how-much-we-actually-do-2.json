@@ -1,0 +1,405 @@
+{
+  "key": "How much we actually spend on health expenditure",
+  "countries": [
+    {
+      "label": "Argentina",
+      "code": "ARG",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "5"
+      ]
+    },
+    {
+      "label": "Australia",
+      "code": "AUS",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "10"
+      ]
+    },
+    {
+      "label": "Belgium",
+      "code": "BEL",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "11"
+      ]
+    },
+    {
+      "label": "Brazil",
+      "code": "BRA",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "8"
+      ]
+    },
+    {
+      "label": "Canada",
+      "code": "CAN",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "10"
+      ]
+    },
+    {
+      "label": "Chile",
+      "code": "CHL",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "8"
+      ]
+    },
+    {
+      "label": "China",
+      "code": "CHN",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "6"
+      ]
+    },
+    {
+      "label": "Colombia",
+      "code": "COL",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "7"
+      ]
+    },
+    {
+      "label": "Czech Republic",
+      "code": "CZE",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "7"
+      ]
+    },
+    {
+      "label": "Denmark",
+      "code": "DNK",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "11"
+      ]
+    },
+    {
+      "label": "France",
+      "code": "FRA",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "12"
+      ]
+    },
+    {
+      "label": "Germany",
+      "code": "DEU",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "11"
+      ]
+    },
+    {
+      "label": "Hong Kong",
+      "code": "HKG",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "5"
+      ]
+    },
+    {
+      "label": "Hungary",
+      "code": "HUN",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "7"
+      ]
+    },
+    {
+      "label": "India",
+      "code": "IND",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "5"
+      ]
+    },
+    {
+      "label": "Indonesia",
+      "code": "IDN",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "3"
+      ]
+    },
+    {
+      "label": "Israel",
+      "code": "ISR",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "8"
+      ]
+    },
+    {
+      "label": "Italy",
+      "code": "ITA",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "9"
+      ]
+    },
+    {
+      "label": "Japan",
+      "code": "JPN",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "10"
+      ]
+    },
+    {
+      "label": "Malaysia",
+      "code": "MYS",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "4"
+      ]
+    },
+    {
+      "label": "Mexico",
+      "code": "MEX",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "6"
+      ]
+    },
+    {
+      "label": "Montenegro",
+      "code": "MNE",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "6"
+      ]
+    },
+    {
+      "label": "Netherlands",
+      "code": "NLD",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "11"
+      ]
+    },
+    {
+      "label": "Norway",
+      "code": "NOR",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "10"
+      ]
+    },
+    {
+      "label": "Peru",
+      "code": "PER",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "6"
+      ]
+    },
+    {
+      "label": "Philippines",
+      "code": "PHL",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "5"
+      ]
+    },
+    {
+      "label": "Poland",
+      "code": "POL",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "6"
+      ]
+    },
+    {
+      "label": "Russia",
+      "code": "RUS",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "7"
+      ]
+    },
+    {
+      "label": "Serbia",
+      "code": "SRB",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "10"
+      ]
+    },
+    {
+      "label": "Singapore",
+      "code": "SGP",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "5"
+      ]
+    },
+    {
+      "label": "South Africa",
+      "code": "ZAF",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "9"
+      ]
+    },
+    {
+      "label": "South Korea",
+      "code": "KOR",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "7"
+      ]
+    },
+    {
+      "label": "Spain",
+      "code": "ESP",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "9"
+      ]
+    },
+    {
+      "label": "Sweden",
+      "code": "SWE",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "11"
+      ]
+    },
+    {
+      "label": "Taiwan",
+      "code": "TWN",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "7"
+      ]
+    },
+    {
+      "label": "Thailand",
+      "code": "THA",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "7"
+      ]
+    },
+    {
+      "label": "Turkey",
+      "code": "TUR",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "5"
+      ]
+    },
+    {
+      "label": "United Kingdom",
+      "code": "GBR",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "9"
+      ]
+    },
+    {
+      "label": "United States",
+      "code": "USA",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "18"
+      ]
+    },
+    {
+      "label": "Vietnam",
+      "code": "VNM",
+      "years": [
+        "2016"
+      ],
+      "values": [
+        "7"
+      ]
+    }
+  ]
+}

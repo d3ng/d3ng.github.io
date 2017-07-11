@@ -1,0 +1,45 @@
+{
+  "key": "Happiness and Mental illness  (partial correlation)",
+  "countries": [
+    {
+      "label": "Australia",
+      "code": "AUS",
+      "years": [
+        "2017"
+      ],
+      "values": [
+        "-0.18"
+      ]
+    },
+    {
+      "label": "Indonesia",
+      "code": "IDN",
+      "years": [
+        "2017"
+      ],
+      "values": [
+        "-0.07"
+      ]
+    },
+    {
+      "label": "United Kingdom",
+      "code": "GBR",
+      "years": [
+        "2017"
+      ],
+      "values": [
+        "-0.11"
+      ]
+    },
+    {
+      "label": "United States",
+      "code": "USA",
+      "years": [
+        "2017"
+      ],
+      "values": [
+        "-0.21"
+      ]
+    }
+  ]
+}

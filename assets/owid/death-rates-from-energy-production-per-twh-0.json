@@ -1,0 +1,25 @@
+{
+  "key": "Deaths from air pollution and accidents",
+  "countries": [
+    {
+      "label": "Biomass",
+      "code": "",
+      "years": [
+        "2014",
+        "2014",
+        "2014",
+        "2014",
+        "2014",
+        "2014"
+      ],
+      "values": [
+        "4.63",
+        "32.72",
+        "24.62",
+        "2.821",
+        "0.074",
+        "18.43"
+      ]
+    }
+  ]
+}

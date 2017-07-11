@@ -1,0 +1,149 @@
+{
+  "key": "Health Insurance Coverage",
+  "countries": [
+    {
+      "label": "Austria",
+      "code": "AUT",
+      "years": [
+        "1910",
+        "1935",
+        "1975"
+      ],
+      "values": [
+        "24",
+        "49",
+        "88"
+      ]
+    },
+    {
+      "label": "Belgium",
+      "code": "BEL",
+      "years": [
+        "1910",
+        "1935",
+        "1975"
+      ],
+      "values": [
+        "12",
+        "31",
+        "96"
+      ]
+    },
+    {
+      "label": "France",
+      "code": "FRA",
+      "years": [
+        "1910",
+        "1935",
+        "1975"
+      ],
+      "values": [
+        "18",
+        "36",
+        "94"
+      ]
+    },
+    {
+      "label": "Germany",
+      "code": "DEU",
+      "years": [
+        "1910",
+        "1935",
+        "1975"
+      ],
+      "values": [
+        "44",
+        "52",
+        "72"
+      ]
+    },
+    {
+      "label": "Ireland",
+      "code": "IRL",
+      "years": [
+        "1935",
+        "1975"
+      ],
+      "values": [
+        "38",
+        "71"
+      ]
+    },
+    {
+      "label": "Italy",
+      "code": "ITA",
+      "years": [
+        "1910",
+        "1935",
+        "1975"
+      ],
+      "values": [
+        "6",
+        "22",
+        "91"
+      ]
+    },
+    {
+      "label": "Netherlands",
+      "code": "NLD",
+      "years": [
+        "1935",
+        "1975"
+      ],
+      "values": [
+        "42",
+        "74"
+      ]
+    },
+    {
+      "label": "Norway",
+      "code": "NOR",
+      "years": [
+        "1935",
+        "1975"
+      ],
+      "values": [
+        "56",
+        "100"
+      ]
+    },
+    {
+      "label": "Sweden",
+      "code": "SWE",
+      "years": [
+        "1910",
+        "1935",
+        "1975"
+      ],
+      "values": [
+        "27",
+        "35",
+        "100"
+      ]
+    },
+    {
+      "label": "Switzerland",
+      "code": "CHE",
+      "years": [
+        "1935",
+        "1975"
+      ],
+      "values": [
+        "69",
+        "100"
+      ]
+    },
+    {
+      "label": "United Kingdom",
+      "code": "GBR",
+      "years": [
+        "1935",
+        "1975"
+      ],
+      "values": [
+        "82",
+        "100"
+      ]
+    }
+  ]
+}

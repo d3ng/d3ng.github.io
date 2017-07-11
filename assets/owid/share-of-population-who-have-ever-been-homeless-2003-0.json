@@ -1,0 +1,55 @@
+{
+  "key": "Share of population with an episode of homelessness",
+  "countries": [
+    {
+      "label": "Belgium",
+      "code": "BEL",
+      "years": [
+        "2003"
+      ],
+      "values": [
+        "3.4"
+      ]
+    },
+    {
+      "label": "Germany",
+      "code": "DEU",
+      "years": [
+        "2003"
+      ],
+      "values": [
+        "2.4"
+      ]
+    },
+    {
+      "label": "Italy",
+      "code": "ITA",
+      "years": [
+        "2003"
+      ],
+      "values": [
+        "4"
+      ]
+    },
+    {
+      "label": "United Kingdom",
+      "code": "GBR",
+      "years": [
+        "2003"
+      ],
+      "values": [
+        "7.7"
+      ]
+    },
+    {
+      "label": "United States",
+      "code": "USA",
+      "years": [
+        "2003"
+      ],
+      "values": [
+        "6.2"
+      ]
+    }
+  ]
+}

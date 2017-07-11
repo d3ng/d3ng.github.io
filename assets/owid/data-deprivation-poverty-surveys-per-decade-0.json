@@ -1,0 +1,1815 @@
+{
+  "key": "Observations in PovcalNet per decade",
+  "countries": [
+    {
+      "label": "Albania",
+      "code": "ALB",
+      "years": [
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "3"
+      ]
+    },
+    {
+      "label": "Angola",
+      "code": "AGO",
+      "years": [
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "label": "Argentina",
+      "code": "ARG",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "6",
+        "10",
+        "10"
+      ]
+    },
+    {
+      "label": "Armenia",
+      "code": "ARM",
+      "years": [
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "6",
+        "10"
+      ]
+    },
+    {
+      "label": "Azerbaijan",
+      "code": "AZE",
+      "years": [
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "5",
+        "2"
+      ]
+    },
+    {
+      "label": "Bangladesh",
+      "code": "BGD",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "3",
+        "2",
+        "2"
+      ]
+    },
+    {
+      "label": "Belarus",
+      "code": "BLR",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "8",
+        "10"
+      ]
+    },
+    {
+      "label": "Belize",
+      "code": "BLZ",
+      "years": [
+        "1994",
+        "2004"
+      ],
+      "values": [
+        "2",
+        "5"
+      ]
+    },
+    {
+      "label": "Benin",
+      "code": "BEN",
+      "years": [
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "label": "Bhutan",
+      "code": "BTN",
+      "years": [
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "label": "Bolivia",
+      "code": "BOL",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "6",
+        "9"
+      ]
+    },
+    {
+      "label": "Bosnia and Herzegovina",
+      "code": "BIH",
+      "years": [
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "2"
+      ]
+    },
+    {
+      "label": "Botswana",
+      "code": "BWA",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "label": "Brazil",
+      "code": "BRA",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "8",
+        "9",
+        "9"
+      ]
+    },
+    {
+      "label": "Bulgaria",
+      "code": "BGR",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "3",
+        "4",
+        "7"
+      ]
+    },
+    {
+      "label": "Burkina Faso",
+      "code": "BFA",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    {
+      "label": "Burundi",
+      "code": "BDI",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "label": "Cambodia",
+      "code": "KHM",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "1",
+        "1",
+        "6"
+      ]
+    },
+    {
+      "label": "Cameroon",
+      "code": "CMR",
+      "years": [
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "2"
+      ]
+    },
+    {
+      "label": "Cape Verde",
+      "code": "CPV",
+      "years": [
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "label": "Central African Republic",
+      "code": "CAF",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "label": "Chad",
+      "code": "TCD",
+      "years": [
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "label": "Chile",
+      "code": "CHL",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "4",
+        "4",
+        "4"
+      ]
+    },
+    {
+      "label": "China",
+      "code": "CHN",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "3",
+        "3",
+        "6"
+      ]
+    },
+    {
+      "label": "Colombia",
+      "code": "COL",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "4",
+        "7",
+        "8"
+      ]
+    },
+    {
+      "label": "Comoros",
+      "code": "COM",
+      "years": [
+        "2004"
+      ],
+      "values": [
+        "1"
+      ]
+    },
+    {
+      "label": "Congo",
+      "code": "COG",
+      "years": [
+        "2014"
+      ],
+      "values": [
+        "2"
+      ]
+    },
+    {
+      "label": "Costa Rica",
+      "code": "CRI",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "7",
+        "10",
+        "10"
+      ]
+    },
+    {
+      "label": "Cote d'Ivoire",
+      "code": "CIV",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "5",
+        "3",
+        "1"
+      ]
+    },
+    {
+      "label": "Croatia",
+      "code": "HRV",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "1",
+        "5",
+        "5"
+      ]
+    },
+    {
+      "label": "Czech Republic",
+      "code": "CZE",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "2",
+        "8"
+      ]
+    },
+    {
+      "label": "Democratic Republic of Congo",
+      "code": "COD",
+      "years": [
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "label": "Djibouti",
+      "code": "DJI",
+      "years": [
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "label": "Dominican Republic",
+      "code": "DOM",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "3",
+        "7",
+        "9"
+      ]
+    },
+    {
+      "label": "East Asia & Pacific",
+      "code": "",
+      "years": [
+        "1994",
+        "2004",
+        "2014",
+        "1994",
+        "2004",
+        "2014",
+        "1994",
+        "2004",
+        "2014",
+        "1994",
+        "2004",
+        "2014",
+        "1994",
+        "2004",
+        "2014",
+        "1994",
+        "2004",
+        "2014",
+        "1994",
+        "2004",
+        "2014",
+        "1994",
+        "2004",
+        "2014",
+        "1994",
+        "2004",
+        "2014",
+        "1994",
+        "2004",
+        "2014",
+        "1994",
+        "2004",
+        "2014",
+        "1994",
+        "2004",
+        "2014",
+        "1994",
+        "2004",
+        "2014",
+        "1994",
+        "2004",
+        "2014",
+        "1994",
+        "2004",
+        "2014",
+        "1994",
+        "2004",
+        "2014",
+        "1994",
+        "2004",
+        "2014",
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "3",
+        "3",
+        "6",
+        "3",
+        "3",
+        "6",
+        "3",
+        "3",
+        "6",
+        "3",
+        "3",
+        "6",
+        "3",
+        "3",
+        "6",
+        "3",
+        "3",
+        "6",
+        "3",
+        "3",
+        "6",
+        "3",
+        "3",
+        "6",
+        "3",
+        "3",
+        "6",
+        "3",
+        "3",
+        "6",
+        "3",
+        "3",
+        "6",
+        "3",
+        "3",
+        "6",
+        "3",
+        "3",
+        "6",
+        "3",
+        "2",
+        "2",
+        "3",
+        "3",
+        "6",
+        "3",
+        "2",
+        "6",
+        "2",
+        "3",
+        "6",
+        "3",
+        "3",
+        "6"
+      ]
+    },
+    {
+      "label": "Ecuador",
+      "code": "ECU",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "6",
+        "10"
+      ]
+    },
+    {
+      "label": "El Salvador",
+      "code": "SLV",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "label": "Estonia",
+      "code": "EST",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "7",
+        "8"
+      ]
+    },
+    {
+      "label": "Ethiopia",
+      "code": "ETH",
+      "years": [
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "3",
+        "1"
+      ]
+    },
+    {
+      "label": "Fiji",
+      "code": "FJI",
+      "years": [
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "label": "Gabon",
+      "code": "GAB",
+      "years": [
+        "2014"
+      ],
+      "values": [
+        "1"
+      ]
+    },
+    {
+      "label": "Gambia",
+      "code": "GMB",
+      "years": [
+        "2004"
+      ],
+      "values": [
+        "2"
+      ]
+    },
+    {
+      "label": "Georgia",
+      "code": "GEO",
+      "years": [
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "9",
+        "10"
+      ]
+    },
+    {
+      "label": "Ghana",
+      "code": "GHA",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "3",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "label": "Guatemala",
+      "code": "GTM",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "label": "Guinea",
+      "code": "GIN",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "label": "Guinea-Bissau",
+      "code": "GNB",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "label": "Guyana",
+      "code": "GUY",
+      "years": [
+        "1994",
+        "2004"
+      ],
+      "values": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "label": "Haiti",
+      "code": "HTI",
+      "years": [
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "label": "Honduras",
+      "code": "HND",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "7",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "label": "Hungary",
+      "code": "HUN",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "3",
+        "7",
+        "7"
+      ]
+    },
+    {
+      "label": "India",
+      "code": "IND",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "label": "Indonesia",
+      "code": "IDN",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "3",
+        "8",
+        "10"
+      ]
+    },
+    {
+      "label": "Iran",
+      "code": "IRN",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "3",
+        "1",
+        "3"
+      ]
+    },
+    {
+      "label": "Jamaica",
+      "code": "JAM",
+      "years": [
+        "1994",
+        "2004"
+      ],
+      "values": [
+        "3",
+        "4"
+      ]
+    },
+    {
+      "label": "Kazakhstan",
+      "code": "KAZ",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "5",
+        "9"
+      ]
+    },
+    {
+      "label": "Kenya",
+      "code": "KEN",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "label": "Kiribati",
+      "code": "KIR",
+      "years": [
+        "2014"
+      ],
+      "values": [
+        "1"
+      ]
+    },
+    {
+      "label": "Kosovo",
+      "code": "OWID_KOS",
+      "years": [
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "1",
+        "7"
+      ]
+    },
+    {
+      "label": "Kyrgyzstan",
+      "code": "KGZ",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "6",
+        "10"
+      ]
+    },
+    {
+      "label": "Laos",
+      "code": "LAO",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    {
+      "label": "Latvia",
+      "code": "LVA",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "7",
+        "8"
+      ]
+    },
+    {
+      "label": "Lesotho",
+      "code": "LSO",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "label": "Liberia",
+      "code": "LBR",
+      "years": [
+        "2014"
+      ],
+      "values": [
+        "1"
+      ]
+    },
+    {
+      "label": "Lithuania",
+      "code": "LTU",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "8",
+        "8"
+      ]
+    },
+    {
+      "label": "Macedonia",
+      "code": "MKD",
+      "years": [
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "5",
+        "3"
+      ]
+    },
+    {
+      "label": "Madagascar",
+      "code": "MDG",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "1",
+        "3",
+        "3"
+      ]
+    },
+    {
+      "label": "Malawi",
+      "code": "MWI",
+      "years": [
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "1"
+      ]
+    },
+    {
+      "label": "Malaysia",
+      "code": "MYS",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "3",
+        "3",
+        "2"
+      ]
+    },
+    {
+      "label": "Maldives",
+      "code": "MDV",
+      "years": [
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "label": "Mali",
+      "code": "MLI",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "1",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "label": "Mauritania",
+      "code": "MRT",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "3",
+        "2"
+      ]
+    },
+    {
+      "label": "Mauritius",
+      "code": "MUS",
+      "years": [
+        "2014"
+      ],
+      "values": [
+        "2"
+      ]
+    },
+    {
+      "label": "Mexico",
+      "code": "MEX",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "3",
+        "5",
+        "5"
+      ]
+    },
+    {
+      "label": "Micronesia",
+      "code": "FSM",
+      "years": [
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "label": "Moldova",
+      "code": "MDA",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "8",
+        "10"
+      ]
+    },
+    {
+      "label": "Mongolia",
+      "code": "MNG",
+      "years": [
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "3",
+        "5"
+      ]
+    },
+    {
+      "label": "Montenegro",
+      "code": "MNE",
+      "years": [
+        "2014"
+      ],
+      "values": [
+        "10"
+      ]
+    },
+    {
+      "label": "Morocco",
+      "code": "MAR",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "1",
+        "2",
+        "1"
+      ]
+    },
+    {
+      "label": "Mozambique",
+      "code": "MOZ",
+      "years": [
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "1"
+      ]
+    },
+    {
+      "label": "Namibia",
+      "code": "NAM",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "label": "Nepal",
+      "code": "NPL",
+      "years": [
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "1"
+      ]
+    },
+    {
+      "label": "Nicaragua",
+      "code": "NIC",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "label": "Niger",
+      "code": "NER",
+      "years": [
+        "1994",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "4"
+      ]
+    },
+    {
+      "label": "Nigeria",
+      "code": "NGA",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "2",
+        "1"
+      ]
+    },
+    {
+      "label": "Pakistan",
+      "code": "PAK",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "label": "Palestine",
+      "code": "PSE",
+      "years": [
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "1",
+        "4"
+      ]
+    },
+    {
+      "label": "Panama",
+      "code": "PAN",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "label": "Papua New Guinea",
+      "code": "PNG",
+      "years": [
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "label": "Paraguay",
+      "code": "PRY",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "1",
+        "7",
+        "10"
+      ]
+    },
+    {
+      "label": "Peru",
+      "code": "PER",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "8",
+        "10"
+      ]
+    },
+    {
+      "label": "Philippines",
+      "code": "PHL",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "4",
+        "3",
+        "3"
+      ]
+    },
+    {
+      "label": "Poland",
+      "code": "POL",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "4",
+        "8",
+        "10"
+      ]
+    },
+    {
+      "label": "Romania",
+      "code": "ROU",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "3",
+        "7",
+        "7"
+      ]
+    },
+    {
+      "label": "Russia",
+      "code": "RUS",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "9",
+        "8"
+      ]
+    },
+    {
+      "label": "Rwanda",
+      "code": "RWA",
+      "years": [
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "1",
+        "3"
+      ]
+    },
+    {
+      "label": "Saint Lucia",
+      "code": "LCA",
+      "years": [
+        "2004"
+      ],
+      "values": [
+        "1"
+      ]
+    },
+    {
+      "label": "Samoa",
+      "code": "WSM",
+      "years": [
+        "2014"
+      ],
+      "values": [
+        "1"
+      ]
+    },
+    {
+      "label": "Sao Tome and Principe",
+      "code": "STP",
+      "years": [
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "label": "Senegal",
+      "code": "SEN",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "label": "Serbia",
+      "code": "SRB",
+      "years": [
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "3",
+        "7"
+      ]
+    },
+    {
+      "label": "Seychelles",
+      "code": "SYC",
+      "years": [
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "label": "Sierra Leone",
+      "code": "SLE",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "label": "Slovakia",
+      "code": "SVK",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "2",
+        "8"
+      ]
+    },
+    {
+      "label": "Slovenia",
+      "code": "SVN",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "4",
+        "8"
+      ]
+    },
+    {
+      "label": "Solomon Islands",
+      "code": "SLB",
+      "years": [
+        "2014"
+      ],
+      "values": [
+        "1"
+      ]
+    },
+    {
+      "label": "South Africa",
+      "code": "ZAF",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "label": "South Sudan",
+      "code": "SSD",
+      "years": [
+        "2014"
+      ],
+      "values": [
+        "1"
+      ]
+    },
+    {
+      "label": "Sri Lanka",
+      "code": "LKA",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "label": "Sudan",
+      "code": "SDN",
+      "years": [
+        "2014"
+      ],
+      "values": [
+        "1"
+      ]
+    },
+    {
+      "label": "Suriname",
+      "code": "SUR",
+      "years": [
+        "2004"
+      ],
+      "values": [
+        "1"
+      ]
+    },
+    {
+      "label": "Swaziland",
+      "code": "SWZ",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "label": "Tajikistan",
+      "code": "TJK",
+      "years": [
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "3",
+        "5"
+      ]
+    },
+    {
+      "label": "Tanzania",
+      "code": "TZA",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "1",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "label": "Thailand",
+      "code": "THA",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "4",
+        "6",
+        "8"
+      ]
+    },
+    {
+      "label": "Timor",
+      "code": "TLS",
+      "years": [
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "label": "Togo",
+      "code": "TGO",
+      "years": [
+        "2014"
+      ],
+      "values": [
+        "2"
+      ]
+    },
+    {
+      "label": "Tonga",
+      "code": "TON",
+      "years": [
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "label": "Trinidad and Tobago",
+      "code": "TTO",
+      "years": [
+        "1994"
+      ],
+      "values": [
+        "2"
+      ]
+    },
+    {
+      "label": "Tunisia",
+      "code": "TUN",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "2",
+        "2"
+      ]
+    },
+    {
+      "label": "Turkey",
+      "code": "TUR",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "3",
+        "9"
+      ]
+    },
+    {
+      "label": "Turkmenistan",
+      "code": "TKM",
+      "years": [
+        "1994",
+        "2004"
+      ],
+      "values": [
+        "2",
+        "1"
+      ]
+    },
+    {
+      "label": "Tuvalu",
+      "code": "TUV",
+      "years": [
+        "2014"
+      ],
+      "values": [
+        "1"
+      ]
+    },
+    {
+      "label": "Uganda",
+      "code": "UGA",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    {
+      "label": "Ukraine",
+      "code": "UKR",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "3",
+        "6",
+        "10"
+      ]
+    },
+    {
+      "label": "Uruguay",
+      "code": "URY",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "label": "Uzbekistan",
+      "code": "UZB",
+      "years": [
+        "1994",
+        "2004"
+      ],
+      "values": [
+        "1",
+        "4"
+      ]
+    },
+    {
+      "label": "Vanuatu",
+      "code": "VUT",
+      "years": [
+        "2014"
+      ],
+      "values": [
+        "1"
+      ]
+    },
+    {
+      "label": "Venezuela",
+      "code": "VEN",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "3",
+        "7",
+        "2"
+      ]
+    },
+    {
+      "label": "Vietnam",
+      "code": "VNM",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "1",
+        "3",
+        "5"
+      ]
+    },
+    {
+      "label": "World",
+      "code": "OWID_WRL",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "3",
+        "3",
+        "6"
+      ]
+    },
+    {
+      "label": "Zambia",
+      "code": "ZMB",
+      "years": [
+        "1994",
+        "2004",
+        "2014"
+      ],
+      "values": [
+        "2",
+        "4",
+        "2"
+      ]
+    },
+    {
+      "label": "Zimbabwe",
+      "code": "ZWE",
+      "years": [
+        "2014"
+      ],
+      "values": [
+        "1"
+      ]
+    }
+  ]
+}

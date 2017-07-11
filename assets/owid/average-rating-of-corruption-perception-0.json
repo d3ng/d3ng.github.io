@@ -1,0 +1,1075 @@
+{
+  "key": "Corruption Perception Rating",
+  "countries": [
+    {
+      "label": "Afghanistan",
+      "code": "AFG",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.1"
+      ]
+    },
+    {
+      "label": "Albania",
+      "code": "ALB",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.2"
+      ]
+    },
+    {
+      "label": "Algeria",
+      "code": "DZA",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.6"
+      ]
+    },
+    {
+      "label": "Argentina",
+      "code": "ARG",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.5"
+      ]
+    },
+    {
+      "label": "Armenia",
+      "code": "ARM",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.4"
+      ]
+    },
+    {
+      "label": "Australia",
+      "code": "AUS",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "3.6"
+      ]
+    },
+    {
+      "label": "Azerbaijan",
+      "code": "AZE",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "3.6"
+      ]
+    },
+    {
+      "label": "Bangladesh",
+      "code": "BGD",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.2"
+      ]
+    },
+    {
+      "label": "Belgium",
+      "code": "BEL",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "3.9"
+      ]
+    },
+    {
+      "label": "Bolivia",
+      "code": "BOL",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.3"
+      ]
+    },
+    {
+      "label": "Bosnia and Herzegovina",
+      "code": "BIH",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.4"
+      ]
+    },
+    {
+      "label": "Brazil",
+      "code": "BRA",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.6"
+      ]
+    },
+    {
+      "label": "Bulgaria",
+      "code": "BGR",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.3"
+      ]
+    },
+    {
+      "label": "Burundi",
+      "code": "BDI",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.1"
+      ]
+    },
+    {
+      "label": "Cambodia",
+      "code": "KHM",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "3.8"
+      ]
+    },
+    {
+      "label": "Cameroon",
+      "code": "CMR",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.5"
+      ]
+    },
+    {
+      "label": "Canada",
+      "code": "CAN",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "3.7"
+      ]
+    },
+    {
+      "label": "Chile",
+      "code": "CHL",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.3"
+      ]
+    },
+    {
+      "label": "Colombia",
+      "code": "COL",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.4"
+      ]
+    },
+    {
+      "label": "Croatia",
+      "code": "HRV",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.3"
+      ]
+    },
+    {
+      "label": "Cyprus",
+      "code": "CYP",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.2"
+      ]
+    },
+    {
+      "label": "Czech Republic",
+      "code": "CZE",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.4"
+      ]
+    },
+    {
+      "label": "Democratic Republic of Congo",
+      "code": "COD",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.3"
+      ]
+    },
+    {
+      "label": "Denmark",
+      "code": "DNK",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "2.2"
+      ]
+    },
+    {
+      "label": "Egypt",
+      "code": "EGY",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.1"
+      ]
+    },
+    {
+      "label": "El Salvador",
+      "code": "SLV",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.3"
+      ]
+    },
+    {
+      "label": "Estonia",
+      "code": "EST",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "3.7"
+      ]
+    },
+    {
+      "label": "Ethiopia",
+      "code": "ETH",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "3.1"
+      ]
+    },
+    {
+      "label": "Fiji",
+      "code": "FJI",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.1"
+      ]
+    },
+    {
+      "label": "Finland",
+      "code": "FIN",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "2.9"
+      ]
+    },
+    {
+      "label": "France",
+      "code": "FRA",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.1"
+      ]
+    },
+    {
+      "label": "Georgia",
+      "code": "GEO",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "3.1"
+      ]
+    },
+    {
+      "label": "Germany",
+      "code": "DEU",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "3.9"
+      ]
+    },
+    {
+      "label": "Ghana",
+      "code": "GHA",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.4"
+      ]
+    },
+    {
+      "label": "Greece",
+      "code": "GRC",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.6"
+      ]
+    },
+    {
+      "label": "Hungary",
+      "code": "HUN",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "3.8"
+      ]
+    },
+    {
+      "label": "India",
+      "code": "IND",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.2"
+      ]
+    },
+    {
+      "label": "Indonesia",
+      "code": "IDN",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.7"
+      ]
+    },
+    {
+      "label": "Iraq",
+      "code": "IRQ",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.1"
+      ]
+    },
+    {
+      "label": "Israel",
+      "code": "ISR",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.3"
+      ]
+    },
+    {
+      "label": "Italy",
+      "code": "ITA",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.4"
+      ]
+    },
+    {
+      "label": "Jamaica",
+      "code": "JAM",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.4"
+      ]
+    },
+    {
+      "label": "Japan",
+      "code": "JPN",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.2"
+      ]
+    },
+    {
+      "label": "Jordan",
+      "code": "JOR",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "3.7"
+      ]
+    },
+    {
+      "label": "Kazakhstan",
+      "code": "KAZ",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "3.9"
+      ]
+    },
+    {
+      "label": "Kenya",
+      "code": "KEN",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.3"
+      ]
+    },
+    {
+      "label": "Kosovo",
+      "code": "OWID_KOS",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.5"
+      ]
+    },
+    {
+      "label": "Kyrgyzstan",
+      "code": "KGZ",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.6"
+      ]
+    },
+    {
+      "label": "Latvia",
+      "code": "LVA",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.2"
+      ]
+    },
+    {
+      "label": "Lebanon",
+      "code": "LBN",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.6"
+      ]
+    },
+    {
+      "label": "Liberia",
+      "code": "LBR",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.8"
+      ]
+    },
+    {
+      "label": "Libya",
+      "code": "LBY",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "3.5"
+      ]
+    },
+    {
+      "label": "Lithuania",
+      "code": "LTU",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.5"
+      ]
+    },
+    {
+      "label": "Luxembourg",
+      "code": "LUX",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "3.2"
+      ]
+    },
+    {
+      "label": "Macedonia",
+      "code": "MKD",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.1"
+      ]
+    },
+    {
+      "label": "Madagascar",
+      "code": "MDG",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.2"
+      ]
+    },
+    {
+      "label": "Malawi",
+      "code": "MWI",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.5"
+      ]
+    },
+    {
+      "label": "Malaysia",
+      "code": "MYS",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "3.8"
+      ]
+    },
+    {
+      "label": "Maldives",
+      "code": "MDV",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.3"
+      ]
+    },
+    {
+      "label": "Mexico",
+      "code": "MEX",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.7"
+      ]
+    },
+    {
+      "label": "Moldova",
+      "code": "MDA",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.6"
+      ]
+    },
+    {
+      "label": "Mongolia",
+      "code": "MNG",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.8"
+      ]
+    },
+    {
+      "label": "Morocco",
+      "code": "MAR",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.6"
+      ]
+    },
+    {
+      "label": "Mozambique",
+      "code": "MOZ",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4"
+      ]
+    },
+    {
+      "label": "Nepal",
+      "code": "NPL",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.5"
+      ]
+    },
+    {
+      "label": "New Zealand",
+      "code": "NZL",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "3.3"
+      ]
+    },
+    {
+      "label": "Nigeria",
+      "code": "NGA",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.7"
+      ]
+    },
+    {
+      "label": "Norway",
+      "code": "NOR",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "3.1"
+      ]
+    },
+    {
+      "label": "Pakistan",
+      "code": "PAK",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.6"
+      ]
+    },
+    {
+      "label": "Palestine",
+      "code": "PSE",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "3.9"
+      ]
+    },
+    {
+      "label": "Papua New Guinea",
+      "code": "PNG",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.6"
+      ]
+    },
+    {
+      "label": "Paraguay",
+      "code": "PRY",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.7"
+      ]
+    },
+    {
+      "label": "Peru",
+      "code": "PER",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.5"
+      ]
+    },
+    {
+      "label": "Philippines",
+      "code": "PHL",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.4"
+      ]
+    },
+    {
+      "label": "Portugal",
+      "code": "PRT",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.6"
+      ]
+    },
+    {
+      "label": "Romania",
+      "code": "ROU",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.5"
+      ]
+    },
+    {
+      "label": "Russia",
+      "code": "RUS",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.7"
+      ]
+    },
+    {
+      "label": "Rwanda",
+      "code": "RWA",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "2"
+      ]
+    },
+    {
+      "label": "Senegal",
+      "code": "SEN",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.5"
+      ]
+    },
+    {
+      "label": "Serbia",
+      "code": "SRB",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.7"
+      ]
+    },
+    {
+      "label": "Sierra Leone",
+      "code": "SLE",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.1"
+      ]
+    },
+    {
+      "label": "Slovakia",
+      "code": "SVK",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.2"
+      ]
+    },
+    {
+      "label": "Slovenia",
+      "code": "SVN",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.2"
+      ]
+    },
+    {
+      "label": "Solomon Islands",
+      "code": "SLB",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4"
+      ]
+    },
+    {
+      "label": "South Africa",
+      "code": "ZAF",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.4"
+      ]
+    },
+    {
+      "label": "South Korea",
+      "code": "KOR",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "3.6"
+      ]
+    },
+    {
+      "label": "South Sudan",
+      "code": "SSD",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "3"
+      ]
+    },
+    {
+      "label": "Spain",
+      "code": "ESP",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.5"
+      ]
+    },
+    {
+      "label": "Sri Lanka",
+      "code": "LKA",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "3.7"
+      ]
+    },
+    {
+      "label": "Sudan",
+      "code": "SDN",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "2.6"
+      ]
+    },
+    {
+      "label": "Switzerland",
+      "code": "CHE",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "2.7"
+      ]
+    },
+    {
+      "label": "Taiwan",
+      "code": "TWN",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "3.9"
+      ]
+    },
+    {
+      "label": "Tanzania",
+      "code": "TZA",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.4"
+      ]
+    },
+    {
+      "label": "Thailand",
+      "code": "THA",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.1"
+      ]
+    },
+    {
+      "label": "Tunisia",
+      "code": "TUN",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.4"
+      ]
+    },
+    {
+      "label": "Turkey",
+      "code": "TUR",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4"
+      ]
+    },
+    {
+      "label": "Uganda",
+      "code": "UGA",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.5"
+      ]
+    },
+    {
+      "label": "Ukraine",
+      "code": "UKR",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.6"
+      ]
+    },
+    {
+      "label": "United Kingdom",
+      "code": "GBR",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "3.7"
+      ]
+    },
+    {
+      "label": "United States",
+      "code": "USA",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4"
+      ]
+    },
+    {
+      "label": "Uruguay",
+      "code": "URY",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "3.8"
+      ]
+    },
+    {
+      "label": "Vanuatu",
+      "code": "VUT",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.4"
+      ]
+    },
+    {
+      "label": "Venezuela",
+      "code": "VEN",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.6"
+      ]
+    },
+    {
+      "label": "Vietnam",
+      "code": "VNM",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "3.7"
+      ]
+    },
+    {
+      "label": "Yemen",
+      "code": "YEM",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "3.1"
+      ]
+    },
+    {
+      "label": "Zambia",
+      "code": "ZMB",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.6"
+      ]
+    },
+    {
+      "label": "Zimbabwe",
+      "code": "ZWE",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "4.7"
+      ]
+    }
+  ]
+}

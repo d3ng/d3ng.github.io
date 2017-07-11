@@ -1,0 +1,21 @@
+{
+  "key": "Modern biofuels",
+  "countries": [
+    {
+      "label": "World",
+      "code": "OWID_WRL",
+      "years": [
+        "1990",
+        "2000",
+        "2010",
+        "2015"
+      ],
+      "values": [
+        "0.59",
+        "0.89",
+        "4.37",
+        "4.75"
+      ]
+    }
+  ]
+}

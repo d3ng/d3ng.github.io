@@ -1,0 +1,2855 @@
+{
+  "key": "Countries Continents",
+  "countries": [
+    {
+      "label": "Abkhazia",
+      "code": "OWID_ABK",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Afghanistan",
+      "code": "AFG",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Akrotiri and Dhekelia",
+      "code": "OWID_AKD",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Åland Islands",
+      "code": "ALA",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Albania",
+      "code": "ALB",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Algeria",
+      "code": "DZA",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "American Samoa",
+      "code": "ASM",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Oceania"
+      ]
+    },
+    {
+      "label": "Andorra",
+      "code": "AND",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Angola",
+      "code": "AGO",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Anguilla",
+      "code": "AIA",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Antarctica",
+      "code": "ATA",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Antarctica"
+      ]
+    },
+    {
+      "label": "Antigua and Barbuda",
+      "code": "ATG",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Argentina",
+      "code": "ARG",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "South America"
+      ]
+    },
+    {
+      "label": "Armenia",
+      "code": "ARM",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Aruba",
+      "code": "ABW",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Australia",
+      "code": "AUS",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Oceania"
+      ]
+    },
+    {
+      "label": "Austria",
+      "code": "AUT",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Austria-Hungary",
+      "code": "OWID_AUH",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Azerbaijan",
+      "code": "AZE",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Baden",
+      "code": "OWID_BAD",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Bahamas",
+      "code": "BHS",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Bahrain",
+      "code": "BHR",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Bangladesh",
+      "code": "BGD",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Barbados",
+      "code": "BRB",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Bavaria",
+      "code": "OWID_BAV",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Belarus",
+      "code": "BLR",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Belgium",
+      "code": "BEL",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Belize",
+      "code": "BLZ",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Benin",
+      "code": "BEN",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Bermuda",
+      "code": "BMU",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Bhutan",
+      "code": "BTN",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Bolivia",
+      "code": "BOL",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "South America"
+      ]
+    },
+    {
+      "label": "Bonaire Sint Eustatius and Saba",
+      "code": "BES",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Bosnia and Herzegovina",
+      "code": "BIH",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Botswana",
+      "code": "BWA",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Bouvet Island",
+      "code": "BVT",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Antarctica"
+      ]
+    },
+    {
+      "label": "Brazil",
+      "code": "BRA",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "South America"
+      ]
+    },
+    {
+      "label": "British Indian Ocean Territory",
+      "code": "IOT",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "British Virgin Islands",
+      "code": "VGB",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Brunei",
+      "code": "BRN",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Bulgaria",
+      "code": "BGR",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Burkina Faso",
+      "code": "BFA",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Burundi",
+      "code": "BDI",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Cambodia",
+      "code": "KHM",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Cameroon",
+      "code": "CMR",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Canada",
+      "code": "CAN",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Cape Verde",
+      "code": "CPV",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Cayman Islands",
+      "code": "CYM",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Central African Republic",
+      "code": "CAF",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Chad",
+      "code": "TCD",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Channel Islands",
+      "code": "OWID_CIS",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Chile",
+      "code": "CHL",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "South America"
+      ]
+    },
+    {
+      "label": "China",
+      "code": "CHN",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Christmas Island",
+      "code": "CXR",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Cocos Islands",
+      "code": "CCK",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Colombia",
+      "code": "COL",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "South America"
+      ]
+    },
+    {
+      "label": "Comoros",
+      "code": "COM",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Congo",
+      "code": "COG",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Cook Islands",
+      "code": "COK",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Oceania"
+      ]
+    },
+    {
+      "label": "Costa Rica",
+      "code": "CRI",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Cote d'Ivoire",
+      "code": "CIV",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Croatia",
+      "code": "HRV",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Cuba",
+      "code": "CUB",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Curacao",
+      "code": "CUW",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Cyprus",
+      "code": "CYP",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Czech Republic",
+      "code": "CZE",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Czechoslovakia",
+      "code": "OWID_CZS",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Democratic Republic of Congo",
+      "code": "COD",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Denmark",
+      "code": "DNK",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Djibouti",
+      "code": "DJI",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Dominica",
+      "code": "DMA",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Dominican Republic",
+      "code": "DOM",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "East Germany",
+      "code": "OWID_GDR",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Ecuador",
+      "code": "ECU",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "South America"
+      ]
+    },
+    {
+      "label": "Egypt",
+      "code": "EGY",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "El Salvador",
+      "code": "SLV",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Equatorial Guinea",
+      "code": "GNQ",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Eritrea",
+      "code": "ERI",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Eritrea and Ethiopia",
+      "code": "OWID_ERE",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Estonia",
+      "code": "EST",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Ethiopia",
+      "code": "ETH",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Faeroe Islands",
+      "code": "FRO",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Falkland Islands",
+      "code": "FLK",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "South America"
+      ]
+    },
+    {
+      "label": "Fiji",
+      "code": "FJI",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Oceania"
+      ]
+    },
+    {
+      "label": "Finland",
+      "code": "FIN",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "France",
+      "code": "FRA",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "French Guiana",
+      "code": "GUF",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "South America"
+      ]
+    },
+    {
+      "label": "French Polynesia",
+      "code": "PYF",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Oceania"
+      ]
+    },
+    {
+      "label": "French Southern Territories",
+      "code": "ATF",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Antarctica"
+      ]
+    },
+    {
+      "label": "Gabon",
+      "code": "GAB",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Gambia",
+      "code": "GMB",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Georgia",
+      "code": "GEO",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Germany",
+      "code": "DEU",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Ghana",
+      "code": "GHA",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Gibraltar",
+      "code": "GIB",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Greece",
+      "code": "GRC",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Greenland",
+      "code": "GRL",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Grenada",
+      "code": "GRD",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Guadeloupe",
+      "code": "GLP",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Guam",
+      "code": "GUM",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Oceania"
+      ]
+    },
+    {
+      "label": "Guatemala",
+      "code": "GTM",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Guernsey",
+      "code": "GGY",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Guinea",
+      "code": "GIN",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Guinea-Bissau",
+      "code": "GNB",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Guyana",
+      "code": "GUY",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "South America"
+      ]
+    },
+    {
+      "label": "Haiti",
+      "code": "HTI",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Hanover",
+      "code": "OWID_HAN",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Heard Island and McDonald Islands",
+      "code": "HMD",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Antarctica"
+      ]
+    },
+    {
+      "label": "Hesse Electoral",
+      "code": "OWID_HSE",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Hesse Grand Ducal",
+      "code": "OWID_HSG",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Honduras",
+      "code": "HND",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Hong Kong",
+      "code": "HKG",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Hungary",
+      "code": "HUN",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Iceland",
+      "code": "ISL",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "India",
+      "code": "IND",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Indonesia",
+      "code": "IDN",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Iran",
+      "code": "IRN",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Iraq",
+      "code": "IRQ",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Ireland",
+      "code": "IRL",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Isle of Man",
+      "code": "IMN",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Israel",
+      "code": "ISR",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Italy",
+      "code": "ITA",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Jamaica",
+      "code": "JAM",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Japan",
+      "code": "JPN",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Jersey",
+      "code": "JEY",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Jordan",
+      "code": "JOR",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Kazakhstan",
+      "code": "KAZ",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Kenya",
+      "code": "KEN",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Kiribati",
+      "code": "KIR",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Oceania"
+      ]
+    },
+    {
+      "label": "Kosovo",
+      "code": "OWID_KOS",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Kuwait",
+      "code": "KWT",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Kyrgyzstan",
+      "code": "KGZ",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Laos",
+      "code": "LAO",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Latvia",
+      "code": "LVA",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Lebanon",
+      "code": "LBN",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Lesotho",
+      "code": "LSO",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Liberia",
+      "code": "LBR",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Libya",
+      "code": "LBY",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Liechtenstein",
+      "code": "LIE",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Lithuania",
+      "code": "LTU",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Luxembourg",
+      "code": "LUX",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Macao",
+      "code": "MAC",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Macedonia",
+      "code": "MKD",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Madagascar",
+      "code": "MDG",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Malawi",
+      "code": "MWI",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Malaysia",
+      "code": "MYS",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Maldives",
+      "code": "MDV",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Mali",
+      "code": "MLI",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Malta",
+      "code": "MLT",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Marshall Islands",
+      "code": "MHL",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Oceania"
+      ]
+    },
+    {
+      "label": "Martinique",
+      "code": "MTQ",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Mauritania",
+      "code": "MRT",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Mauritius",
+      "code": "MUS",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Mayotte",
+      "code": "MYT",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Mecklenburg Schwerin",
+      "code": "OWID_MEC",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Mexico",
+      "code": "MEX",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Micronesia",
+      "code": "FSM",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Oceania"
+      ]
+    },
+    {
+      "label": "Modena",
+      "code": "OWID_MOD",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Moldova",
+      "code": "MDA",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Monaco",
+      "code": "MCO",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Mongolia",
+      "code": "MNG",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Montenegro",
+      "code": "MNE",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Montserrat",
+      "code": "MSR",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Morocco",
+      "code": "MAR",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Mozambique",
+      "code": "MOZ",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Myanmar",
+      "code": "MMR",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Nagorno-Karabakh",
+      "code": "OWID_NAG",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Namibia",
+      "code": "NAM",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Nauru",
+      "code": "NRU",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Oceania"
+      ]
+    },
+    {
+      "label": "Nepal",
+      "code": "NPL",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Netherlands",
+      "code": "NLD",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Netherlands Antilles",
+      "code": "ANT",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "New Caledonia",
+      "code": "NCL",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Oceania"
+      ]
+    },
+    {
+      "label": "New Zealand",
+      "code": "NZL",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Oceania"
+      ]
+    },
+    {
+      "label": "Nicaragua",
+      "code": "NIC",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Niger",
+      "code": "NER",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Nigeria",
+      "code": "NGA",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Niue",
+      "code": "NIU",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Oceania"
+      ]
+    },
+    {
+      "label": "Norfolk Island",
+      "code": "NFK",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Oceania"
+      ]
+    },
+    {
+      "label": "North Korea",
+      "code": "PRK",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Northern Cyprus",
+      "code": "OWID_CYN",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Northern Mariana Islands",
+      "code": "MNP",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Oceania"
+      ]
+    },
+    {
+      "label": "Norway",
+      "code": "NOR",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Oman",
+      "code": "OMN",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Pakistan",
+      "code": "PAK",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Palau",
+      "code": "PLW",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Oceania"
+      ]
+    },
+    {
+      "label": "Palestine",
+      "code": "PSE",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Panama",
+      "code": "PAN",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Papua New Guinea",
+      "code": "PNG",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Oceania"
+      ]
+    },
+    {
+      "label": "Paraguay",
+      "code": "PRY",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "South America"
+      ]
+    },
+    {
+      "label": "Parma",
+      "code": "OWID_PMA",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Peru",
+      "code": "PER",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "South America"
+      ]
+    },
+    {
+      "label": "Philippines",
+      "code": "PHL",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Pitcairn",
+      "code": "PCN",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Oceania"
+      ]
+    },
+    {
+      "label": "Poland",
+      "code": "POL",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Portugal",
+      "code": "PRT",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Puerto Rico",
+      "code": "PRI",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Qatar",
+      "code": "QAT",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Republic of Vietnam",
+      "code": "OWID_RVN",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Reunion",
+      "code": "REU",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Romania",
+      "code": "ROU",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Russia",
+      "code": "RUS",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Rwanda",
+      "code": "RWA",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Saint Barthélemy",
+      "code": "BLM",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Saint Helena",
+      "code": "SHN",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Saint Kitts and Nevis",
+      "code": "KNA",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Saint Lucia",
+      "code": "LCA",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Saint Martin (French part)",
+      "code": "MAF",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Saint Pierre and Miquelon",
+      "code": "SPM",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Saint Vincent and the Grenadines",
+      "code": "VCT",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Samoa",
+      "code": "WSM",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Oceania"
+      ]
+    },
+    {
+      "label": "San Marino",
+      "code": "SMR",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Sao Tome and Principe",
+      "code": "STP",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Saudi Arabia",
+      "code": "SAU",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Saxony",
+      "code": "OWID_SAX",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Senegal",
+      "code": "SEN",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Serbia",
+      "code": "SRB",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Serbia and Montenegro",
+      "code": "OWID_SRM",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Serbia excluding Kosovo",
+      "code": "OWID_SEK",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Seychelles",
+      "code": "SYC",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Sierra Leone",
+      "code": "SLE",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Singapore",
+      "code": "SGP",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Sint Maarten (Dutch part)",
+      "code": "SXM",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Slovakia",
+      "code": "SVK",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Slovenia",
+      "code": "SVN",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Solomon Islands",
+      "code": "SLB",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Oceania"
+      ]
+    },
+    {
+      "label": "Somalia",
+      "code": "SOM",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Somaliland",
+      "code": "OWID_SML",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "South Africa",
+      "code": "ZAF",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "South Georgia and the South Sandwich Islands",
+      "code": "SGS",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "South America"
+      ]
+    },
+    {
+      "label": "South Korea",
+      "code": "KOR",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "South Ossetia",
+      "code": "OWID_SOS",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "South Sudan",
+      "code": "SSD",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Spain",
+      "code": "ESP",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Sri Lanka",
+      "code": "LKA",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Sudan",
+      "code": "SDN",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Suriname",
+      "code": "SUR",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "South America"
+      ]
+    },
+    {
+      "label": "Svalbard and Jan Mayen",
+      "code": "SJM",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Swaziland",
+      "code": "SWZ",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Sweden",
+      "code": "SWE",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Switzerland",
+      "code": "CHE",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Syria",
+      "code": "SYR",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Taiwan",
+      "code": "TWN",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Tajikistan",
+      "code": "TJK",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Tanzania",
+      "code": "TZA",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Thailand",
+      "code": "THA",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Timor",
+      "code": "TLS",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Togo",
+      "code": "TGO",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Tokelau",
+      "code": "TKL",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Oceania"
+      ]
+    },
+    {
+      "label": "Tonga",
+      "code": "TON",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Oceania"
+      ]
+    },
+    {
+      "label": "Transnistria",
+      "code": "OWID_TRS",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Trinidad and Tobago",
+      "code": "TTO",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Tunisia",
+      "code": "TUN",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Turkey",
+      "code": "TUR",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Turkmenistan",
+      "code": "TKM",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Turks and Caicos Islands",
+      "code": "TCA",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Tuscany",
+      "code": "OWID_TUS",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Tuvalu",
+      "code": "TUV",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Oceania"
+      ]
+    },
+    {
+      "label": "Two Sicilies",
+      "code": "OWID_SIC",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Uganda",
+      "code": "UGA",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Ukraine",
+      "code": "UKR",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "United Arab Emirates",
+      "code": "ARE",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "United Kingdom",
+      "code": "GBR",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "United Korea",
+      "code": "OWID_KRU",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "United States",
+      "code": "USA",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "United States Minor Outlying Islands",
+      "code": "UMI",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Oceania"
+      ]
+    },
+    {
+      "label": "United States Virgin Islands",
+      "code": "VIR",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "North America"
+      ]
+    },
+    {
+      "label": "Uruguay",
+      "code": "URY",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "South America"
+      ]
+    },
+    {
+      "label": "USSR",
+      "code": "OWID_USS",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Uzbekistan",
+      "code": "UZB",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Vanuatu",
+      "code": "VUT",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Oceania"
+      ]
+    },
+    {
+      "label": "Vatican",
+      "code": "VAT",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Venezuela",
+      "code": "VEN",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "South America"
+      ]
+    },
+    {
+      "label": "Vietnam",
+      "code": "VNM",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Wallis and Futuna",
+      "code": "WLF",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Oceania"
+      ]
+    },
+    {
+      "label": "West Germany",
+      "code": "OWID_GFR",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Western Sahara",
+      "code": "ESH",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Wuerttemburg",
+      "code": "OWID_WRT",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Yemen",
+      "code": "YEM",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Yemen Arab Republic",
+      "code": "OWID_YAR",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Yemen People's Republic",
+      "code": "OWID_YPR",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Asia"
+      ]
+    },
+    {
+      "label": "Yugoslavia",
+      "code": "OWID_YGS",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Europe"
+      ]
+    },
+    {
+      "label": "Zambia",
+      "code": "ZMB",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Zanzibar",
+      "code": "OWID_ZAN",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    },
+    {
+      "label": "Zimbabwe",
+      "code": "ZWE",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "Africa"
+      ]
+    }
+  ]
+}

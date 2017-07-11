@@ -1,0 +1,383 @@
+{
+  "key": "Coal Reserves",
+  "countries": [
+    {
+      "label": "Asia & Pacific",
+      "code": "",
+      "years": [
+        "2015",
+        "2015",
+        "2015",
+        "2015",
+        "2015",
+        "2015",
+        "2015",
+        "2015",
+        "2015",
+        "2015"
+      ],
+      "values": [
+        "288328",
+        "310538",
+        "14641",
+        "1122",
+        "32936",
+        "245088",
+        "1156",
+        "1788",
+        "6882",
+        "786"
+      ]
+    },
+    {
+      "label": "Australia",
+      "code": "AUS",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "76400"
+      ]
+    },
+    {
+      "label": "Brazil",
+      "code": "BRA",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "6630"
+      ]
+    },
+    {
+      "label": "Bulgaria",
+      "code": "BGR",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "2366"
+      ]
+    },
+    {
+      "label": "Canada",
+      "code": "CAN",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "6582"
+      ]
+    },
+    {
+      "label": "China",
+      "code": "CHN",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "114500"
+      ]
+    },
+    {
+      "label": "Colombia",
+      "code": "COL",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "6746"
+      ]
+    },
+    {
+      "label": "Czech Republic",
+      "code": "CZE",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "1052"
+      ]
+    },
+    {
+      "label": "Germany",
+      "code": "DEU",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "40548"
+      ]
+    },
+    {
+      "label": "Greece",
+      "code": "GRC",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "3020"
+      ]
+    },
+    {
+      "label": "Hungary",
+      "code": "HUN",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "1660"
+      ]
+    },
+    {
+      "label": "India",
+      "code": "IND",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "60600"
+      ]
+    },
+    {
+      "label": "Indonesia",
+      "code": "IDN",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "28017"
+      ]
+    },
+    {
+      "label": "Japan",
+      "code": "JPN",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "347"
+      ]
+    },
+    {
+      "label": "Kazakhstan",
+      "code": "KAZ",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "33600"
+      ]
+    },
+    {
+      "label": "Mexico",
+      "code": "MEX",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "1211"
+      ]
+    },
+    {
+      "label": "Mongolia",
+      "code": "MNG",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "2520"
+      ]
+    },
+    {
+      "label": "New Zealand",
+      "code": "NZL",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "571"
+      ]
+    },
+    {
+      "label": "Pakistan",
+      "code": "PAK",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "2070"
+      ]
+    },
+    {
+      "label": "Poland",
+      "code": "POL",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "5465"
+      ]
+    },
+    {
+      "label": "Romania",
+      "code": "ROU",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "291"
+      ]
+    },
+    {
+      "label": "Russia",
+      "code": "RUS",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "157010"
+      ]
+    },
+    {
+      "label": "Serbia",
+      "code": "SRB",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "13411"
+      ]
+    },
+    {
+      "label": "South Africa",
+      "code": "ZAF",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "30156"
+      ]
+    },
+    {
+      "label": "South Korea",
+      "code": "KOR",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "126"
+      ]
+    },
+    {
+      "label": "Spain",
+      "code": "ESP",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "530"
+      ]
+    },
+    {
+      "label": "Thailand",
+      "code": "THA",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "1239"
+      ]
+    },
+    {
+      "label": "Turkey",
+      "code": "TUR",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "8702"
+      ]
+    },
+    {
+      "label": "Ukraine",
+      "code": "UKR",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "33873"
+      ]
+    },
+    {
+      "label": "United Kingdom",
+      "code": "GBR",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "228"
+      ]
+    },
+    {
+      "label": "United States",
+      "code": "USA",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "237295"
+      ]
+    },
+    {
+      "label": "Uzbekistan",
+      "code": "UZB",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "1900"
+      ]
+    },
+    {
+      "label": "Venezuela",
+      "code": "VEN",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "479"
+      ]
+    },
+    {
+      "label": "Vietnam",
+      "code": "VNM",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "150"
+      ]
+    },
+    {
+      "label": "World",
+      "code": "OWID_WRL",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "891531"
+      ]
+    },
+    {
+      "label": "Zimbabwe",
+      "code": "ZWE",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "502"
+      ]
+    }
+  ]
+}

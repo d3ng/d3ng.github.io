@@ -1,0 +1,315 @@
+{
+  "key": "Public Spending - Social protection",
+  "countries": [
+    {
+      "label": "Australia",
+      "code": "AUS",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "27.67621754"
+      ]
+    },
+    {
+      "label": "Austria",
+      "code": "AUT",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "41.92733161"
+      ]
+    },
+    {
+      "label": "Belgium",
+      "code": "BEL",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "36.14748172"
+      ]
+    },
+    {
+      "label": "Czech Republic",
+      "code": "CZE",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "31.71527859"
+      ]
+    },
+    {
+      "label": "Denmark",
+      "code": "DNK",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "43.93143897"
+      ]
+    },
+    {
+      "label": "Estonia",
+      "code": "EST",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "30.74759173"
+      ]
+    },
+    {
+      "label": "Finland",
+      "code": "FIN",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "43.13478496"
+      ]
+    },
+    {
+      "label": "France",
+      "code": "FRA",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "42.93105047"
+      ]
+    },
+    {
+      "label": "Germany",
+      "code": "DEU",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "42.6264513"
+      ]
+    },
+    {
+      "label": "Greece",
+      "code": "GRC",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "32.40192947"
+      ]
+    },
+    {
+      "label": "Hungary",
+      "code": "HUN",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "33.31349699"
+      ]
+    },
+    {
+      "label": "Iceland",
+      "code": "ISL",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "23.55231784"
+      ]
+    },
+    {
+      "label": "Ireland",
+      "code": "IRL",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "38.62939342"
+      ]
+    },
+    {
+      "label": "Israel",
+      "code": "ISR",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "26.62534244"
+      ]
+    },
+    {
+      "label": "Italy",
+      "code": "ITA",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "41.33605869"
+      ]
+    },
+    {
+      "label": "Japan",
+      "code": "JPN",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "42.42045553"
+      ]
+    },
+    {
+      "label": "Latvia",
+      "code": "LVA",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "31.23252443"
+      ]
+    },
+    {
+      "label": "Luxembourg",
+      "code": "LUX",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "44.36638447"
+      ]
+    },
+    {
+      "label": "Netherlands",
+      "code": "NLD",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "36.74581433"
+      ]
+    },
+    {
+      "label": "Norway",
+      "code": "NOR",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "39.68944927"
+      ]
+    },
+    {
+      "label": "OECD Average (weighted)",
+      "code": "",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "32.41117614"
+      ]
+    },
+    {
+      "label": "Poland",
+      "code": "POL",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "38.26995084"
+      ]
+    },
+    {
+      "label": "Portugal",
+      "code": "PRT",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "37.82771514"
+      ]
+    },
+    {
+      "label": "Slovakia",
+      "code": "SVK",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "30.09767937"
+      ]
+    },
+    {
+      "label": "Slovenia",
+      "code": "SVN",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "31.39347142"
+      ]
+    },
+    {
+      "label": "South Korea",
+      "code": "KOR",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "18.43816865"
+      ]
+    },
+    {
+      "label": "Spain",
+      "code": "ESP",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "39.68486893"
+      ]
+    },
+    {
+      "label": "Sweden",
+      "code": "SWE",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "42.31877229"
+      ]
+    },
+    {
+      "label": "Switzerland",
+      "code": "CHE",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "38.64164527"
+      ]
+    },
+    {
+      "label": "United Kingdom",
+      "code": "GBR",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "37.20466965"
+      ]
+    },
+    {
+      "label": "United States",
+      "code": "USA",
+      "years": [
+        "2013"
+      ],
+      "values": [
+        "20.72851884"
+      ]
+    }
+  ]
+}

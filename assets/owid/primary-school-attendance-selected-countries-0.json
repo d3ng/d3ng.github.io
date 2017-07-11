@@ -1,0 +1,867 @@
+{
+  "key": "Net Attendance",
+  "countries": [
+    {
+      "label": "Afghanistan",
+      "code": "AFG",
+      "years": [
+        "2011"
+      ],
+      "values": [
+        "51.49182"
+      ]
+    },
+    {
+      "label": "Albania",
+      "code": "ALB",
+      "years": [
+        "2009"
+      ],
+      "values": [
+        "91.42274"
+      ]
+    },
+    {
+      "label": "Armenia",
+      "code": "ARM",
+      "years": [
+        "2006",
+        "2011"
+      ],
+      "values": [
+        "81.2963",
+        "93.60138"
+      ]
+    },
+    {
+      "label": "Azerbaijan",
+      "code": "AZE",
+      "years": [
+        "2006"
+      ],
+      "values": [
+        "87.842"
+      ]
+    },
+    {
+      "label": "Bangladesh",
+      "code": "BGD",
+      "years": [
+        "2006",
+        "2011"
+      ],
+      "values": [
+        "75.91909",
+        "83.08984"
+      ]
+    },
+    {
+      "label": "Belize",
+      "code": "BLZ",
+      "years": [
+        "2006"
+      ],
+      "values": [
+        "88.09276"
+      ]
+    },
+    {
+      "label": "Benin",
+      "code": "BEN",
+      "years": [
+        "2006",
+        "2011"
+      ],
+      "values": [
+        "64.69543",
+        "68.69615"
+      ]
+    },
+    {
+      "label": "Bhutan",
+      "code": "BTN",
+      "years": [
+        "2010"
+      ],
+      "values": [
+        "89.61192"
+      ]
+    },
+    {
+      "label": "Bolivia",
+      "code": "BOL",
+      "years": [
+        "2003",
+        "2008"
+      ],
+      "values": [
+        "75.79667",
+        "92.74034"
+      ]
+    },
+    {
+      "label": "Brazil",
+      "code": "BRA",
+      "years": [
+        "2006"
+      ],
+      "values": [
+        "79.43365"
+      ]
+    },
+    {
+      "label": "Burkina Faso",
+      "code": "BFA",
+      "years": [
+        "2003",
+        "2006",
+        "2010"
+      ],
+      "values": [
+        "32.28453",
+        "44.46276",
+        "51.04739"
+      ]
+    },
+    {
+      "label": "Burundi",
+      "code": "BDI",
+      "years": [
+        "2000",
+        "2010"
+      ],
+      "values": [
+        "51.42633",
+        "83.93556"
+      ]
+    },
+    {
+      "label": "Cambodia",
+      "code": "KHM",
+      "years": [
+        "2005",
+        "2010",
+        "2014"
+      ],
+      "values": [
+        "84.88184",
+        "88.60955",
+        "87.5023"
+      ]
+    },
+    {
+      "label": "Cameroon",
+      "code": "CMR",
+      "years": [
+        "2004",
+        "2006",
+        "2011"
+      ],
+      "values": [
+        "79.4546",
+        "77.59975",
+        "78.54909"
+      ]
+    },
+    {
+      "label": "Central African Republic",
+      "code": "CAF",
+      "years": [
+        "2006"
+      ],
+      "values": [
+        "59.22316"
+      ]
+    },
+    {
+      "label": "Chad",
+      "code": "TCD",
+      "years": [
+        "2004"
+      ],
+      "values": [
+        "41.02799"
+      ]
+    },
+    {
+      "label": "Colombia",
+      "code": "COL",
+      "years": [
+        "2005",
+        "2010"
+      ],
+      "values": [
+        "88.08334",
+        "89.37926"
+      ]
+    },
+    {
+      "label": "Congo",
+      "code": "COG",
+      "years": [
+        "2005",
+        "2012"
+      ],
+      "values": [
+        "89.012",
+        "92.16744"
+      ]
+    },
+    {
+      "label": "Cote d'Ivoire",
+      "code": "CIV",
+      "years": [
+        "2006"
+      ],
+      "values": [
+        "60.52488"
+      ]
+    },
+    {
+      "label": "Democratic Republic of Congo",
+      "code": "COD",
+      "years": [
+        "2007",
+        "2010",
+        "2013"
+      ],
+      "values": [
+        "69.48091",
+        "73.21878",
+        "83.95662"
+      ]
+    },
+    {
+      "label": "Djibouti",
+      "code": "DJI",
+      "years": [
+        "2006"
+      ],
+      "values": [
+        "75.57346"
+      ]
+    },
+    {
+      "label": "Dominican Republic",
+      "code": "DOM",
+      "years": [
+        "2007",
+        "2013"
+      ],
+      "values": [
+        "84.76852",
+        "88.12148"
+      ]
+    },
+    {
+      "label": "Egypt",
+      "code": "EGY",
+      "years": [
+        "2005",
+        "2009",
+        "2014"
+      ],
+      "values": [
+        "88.98339",
+        "88.52426",
+        "89.30235"
+      ]
+    },
+    {
+      "label": "Ethiopia",
+      "code": "ETH",
+      "years": [
+        "2000",
+        "2005",
+        "2011"
+      ],
+      "values": [
+        "34.48547",
+        "48.90427",
+        "60.97226"
+      ]
+    },
+    {
+      "label": "Gabon",
+      "code": "GAB",
+      "years": [
+        "2012"
+      ],
+      "values": [
+        "88.37967"
+      ]
+    },
+    {
+      "label": "Gambia",
+      "code": "GMB",
+      "years": [
+        "2006"
+      ],
+      "values": [
+        "59.54153"
+      ]
+    },
+    {
+      "label": "Ghana",
+      "code": "GHA",
+      "years": [
+        "2009",
+        "2015"
+      ],
+      "values": [
+        "73.80302",
+        "68.96079"
+      ]
+    },
+    {
+      "label": "Guinea",
+      "code": "GIN",
+      "years": [
+        "2005",
+        "2012"
+      ],
+      "values": [
+        "50.75238",
+        "55.02686"
+      ]
+    },
+    {
+      "label": "Guyana",
+      "code": "GUY",
+      "years": [
+        "2006",
+        "2009"
+      ],
+      "values": [
+        "85.86445",
+        "82.28998"
+      ]
+    },
+    {
+      "label": "Haiti",
+      "code": "HTI",
+      "years": [
+        "2005",
+        "2012"
+      ],
+      "values": [
+        "49.59358",
+        "83.93456"
+      ]
+    },
+    {
+      "label": "India",
+      "code": "IND",
+      "years": [
+        "2006"
+      ],
+      "values": [
+        "72.44547"
+      ]
+    },
+    {
+      "label": "Indonesia",
+      "code": "IDN",
+      "years": [
+        "2003",
+        "2008"
+      ],
+      "values": [
+        "87.86613",
+        "80.30426"
+      ]
+    },
+    {
+      "label": "Iraq",
+      "code": "IRQ",
+      "years": [
+        "2011"
+      ],
+      "values": [
+        "88.66595"
+      ]
+    },
+    {
+      "label": "Jordan",
+      "code": "JOR",
+      "years": [
+        "2007"
+      ],
+      "values": [
+        "92.80585"
+      ]
+    },
+    {
+      "label": "Kazakhstan",
+      "code": "KAZ",
+      "years": [
+        "2006"
+      ],
+      "values": [
+        "91.3507"
+      ]
+    },
+    {
+      "label": "Kenya",
+      "code": "KEN",
+      "years": [
+        "2003",
+        "2008"
+      ],
+      "values": [
+        "74.79121",
+        "84.52304"
+      ]
+    },
+    {
+      "label": "Kyrgyzstan",
+      "code": "KGZ",
+      "years": [
+        "2006"
+      ],
+      "values": [
+        "85.83067"
+      ]
+    },
+    {
+      "label": "Laos",
+      "code": "LAO",
+      "years": [
+        "2006",
+        "2012"
+      ],
+      "values": [
+        "76.56467",
+        "83.23867"
+      ]
+    },
+    {
+      "label": "Lesotho",
+      "code": "LSO",
+      "years": [
+        "2005",
+        "2009"
+      ],
+      "values": [
+        "89.20684",
+        "91.69362"
+      ]
+    },
+    {
+      "label": "Liberia",
+      "code": "LBR",
+      "years": [
+        "2007",
+        "2013"
+      ],
+      "values": [
+        "30.73653",
+        "42.09848"
+      ]
+    },
+    {
+      "label": "Madagascar",
+      "code": "MDG",
+      "years": [
+        "2009"
+      ],
+      "values": [
+        "78.03586"
+      ]
+    },
+    {
+      "label": "Malawi",
+      "code": "MWI",
+      "years": [
+        "2004",
+        "2010"
+      ],
+      "values": [
+        "84.99851",
+        "88.91827"
+      ]
+    },
+    {
+      "label": "Maldives",
+      "code": "MDV",
+      "years": [
+        "2008"
+      ],
+      "values": [
+        "91.91611"
+      ]
+    },
+    {
+      "label": "Mali",
+      "code": "MLI",
+      "years": [
+        "2006",
+        "2013"
+      ],
+      "values": [
+        "43.49242",
+        "51.0941"
+      ]
+    },
+    {
+      "label": "Mauritania",
+      "code": "MRT",
+      "years": [
+        "2007"
+      ],
+      "values": [
+        "57.19631"
+      ]
+    },
+    {
+      "label": "Moldova",
+      "code": "MDA",
+      "years": [
+        "2005"
+      ],
+      "values": [
+        "86.9285"
+      ]
+    },
+    {
+      "label": "Mongolia",
+      "code": "MNG",
+      "years": [
+        "2006"
+      ],
+      "values": [
+        "87.41429"
+      ]
+    },
+    {
+      "label": "Morocco",
+      "code": "MAR",
+      "years": [
+        "2004"
+      ],
+      "values": [
+        "87.99957"
+      ]
+    },
+    {
+      "label": "Mozambique",
+      "code": "MOZ",
+      "years": [
+        "2003",
+        "2008",
+        "2011"
+      ],
+      "values": [
+        "68.35352",
+        "81.12202",
+        "75.39345"
+      ]
+    },
+    {
+      "label": "Namibia",
+      "code": "NAM",
+      "years": [
+        "2007",
+        "2013"
+      ],
+      "values": [
+        "83.65931",
+        "85.77293"
+      ]
+    },
+    {
+      "label": "Nepal",
+      "code": "NPL",
+      "years": [
+        "2007",
+        "2011"
+      ],
+      "values": [
+        "86.61648",
+        "89.32894"
+      ]
+    },
+    {
+      "label": "Niger",
+      "code": "NER",
+      "years": [
+        "2006",
+        "2012"
+      ],
+      "values": [
+        "37.09914",
+        "47.38501"
+      ]
+    },
+    {
+      "label": "Nigeria",
+      "code": "NGA",
+      "years": [
+        "2003",
+        "2007",
+        "2008",
+        "2011",
+        "2013"
+      ],
+      "values": [
+        "64.53671",
+        "54.2281",
+        "62.15786",
+        "64.60384",
+        "61.18146"
+      ]
+    },
+    {
+      "label": "Pakistan",
+      "code": "PAK",
+      "years": [
+        "2007",
+        "2012"
+      ],
+      "values": [
+        "70.18141",
+        "62.08247"
+      ]
+    },
+    {
+      "label": "Philippines",
+      "code": "PHL",
+      "years": [
+        "2004"
+      ],
+      "values": [
+        "87.27874"
+      ]
+    },
+    {
+      "label": "Rwanda",
+      "code": "RWA",
+      "years": [
+        "2005",
+        "2010"
+      ],
+      "values": [
+        "85.47195",
+        "92.81107"
+      ]
+    },
+    {
+      "label": "Sao Tome and Principe",
+      "code": "STP",
+      "years": [
+        "2009"
+      ],
+      "values": [
+        "91.57719"
+      ]
+    },
+    {
+      "label": "Senegal",
+      "code": "SEN",
+      "years": [
+        "2005",
+        "2011"
+      ],
+      "values": [
+        "57.93266",
+        "58.82091"
+      ]
+    },
+    {
+      "label": "Serbia",
+      "code": "SRB",
+      "years": [
+        "2011"
+      ],
+      "values": [
+        "90.5367"
+      ]
+    },
+    {
+      "label": "Sierra Leone",
+      "code": "SLE",
+      "years": [
+        "2008",
+        "2013"
+      ],
+      "values": [
+        "66.42817",
+        "72.92589"
+      ]
+    },
+    {
+      "label": "Sri Lanka",
+      "code": "LKA",
+      "years": [
+        "2006"
+      ],
+      "values": [
+        "87.75835"
+      ]
+    },
+    {
+      "label": "Swaziland",
+      "code": "SWZ",
+      "years": [
+        "2006",
+        "2010"
+      ],
+      "values": [
+        "89.31848",
+        "95.48915"
+      ]
+    },
+    {
+      "label": "Syria",
+      "code": "SYR",
+      "years": [
+        "2006"
+      ],
+      "values": [
+        "86.94656"
+      ]
+    },
+    {
+      "label": "Tajikistan",
+      "code": "TJK",
+      "years": [
+        "2006"
+      ],
+      "values": [
+        "81.0498"
+      ]
+    },
+    {
+      "label": "Tanzania",
+      "code": "TZA",
+      "years": [
+        "2004",
+        "2010"
+      ],
+      "values": [
+        "81.04046",
+        "79.81566"
+      ]
+    },
+    {
+      "label": "Timor",
+      "code": "TLS",
+      "years": [
+        "2009"
+      ],
+      "values": [
+        "71.13373"
+      ]
+    },
+    {
+      "label": "Togo",
+      "code": "TGO",
+      "years": [
+        "2006",
+        "2010"
+      ],
+      "values": [
+        "75.94598",
+        "84.82402"
+      ]
+    },
+    {
+      "label": "Turkey",
+      "code": "TUR",
+      "years": [
+        "2004"
+      ],
+      "values": [
+        "86.02841"
+      ]
+    },
+    {
+      "label": "Uganda",
+      "code": "UGA",
+      "years": [
+        "2006",
+        "2011"
+      ],
+      "values": [
+        "82.04626",
+        "88.24205"
+      ]
+    },
+    {
+      "label": "Ukraine",
+      "code": "UKR",
+      "years": [
+        "2007"
+      ],
+      "values": [
+        "91.21964"
+      ]
+    },
+    {
+      "label": "Uzbekistan",
+      "code": "UZB",
+      "years": [
+        "2006"
+      ],
+      "values": [
+        "79.26668"
+      ]
+    },
+    {
+      "label": "Vanuatu",
+      "code": "VUT",
+      "years": [
+        "2007"
+      ],
+      "values": [
+        "79.67589"
+      ]
+    },
+    {
+      "label": "Vietnam",
+      "code": "VNM",
+      "years": [
+        "2011"
+      ],
+      "values": [
+        "93.71667"
+      ]
+    },
+    {
+      "label": "Yemen",
+      "code": "YEM",
+      "years": [
+        "2006"
+      ],
+      "values": [
+        "68.33361"
+      ]
+    },
+    {
+      "label": "Zambia",
+      "code": "ZMB",
+      "years": [
+        "2001",
+        "2007",
+        "2013"
+      ],
+      "values": [
+        "71.406",
+        "80.02727",
+        "81.29465"
+      ]
+    },
+    {
+      "label": "Zimbabwe",
+      "code": "ZWE",
+      "years": [
+        "2005",
+        "2010"
+      ],
+      "values": [
+        "86.73801",
+        "89.1075"
+      ]
+    }
+  ]
+}

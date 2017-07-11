@@ -1,0 +1,65 @@
+{
+  "key": "Homelessness per 100,000 - OECD",
+  "countries": [
+    {
+      "label": "Chile",
+      "code": "CHL",
+      "years": [
+        "2012"
+      ],
+      "values": [
+        "155.7152648"
+      ]
+    },
+    {
+      "label": "France",
+      "code": "FRA",
+      "years": [
+        "2012"
+      ],
+      "values": [
+        "216.7685967"
+      ]
+    },
+    {
+      "label": "Ireland",
+      "code": "IRL",
+      "years": [
+        "2012"
+      ],
+      "values": [
+        "78.31151305"
+      ]
+    },
+    {
+      "label": "Portugal",
+      "code": "PRT",
+      "years": [
+        "2012"
+      ],
+      "values": [
+        "20.19310019"
+      ]
+    },
+    {
+      "label": "Spain",
+      "code": "ESP",
+      "years": [
+        "2012"
+      ],
+      "values": [
+        "49.38259379"
+      ]
+    },
+    {
+      "label": "United States",
+      "code": "USA",
+      "years": [
+        "2012"
+      ],
+      "values": [
+        "177.1037872"
+      ]
+    }
+  ]
+}

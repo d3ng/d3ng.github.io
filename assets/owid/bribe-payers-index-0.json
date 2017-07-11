@@ -1,0 +1,269 @@
+{
+  "key": "Bribe payers index",
+  "countries": [
+    {
+      "label": "Australia",
+      "code": "AUS",
+      "years": [
+        "2008",
+        "2011"
+      ],
+      "values": [
+        "8.5",
+        "8.5"
+      ]
+    },
+    {
+      "label": "Belgium",
+      "code": "BEL",
+      "years": [
+        "2008",
+        "2011"
+      ],
+      "values": [
+        "8.8",
+        "8.7"
+      ]
+    },
+    {
+      "label": "Brazil",
+      "code": "BRA",
+      "years": [
+        "2008",
+        "2011"
+      ],
+      "values": [
+        "7.4",
+        "7.7"
+      ]
+    },
+    {
+      "label": "Canada",
+      "code": "CAN",
+      "years": [
+        "2008",
+        "2011"
+      ],
+      "values": [
+        "8.8",
+        "8.5"
+      ]
+    },
+    {
+      "label": "China",
+      "code": "CHN",
+      "years": [
+        "2008",
+        "2011"
+      ],
+      "values": [
+        "6.5",
+        "6.5"
+      ]
+    },
+    {
+      "label": "France",
+      "code": "FRA",
+      "years": [
+        "2008",
+        "2011"
+      ],
+      "values": [
+        "8.1",
+        "8"
+      ]
+    },
+    {
+      "label": "Germany",
+      "code": "DEU",
+      "years": [
+        "2008",
+        "2011"
+      ],
+      "values": [
+        "8.6",
+        "8.6"
+      ]
+    },
+    {
+      "label": "Hong Kong",
+      "code": "HKG",
+      "years": [
+        "2008",
+        "2011"
+      ],
+      "values": [
+        "7.6",
+        "7.6"
+      ]
+    },
+    {
+      "label": "India",
+      "code": "IND",
+      "years": [
+        "2008",
+        "2011"
+      ],
+      "values": [
+        "6.8",
+        "7.5"
+      ]
+    },
+    {
+      "label": "Italy",
+      "code": "ITA",
+      "years": [
+        "2008",
+        "2011"
+      ],
+      "values": [
+        "7.4",
+        "7.6"
+      ]
+    },
+    {
+      "label": "Japan",
+      "code": "JPN",
+      "years": [
+        "2008",
+        "2011"
+      ],
+      "values": [
+        "8.6",
+        "8.6"
+      ]
+    },
+    {
+      "label": "Mexico",
+      "code": "MEX",
+      "years": [
+        "2008",
+        "2011"
+      ],
+      "values": [
+        "6.6",
+        "7"
+      ]
+    },
+    {
+      "label": "Netherlands",
+      "code": "NLD",
+      "years": [
+        "2008",
+        "2011"
+      ],
+      "values": [
+        "8.7",
+        "8.8"
+      ]
+    },
+    {
+      "label": "Russia",
+      "code": "RUS",
+      "years": [
+        "2008",
+        "2011"
+      ],
+      "values": [
+        "5.9",
+        "6.1"
+      ]
+    },
+    {
+      "label": "Singapore",
+      "code": "SGP",
+      "years": [
+        "2008",
+        "2011"
+      ],
+      "values": [
+        "8.1",
+        "8.3"
+      ]
+    },
+    {
+      "label": "South Africa",
+      "code": "ZAF",
+      "years": [
+        "2008",
+        "2011"
+      ],
+      "values": [
+        "7.5",
+        "7.6"
+      ]
+    },
+    {
+      "label": "South Korea",
+      "code": "KOR",
+      "years": [
+        "2008",
+        "2011"
+      ],
+      "values": [
+        "7.5",
+        "7.9"
+      ]
+    },
+    {
+      "label": "Spain",
+      "code": "ESP",
+      "years": [
+        "2008",
+        "2011"
+      ],
+      "values": [
+        "7.9",
+        "8"
+      ]
+    },
+    {
+      "label": "Switzerland",
+      "code": "CHE",
+      "years": [
+        "2008",
+        "2011"
+      ],
+      "values": [
+        "8.7",
+        "8.8"
+      ]
+    },
+    {
+      "label": "Taiwan",
+      "code": "TWN",
+      "years": [
+        "2008",
+        "2011"
+      ],
+      "values": [
+        "7.5",
+        "7.5"
+      ]
+    },
+    {
+      "label": "United Kingdom",
+      "code": "GBR",
+      "years": [
+        "2008",
+        "2011"
+      ],
+      "values": [
+        "8.6",
+        "8.3"
+      ]
+    },
+    {
+      "label": "United States",
+      "code": "USA",
+      "years": [
+        "2008",
+        "2011"
+      ],
+      "values": [
+        "8.1",
+        "8.1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1275 @@
+{
+  "key": "Diplomatic parking violations",
+  "countries": [
+    {
+      "label": "Albania",
+      "code": "ALB",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "85.5"
+      ]
+    },
+    {
+      "label": "Algeria",
+      "code": "DZA",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "25.6"
+      ]
+    },
+    {
+      "label": "Angola",
+      "code": "AGO",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "82.7"
+      ]
+    },
+    {
+      "label": "Argentina",
+      "code": "ARG",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "4"
+      ]
+    },
+    {
+      "label": "Armenia",
+      "code": "ARM",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "10.2"
+      ]
+    },
+    {
+      "label": "Austria",
+      "code": "AUT",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "2.2"
+      ]
+    },
+    {
+      "label": "Bahrain",
+      "code": "BHR",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "38.2"
+      ]
+    },
+    {
+      "label": "Bangladesh",
+      "code": "BGD",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "33.4"
+      ]
+    },
+    {
+      "label": "Belarus",
+      "code": "BLR",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "2.7"
+      ]
+    },
+    {
+      "label": "Belgium",
+      "code": "BEL",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "2.7"
+      ]
+    },
+    {
+      "label": "Benin",
+      "code": "BEN",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "50.4"
+      ]
+    },
+    {
+      "label": "Bhutan",
+      "code": "BTN",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "18.6"
+      ]
+    },
+    {
+      "label": "Bolivia",
+      "code": "BOL",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "3.1"
+      ]
+    },
+    {
+      "label": "Bosnia and Herzegovina",
+      "code": "BIH",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "34.9"
+      ]
+    },
+    {
+      "label": "Botswana",
+      "code": "BWA",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "18.7"
+      ]
+    },
+    {
+      "label": "Brazil",
+      "code": "BRA",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "30.3"
+      ]
+    },
+    {
+      "label": "Bulgaria",
+      "code": "BGR",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "119"
+      ]
+    },
+    {
+      "label": "Burundi",
+      "code": "BDI",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "38.2"
+      ]
+    },
+    {
+      "label": "Cambodia",
+      "code": "KHM",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "10"
+      ]
+    },
+    {
+      "label": "Cameroon",
+      "code": "CMR",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "44.1"
+      ]
+    },
+    {
+      "label": "Chad",
+      "code": "TCD",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "125.9"
+      ]
+    },
+    {
+      "label": "Chile",
+      "code": "CHL",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "16.7"
+      ]
+    },
+    {
+      "label": "China",
+      "code": "CHN",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "9.6"
+      ]
+    },
+    {
+      "label": "Comoros",
+      "code": "COM",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "10.1"
+      ]
+    },
+    {
+      "label": "Congo",
+      "code": "COG",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "7.8"
+      ]
+    },
+    {
+      "label": "Costa Rica",
+      "code": "CRI",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "10.2"
+      ]
+    },
+    {
+      "label": "Cote d'Ivoire",
+      "code": "CIV",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "68"
+      ]
+    },
+    {
+      "label": "Croatia",
+      "code": "HRV",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "6.6"
+      ]
+    },
+    {
+      "label": "Cyprus",
+      "code": "CYP",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "2.5"
+      ]
+    },
+    {
+      "label": "Czech Republic",
+      "code": "CZE",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "19.1"
+      ]
+    },
+    {
+      "label": "Democratic Republic of Congo",
+      "code": "COD",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "6.4"
+      ]
+    },
+    {
+      "label": "Djibouti",
+      "code": "DJI",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "6.5"
+      ]
+    },
+    {
+      "label": "Dominican Republic",
+      "code": "DOM",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "0.1"
+      ]
+    },
+    {
+      "label": "Egypt",
+      "code": "EGY",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "141.4"
+      ]
+    },
+    {
+      "label": "El Salvador",
+      "code": "SLV",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "1.7"
+      ]
+    },
+    {
+      "label": "Eritrea",
+      "code": "ERI",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "0.8"
+      ]
+    },
+    {
+      "label": "Estonia",
+      "code": "EST",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "10.7"
+      ]
+    },
+    {
+      "label": "Ethiopia",
+      "code": "ETH",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "60.4"
+      ]
+    },
+    {
+      "label": "Fiji",
+      "code": "FJI",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "15.7"
+      ]
+    },
+    {
+      "label": "Finland",
+      "code": "FIN",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "0.1"
+      ]
+    },
+    {
+      "label": "France",
+      "code": "FRA",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "6.2"
+      ]
+    },
+    {
+      "label": "Gabon",
+      "code": "GAB",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "2.2"
+      ]
+    },
+    {
+      "label": "Gambia",
+      "code": "GMB",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "1.5"
+      ]
+    },
+    {
+      "label": "Georgia",
+      "code": "GEO",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "9.8"
+      ]
+    },
+    {
+      "label": "Germany",
+      "code": "DEU",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "1"
+      ]
+    },
+    {
+      "label": "Ghana",
+      "code": "GHA",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "11.4"
+      ]
+    },
+    {
+      "label": "Guatemala",
+      "code": "GTM",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "0.1"
+      ]
+    },
+    {
+      "label": "Guinea",
+      "code": "GIN",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "35.2"
+      ]
+    },
+    {
+      "label": "Guinea-Bissau",
+      "code": "GNB",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "10.9"
+      ]
+    },
+    {
+      "label": "Guyana",
+      "code": "GUY",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "2.3"
+      ]
+    },
+    {
+      "label": "Haiti",
+      "code": "HTI",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "3"
+      ]
+    },
+    {
+      "label": "Honduras",
+      "code": "HND",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "5.5"
+      ]
+    },
+    {
+      "label": "Hungary",
+      "code": "HUN",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "3.3"
+      ]
+    },
+    {
+      "label": "India",
+      "code": "IND",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "6.2"
+      ]
+    },
+    {
+      "label": "Indonesia",
+      "code": "IDN",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "36.5"
+      ]
+    },
+    {
+      "label": "Iran",
+      "code": "IRN",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "15.9"
+      ]
+    },
+    {
+      "label": "Italy",
+      "code": "ITA",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "14.8"
+      ]
+    },
+    {
+      "label": "Jordan",
+      "code": "JOR",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "3"
+      ]
+    },
+    {
+      "label": "Kazakhstan",
+      "code": "KAZ",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "21.4"
+      ]
+    },
+    {
+      "label": "Kenya",
+      "code": "KEN",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "7.8"
+      ]
+    },
+    {
+      "label": "Kuwait",
+      "code": "KWT",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "249.4"
+      ]
+    },
+    {
+      "label": "Kyrgyzstan",
+      "code": "KGZ",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "5.2"
+      ]
+    },
+    {
+      "label": "Laos",
+      "code": "LAO",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "6.2"
+      ]
+    },
+    {
+      "label": "Lebanon",
+      "code": "LBN",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "1.4"
+      ]
+    },
+    {
+      "label": "Lesotho",
+      "code": "LSO",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "19.1"
+      ]
+    },
+    {
+      "label": "Liberia",
+      "code": "LBR",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "13.7"
+      ]
+    },
+    {
+      "label": "Libya",
+      "code": "LBY",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "8.3"
+      ]
+    },
+    {
+      "label": "Lithuania",
+      "code": "LTU",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "2.1"
+      ]
+    },
+    {
+      "label": "Macedonia",
+      "code": "MKD",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "3.3"
+      ]
+    },
+    {
+      "label": "Madagascar",
+      "code": "MDG",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "8.8"
+      ]
+    },
+    {
+      "label": "Malawi",
+      "code": "MWI",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "13.2"
+      ]
+    },
+    {
+      "label": "Malaysia",
+      "code": "MYS",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "1.4"
+      ]
+    },
+    {
+      "label": "Mali",
+      "code": "MLI",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "37.9"
+      ]
+    },
+    {
+      "label": "Mauritania",
+      "code": "MRT",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "11.3"
+      ]
+    },
+    {
+      "label": "Mauritius",
+      "code": "MUS",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "20.7"
+      ]
+    },
+    {
+      "label": "Mexico",
+      "code": "MEX",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "4"
+      ]
+    },
+    {
+      "label": "Moldova",
+      "code": "MDA",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "0.7"
+      ]
+    },
+    {
+      "label": "Mongolia",
+      "code": "MNG",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "10.3"
+      ]
+    },
+    {
+      "label": "Morocco",
+      "code": "MAR",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "60.8"
+      ]
+    },
+    {
+      "label": "Mozambique",
+      "code": "MOZ",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "112.1"
+      ]
+    },
+    {
+      "label": "Namibia",
+      "code": "NAM",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "4.3"
+      ]
+    },
+    {
+      "label": "Nepal",
+      "code": "NPL",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "16.7"
+      ]
+    },
+    {
+      "label": "New Zealand",
+      "code": "NZL",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "0.1"
+      ]
+    },
+    {
+      "label": "Nicaragua",
+      "code": "NIC",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "4.9"
+      ]
+    },
+    {
+      "label": "Niger",
+      "code": "NER",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "20.2"
+      ]
+    },
+    {
+      "label": "Nigeria",
+      "code": "NGA",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "59.4"
+      ]
+    },
+    {
+      "label": "Pakistan",
+      "code": "PAK",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "70.3"
+      ]
+    },
+    {
+      "label": "Papua New Guinea",
+      "code": "PNG",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "5.6"
+      ]
+    },
+    {
+      "label": "Paraguay",
+      "code": "PRY",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "13.2"
+      ]
+    },
+    {
+      "label": "Peru",
+      "code": "PER",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "3.1"
+      ]
+    },
+    {
+      "label": "Philippines",
+      "code": "PHL",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "11.7"
+      ]
+    },
+    {
+      "label": "Poland",
+      "code": "POL",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "1.7"
+      ]
+    },
+    {
+      "label": "Portugal",
+      "code": "PRT",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "8.9"
+      ]
+    },
+    {
+      "label": "Romania",
+      "code": "ROU",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "3.6"
+      ]
+    },
+    {
+      "label": "Russia",
+      "code": "RUS",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "2.1"
+      ]
+    },
+    {
+      "label": "Rwanda",
+      "code": "RWA",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "13.1"
+      ]
+    },
+    {
+      "label": "Saudi Arabia",
+      "code": "SAU",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "34.2"
+      ]
+    },
+    {
+      "label": "Senegal",
+      "code": "SEN",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "80.2"
+      ]
+    },
+    {
+      "label": "Serbia and Montenegro",
+      "code": "OWID_SRM",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "38.5"
+      ]
+    },
+    {
+      "label": "Sierra Leone",
+      "code": "SLE",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "25.9"
+      ]
+    },
+    {
+      "label": "Singapore",
+      "code": "SGP",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "3.6"
+      ]
+    },
+    {
+      "label": "Slovakia",
+      "code": "SVK",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "6.5"
+      ]
+    },
+    {
+      "label": "Slovenia",
+      "code": "SVN",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "5.3"
+      ]
+    },
+    {
+      "label": "South Africa",
+      "code": "ZAF",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "34.5"
+      ]
+    },
+    {
+      "label": "South Korea",
+      "code": "KOR",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "0.4"
+      ]
+    },
+    {
+      "label": "Spain",
+      "code": "ESP",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "12.9"
+      ]
+    },
+    {
+      "label": "Sri Lanka",
+      "code": "LKA",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "17.4"
+      ]
+    },
+    {
+      "label": "Sudan",
+      "code": "SDN",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "120.6"
+      ]
+    },
+    {
+      "label": "Swaziland",
+      "code": "SWZ",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "4.4"
+      ]
+    },
+    {
+      "label": "Switzerland",
+      "code": "CHE",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "0.1"
+      ]
+    },
+    {
+      "label": "Syria",
+      "code": "SYR",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "53.3"
+      ]
+    },
+    {
+      "label": "Tajikistan",
+      "code": "TJK",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "4.4"
+      ]
+    },
+    {
+      "label": "Tanzania",
+      "code": "TZA",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "8.4"
+      ]
+    },
+    {
+      "label": "Thailand",
+      "code": "THA",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "24.8"
+      ]
+    },
+    {
+      "label": "Togo",
+      "code": "TGO",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "10"
+      ]
+    },
+    {
+      "label": "Trinidad and Tobago",
+      "code": "TTO",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "1.4"
+      ]
+    },
+    {
+      "label": "Tunisia",
+      "code": "TUN",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "16.7"
+      ]
+    },
+    {
+      "label": "Turkmenistan",
+      "code": "TKM",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "5.9"
+      ]
+    },
+    {
+      "label": "Uganda",
+      "code": "UGA",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "3.5"
+      ]
+    },
+    {
+      "label": "Ukraine",
+      "code": "UKR",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "13.1"
+      ]
+    },
+    {
+      "label": "Uruguay",
+      "code": "URY",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "4.5"
+      ]
+    },
+    {
+      "label": "Uzbekistan",
+      "code": "UZB",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "8.9"
+      ]
+    },
+    {
+      "label": "Venezuela",
+      "code": "VEN",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "9.2"
+      ]
+    },
+    {
+      "label": "Vietnam",
+      "code": "VNM",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "10"
+      ]
+    },
+    {
+      "label": "Yemen",
+      "code": "YEM",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "9.2"
+      ]
+    },
+    {
+      "label": "Zambia",
+      "code": "ZMB",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "61.2"
+      ]
+    },
+    {
+      "label": "Zimbabwe",
+      "code": "ZWE",
+      "years": [
+        "2002"
+      ],
+      "values": [
+        "46.2"
+      ]
+    }
+  ]
+}

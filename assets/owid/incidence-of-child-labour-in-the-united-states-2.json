@@ -1,0 +1,19 @@
+{
+  "key": "Child Labour- All (%)",
+  "countries": [
+    {
+      "label": "United States",
+      "code": "USA",
+      "years": [
+        "1880",
+        "1900",
+        "1930"
+      ],
+      "values": [
+        "22.92746807",
+        "16.53027578",
+        "4.721522784"
+      ]
+    }
+  ]
+}

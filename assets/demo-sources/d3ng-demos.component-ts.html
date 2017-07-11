@@ -5,15 +5,15 @@
 <span class="hljs-meta">@Component</span>({
   selector: <span class="hljs-string">'d3ng-demos'</span>,
   template: <span class="hljs-string">`
-    &lt;div class="explanations"&gt;
-      &lt;p&gt;
-        D3ng uses &lt;a href="http://d3.js"&gt;D3.js&lt;/a&gt; to implement a variety of chart types. This pages demonstrates each individual chart type.
-        For your own visualizations, you probably want to implement new chart types. To do so you only have to
-        implement to methods. One drawing data with D3.js; and another one that add styling based on selections.
-      &lt;/p&gt;
-    &lt;/div&gt;
-    &lt;div class="container"&gt;
-      &lt;div class="nav"&gt;
+    &lt;div class="container grid"&gt;
+      &lt;div class="explanations"&gt;
+        &lt;p&gt;
+          D3ng uses &lt;a href="http://d3.js"&gt;D3.js&lt;/a&gt; to implement a variety of chart types. This pages demonstrates each individual chart type.
+          For your own visualizations, you probably want to implement new chart types. To do so you only have to
+          implement to methods. One drawing data with D3.js; and another one that add styling based on selections.
+        &lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="nav col-4-12"&gt;
         &lt;md-list&gt;
           &lt;md-list-item&gt;&lt;a routerLink="list"&gt;List&lt;/a&gt;&lt;/md-list-item&gt;
           &lt;md-list-item&gt;&lt;a routerLink="pattern"&gt;Pattern&lt;/a&gt;&lt;/md-list-item&gt;
@@ -26,9 +26,10 @@
           &lt;md-list-item&gt;&lt;a routerLink="collapsible-indented-tree"&gt;Collapsible Indented Tree&lt;/a&gt;&lt;/md-list-item&gt;
           &lt;md-list-item&gt;&lt;a routerLink="histogram"&gt;Histogram&lt;/a&gt;&lt;/md-list-item&gt;
           &lt;md-list-item&gt;&lt;a routerLink="map"&gt;Map&lt;/a&gt;&lt;/md-list-item&gt;
+          &lt;md-list-item&gt;&lt;a routerLink="bubble-histogram"&gt;Bubble Histogram&lt;/a&gt;&lt;/md-list-item&gt;
         &lt;/md-list&gt;
       &lt;/div&gt;
-      &lt;div class="content"&gt;
+      &lt;div class="content col-8-12"&gt;
         &lt;d3ng-demo-viewer *ngIf="sourceBasePath" [sourceBasePath]="sourceBasePath"&gt;
           &lt;router-outlet&gt;&lt;/router-outlet&gt;
         &lt;/d3ng-demo-viewer&gt;
@@ -40,7 +41,7 @@
 
 <span class="hljs-keyword">export</span> <span class="hljs-keyword">class</span> D3ngDemosComponent {
 
-  <span class="hljs-keyword">private</span> sourceBasePath = <span class="hljs-literal">null</span>;
+  sourceBasePath = <span class="hljs-literal">null</span>;
 
   <span class="hljs-keyword">constructor</span>(<span class="hljs-params"><span class="hljs-keyword">private</span> router: Router, http: Http</span>) {
     router.events.subscribe(<span class="hljs-function"><span class="hljs-params">event</span> =&gt;</span> {

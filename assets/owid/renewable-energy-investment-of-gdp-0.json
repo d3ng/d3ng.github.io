@@ -1,0 +1,105 @@
+{
+  "key": "Renewable Investment (% of GDP)",
+  "countries": [
+    {
+      "label": "Brazil",
+      "code": "BRA",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "0.4"
+      ]
+    },
+    {
+      "label": "Chile",
+      "code": "CHL",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "1.4"
+      ]
+    },
+    {
+      "label": "China",
+      "code": "CHN",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "0.9"
+      ]
+    },
+    {
+      "label": "Germany",
+      "code": "DEU",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "0.3"
+      ]
+    },
+    {
+      "label": "India",
+      "code": "IND",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "0.5"
+      ]
+    },
+    {
+      "label": "Japan",
+      "code": "JPN",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "0.8"
+      ]
+    },
+    {
+      "label": "Mexico",
+      "code": "MEX",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "0.3"
+      ]
+    },
+    {
+      "label": "South Africa",
+      "code": "ZAF",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "1.4"
+      ]
+    },
+    {
+      "label": "UK",
+      "code": "",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "0.8"
+      ]
+    },
+    {
+      "label": "United States",
+      "code": "USA",
+      "years": [
+        "2015"
+      ],
+      "values": [
+        "0.2"
+      ]
+    }
+  ]
+}
