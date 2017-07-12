@@ -467,6 +467,44 @@
 
 
 
+            <section>
+                
+                    <h3 id="methods">
+                        Methods
+                    </h3>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <b><span class="modifier">Public</span> applyFilter</b>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                        <span class="modifier-icon method fa fa-play "></span>
+                                    <code>applyFilter(filter: )</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="6" class="link-to-prism">src/lib/d3ng-groups.component.ts:6</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+            
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code>void</code>
+            
+                                        </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </section>
 
 
             <section>
@@ -508,6 +546,9 @@ import {D3ngChart} from &quot;./d3ng-chart&quot;;
 
 export class D3ngGroupContext {
   public groups: D3ngGroup[] &#x3D; [new D3ngGroup(), new D3ngGroup(), new D3ngGroup(), new D3ngGroup() ];
+  public applyFilter(filter: (selected: any) &#x3D;&gt; boolean) {
+    this.groups.forEach(group &#x3D;&gt; group.applyFilter(filter));
+  }
 }
 
 @Component({
@@ -640,6 +681,16 @@ export class D3ngGroup {
     const index &#x3D; this.handler.indexOf(handler);
     if (index !&#x3D; -1) {
       this.handler.splice(index, 1);
+    }
+  }
+
+  public applyFilter(filter: (selected: any) &#x3D;&gt; boolean): void {
+    const it &#x3D; this.selections.keys();
+    let itResult &#x3D; it.next();
+    while (!itResult.done) {
+      const key &#x3D; itResult.value;
+      this.selections.set(key, this.selections.get(key).filter(filter));
+      itResult &#x3D; it.next();
     }
   }
 }

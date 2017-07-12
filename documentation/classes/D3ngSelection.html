@@ -882,6 +882,9 @@ export abstract class D3ngChart implements OnChanges, AfterViewInit {
 
   private _isDrawSelection &#x3D; true;
 
+  @Input() redrawLimit &#x3D; 0;
+  private redrawTimeout &#x3D; null;
+
   @HostListener(&#x27;contextmenu&#x27;) onRightClick() {
     if (this.multiselect) {
       this.setDirectSelection([]);
@@ -1007,11 +1010,23 @@ export abstract class D3ngChart implements OnChanges, AfterViewInit {
   protected abstract clear(): void;
   protected abstract draw(): void;
 
-  public redraw(): void {
+  private doRedraw(): void {
+    this.redrawTimeout &#x3D; null;
     this.clear();
     this.draw();
     if (this._isDrawSelection) {
       this.drawSelection(this.currentSelection);
+    }
+  }
+
+  public redraw(): void {
+    if (this.redrawLimit &amp;&amp; this.redrawLimit !&#x3D; 0) {
+      if (this.redrawTimeout !&#x3D; null) {
+        clearTimeout(this.redrawTimeout);
+      }
+      this.redrawTimeout &#x3D; setTimeout(() &#x3D;&gt; this.doRedraw(), this.redrawLimit);
+    } else {
+      this.doRedraw();
     }
   }
 

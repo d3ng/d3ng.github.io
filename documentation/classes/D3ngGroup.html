@@ -477,7 +477,7 @@
                             </tr>
                                     <tr>
                                         <td class="col-md-4">
-                                            <div class="io-line">Defined in <a href="" data-line="100" class="link-to-prism">src/lib/d3ng-groups.component.ts:100</a></div>
+                                            <div class="io-line">Defined in <a href="" data-line="103" class="link-to-prism">src/lib/d3ng-groups.component.ts:103</a></div>
                                         </td>
                                     </tr>
             
@@ -507,7 +507,7 @@
             
                                     <tr>
                                         <td class="col-md-4">
-                                            <div class="io-line">Defined in <a href="" data-line="104" class="link-to-prism">src/lib/d3ng-groups.component.ts:104</a></div>
+                                            <div class="io-line">Defined in <a href="" data-line="107" class="link-to-prism">src/lib/d3ng-groups.component.ts:107</a></div>
                                         </td>
                                     </tr>
             
@@ -539,7 +539,7 @@
             
                                     <tr>
                                         <td class="col-md-4">
-                                            <div class="io-line">Defined in <a href="" data-line="114" class="link-to-prism">src/lib/d3ng-groups.component.ts:114</a></div>
+                                            <div class="io-line">Defined in <a href="" data-line="117" class="link-to-prism">src/lib/d3ng-groups.component.ts:117</a></div>
                                         </td>
                                     </tr>
             
@@ -571,7 +571,7 @@
             
                                     <tr>
                                         <td class="col-md-4">
-                                            <div class="io-line">Defined in <a href="" data-line="130" class="link-to-prism">src/lib/d3ng-groups.component.ts:130</a></div>
+                                            <div class="io-line">Defined in <a href="" data-line="133" class="link-to-prism">src/lib/d3ng-groups.component.ts:133</a></div>
                                         </td>
                                     </tr>
             
@@ -603,7 +603,39 @@
             
                                     <tr>
                                         <td class="col-md-4">
-                                            <div class="io-line">Defined in <a href="" data-line="134" class="link-to-prism">src/lib/d3ng-groups.component.ts:134</a></div>
+                                            <div class="io-line">Defined in <a href="" data-line="137" class="link-to-prism">src/lib/d3ng-groups.component.ts:137</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+            
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code>void</code>
+            
+                                        </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <b><span class="modifier">Public</span> applyFilter</b>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                        <span class="modifier-icon method fa fa-play "></span>
+                                    <code>applyFilter(filter: )</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="144" class="link-to-prism">src/lib/d3ng-groups.component.ts:144</a></div>
                                         </td>
                                     </tr>
             
@@ -647,7 +679,7 @@
                                 </tr>
                                     <tr>
                                         <td class="col-md-4">
-                                            <div class="io-line">Defined in <a href="" data-line="100" class="link-to-prism">src/lib/d3ng-groups.component.ts:100</a></div>
+                                            <div class="io-line">Defined in <a href="" data-line="103" class="link-to-prism">src/lib/d3ng-groups.component.ts:103</a></div>
                                         </td>
                                     </tr>
                         </tbody>
@@ -673,7 +705,7 @@
                                 </tr>
                                     <tr>
                                         <td class="col-md-4">
-                                            <div class="io-line">Defined in <a href="" data-line="99" class="link-to-prism">src/lib/d3ng-groups.component.ts:99</a></div>
+                                            <div class="io-line">Defined in <a href="" data-line="102" class="link-to-prism">src/lib/d3ng-groups.component.ts:102</a></div>
                                         </td>
                                     </tr>
                         </tbody>
@@ -686,6 +718,9 @@ import {D3ngChart} from &quot;./d3ng-chart&quot;;
 
 export class D3ngGroupContext {
   public groups: D3ngGroup[] &#x3D; [new D3ngGroup(), new D3ngGroup(), new D3ngGroup(), new D3ngGroup() ];
+  public applyFilter(filter: (selected: any) &#x3D;&gt; boolean) {
+    this.groups.forEach(group &#x3D;&gt; group.applyFilter(filter));
+  }
 }
 
 @Component({
@@ -818,6 +853,16 @@ export class D3ngGroup {
     const index &#x3D; this.handler.indexOf(handler);
     if (index !&#x3D; -1) {
       this.handler.splice(index, 1);
+    }
+  }
+
+  public applyFilter(filter: (selected: any) &#x3D;&gt; boolean): void {
+    const it &#x3D; this.selections.keys();
+    let itResult &#x3D; it.next();
+    while (!itResult.done) {
+      const key &#x3D; itResult.value;
+      this.selections.set(key, this.selections.get(key).filter(filter));
+      itResult &#x3D; it.next();
     }
   }
 }
