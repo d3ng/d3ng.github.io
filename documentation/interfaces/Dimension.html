@@ -112,6 +112,9 @@
                                     <a href="../components/D3ngParallelCoordinatesComponent.html" >D3ngParallelCoordinatesComponent</a>
                                 </li>
                                 <li class="link">
+                                    <a href="../components/D3ngPathPlotComponent.html" >D3ngPathPlotComponent</a>
+                                </li>
+                                <li class="link">
                                     <a href="../components/D3ngRadialEdgeBundlingComponent.html" >D3ngRadialEdgeBundlingComponent</a>
                                 </li>
                                 <li class="link">
@@ -192,6 +195,9 @@
                                 </li>
                                 <li class="link">
                                     <a href="../interfaces/PatternTerm.html" >PatternTerm</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../interfaces/Point.html" >Point</a>
                                 </li>
                         </ul>
                     </li>
@@ -315,6 +321,9 @@
                                            <a href="../components/D3ngParallelCoordinatesComponent.html" >D3ngParallelCoordinatesComponent</a>
                                        </li>
                                        <li class="link">
+                                           <a href="../components/D3ngPathPlotComponent.html" >D3ngPathPlotComponent</a>
+                                       </li>
+                                       <li class="link">
                                            <a href="../components/D3ngRadialEdgeBundlingComponent.html" >D3ngRadialEdgeBundlingComponent</a>
                                        </li>
                                        <li class="link">
@@ -395,6 +404,9 @@
                                        </li>
                                        <li class="link">
                                            <a href="../interfaces/PatternTerm.html" >PatternTerm</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../interfaces/Point.html" >Point</a>
                                        </li>
                                </ul>
                            </li>
@@ -605,6 +617,15 @@ export class D3ngParallelCoordinatesComponent extends D3ngChart implements OnCha
       this.redraw();
     }
   };
+  get dimensionConfigurations(): Dimension[] {
+    return this._dimensions.map(dim &#x3D;&gt; {
+      return {
+        key: dim.key,
+        scale: dim.scale,
+        direction: dim.direction
+      };
+    });
+  }
 
   private mergeDimensionConfigurationsIntoDimensions(): boolean {
     let changed &#x3D; false;

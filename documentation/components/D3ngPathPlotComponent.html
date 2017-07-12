@@ -112,7 +112,7 @@
                                     <a href="../components/D3ngParallelCoordinatesComponent.html" >D3ngParallelCoordinatesComponent</a>
                                 </li>
                                 <li class="link">
-                                    <a href="../components/D3ngPathPlotComponent.html" >D3ngPathPlotComponent</a>
+                                    <a href="../components/D3ngPathPlotComponent.html"  data-type="entity-link" class="active" >D3ngPathPlotComponent</a>
                                 </li>
                                 <li class="link">
                                     <a href="../components/D3ngRadialEdgeBundlingComponent.html" >D3ngRadialEdgeBundlingComponent</a>
@@ -164,7 +164,7 @@
                                     <a href="../classes/D3ngGroup.html" >D3ngGroup</a>
                                 </li>
                                 <li class="link">
-                                    <a href="../classes/D3ngGroupContext.html"  data-type="entity-link" class="active" >D3ngGroupContext</a>
+                                    <a href="../classes/D3ngGroupContext.html" >D3ngGroupContext</a>
                                 </li>
                                 <li class="link">
                                     <a href="../classes/D3ngHierarchicalChart.html" >D3ngHierarchicalChart</a>
@@ -321,7 +321,7 @@
                                            <a href="../components/D3ngParallelCoordinatesComponent.html" >D3ngParallelCoordinatesComponent</a>
                                        </li>
                                        <li class="link">
-                                           <a href="../components/D3ngPathPlotComponent.html" >D3ngPathPlotComponent</a>
+                                           <a href="../components/D3ngPathPlotComponent.html"  data-type="entity-link" class="active" >D3ngPathPlotComponent</a>
                                        </li>
                                        <li class="link">
                                            <a href="../components/D3ngRadialEdgeBundlingComponent.html" >D3ngRadialEdgeBundlingComponent</a>
@@ -373,7 +373,7 @@
                                            <a href="../classes/D3ngGroup.html" >D3ngGroup</a>
                                        </li>
                                        <li class="link">
-                                           <a href="../classes/D3ngGroupContext.html"  data-type="entity-link" class="active" >D3ngGroupContext</a>
+                                           <a href="../classes/D3ngGroupContext.html" >D3ngGroupContext</a>
                                        </li>
                                        <li class="link">
                                            <a href="../classes/D3ngHierarchicalChart.html" >D3ngHierarchicalChart</a>
@@ -432,36 +432,51 @@
                    
                    </nav>
                </div>
-               <div class="content class">
+               <div class="content component">
                    <div class="content-data">
 
 
-
-
-
-
 <ol class="breadcrumb">
-  <li>Classes</li>
-  <li>D3ngGroupContext</li>
+  <li>Components</li>
+  <li>D3ngPathPlotComponent</li>
 </ol>
 
 <ul class="nav nav-tabs" role="tablist">
     <li class="active">
-        <a href="#infos" id="infos-tab" role="tab" data-toggle="tab">Infos</a>
+        <a href="#infos" id="infos-tab" role="tab" data-toggle="tab" data-link="infos">Infos</a>
     </li>
+
     <li>
         <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+    </li>
+
+    <li>
+        <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
     </li>
 </ul>
 
 <div class="tab-content">
-    <div class="tab-pane fade active in" id="infos">
-        <p class="comment">
-            <h3>File</h3>
-        </p>
-        <p class="comment">
-            <code>src/lib/d3ng-groups.component.ts</code>
-        </p>
+    <div class="tab-pane fade active in" id="infos"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/lib/d3ng-path-plot.component.ts</code>
+</p>
+
+
+    <p class="comment">
+        <h3>Extends</h3>
+    </p>
+    <p class="comment">
+            <code><a href="../classes/D3ngChart.html" target="_self" >D3ngChart</a></code>
+    </p>
+
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
 
 
 
@@ -469,183 +484,421 @@
 
 
 
-            <section>
-                
-                    <h3 id="inputs">
-                        Properties
-                    </h3>
-                    <table class="table table-sm table-bordered">
-                        <tbody>
+
+
+
+            <tr>
+                <td class="col-md-3">providers</td>
+                <td class="col-md-9">
+                    <code>
+                        { provide: D3ngChart, useExisting:  }
+                    </code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>d3ng-path-plot</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>d3ng-path-plot.component.css</code></td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-3">template</td>
+                <td class="col-md-9"><pre class="line-numbers"><code class="language-html">&lt;div #xSelect *ngIf&#x3D;&quot;dimensions&quot; class&#x3D;&quot;y-controls&quot;&gt;
+  &lt;md-select [(ngModel)]&#x3D;&quot;y&quot; (change)&#x3D;&quot;onYChange($event)&quot;&gt;
+    &lt;md-option *ngFor&#x3D;&quot;let dim of dimensions ? dimensions : [y]&quot; [value]&#x3D;&quot;dim&quot;&gt;{{ dim }}&lt;/md-option&gt;
+  &lt;/md-select&gt;
+&lt;/div&gt;
+&lt;div #ySelect *ngIf&#x3D;&quot;dimensions&quot; class&#x3D;&quot;x-controls&quot;&gt;
+  &lt;md-select [(ngModel)]&#x3D;&quot;x&quot; (change)&#x3D;&quot;onXChange($event)&quot;&gt;
+    &lt;md-option *ngFor&#x3D;&quot;let dim of dimensions ? dimensions : [x]&quot; [value]&#x3D;&quot;dim&quot;&gt;{{ dim }}&lt;/md-option&gt;
+  &lt;/md-select&gt;
+&lt;/div&gt;
+&lt;div #chart class&#x3D;&quot;content&quot;&gt;&lt;/div&gt;</code></pre></td>
+            </tr>
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+        <h3 id="inputs">Inputs</h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-2">
+                            <code>config</code>
+                        </td>
+                        <td class="col-md-10">
+                        </td>
+                    </tr>
                             <tr>
-                                <td class="col-md-4">
-                                    <b><span class="modifier">Public</span> groups</b>
+                                <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="39" class="link-to-prism">src/lib/d3ng-path-plot.component.ts:39</a></div>
                                 </td>
                             </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-2">
+                            <code>dimensions</code>
+                        </td>
+                        <td class="col-md-10">
+                              <p>
+                                <em>Type:</em>    <code>[]</code>
+
+                              </p>
+                        </td>
+                    </tr>
                             <tr>
-                                <td class="col-md-4">
-                                    <span class="modifier-icon fa fa-"></span><code>groups:     <code>[]</code>
-            </bcode>
+                                <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="38" class="link-to-prism">src/lib/d3ng-path-plot.component.ts:38</a></div>
                                 </td>
                             </tr>
-                                <tr>
-                                    <td class="col-md-4">
-                                        <i>Type : </i>    <code>[]</code>
-            
-                                    </td>
-                                </tr>
-                                    <tr>
-                                        <td class="col-md-4">
-                                            <div class="io-line">Defined in <a href="" data-line="5" class="link-to-prism">src/lib/d3ng-groups.component.ts:5</a></div>
-                                        </td>
-                                    </tr>
-                        </tbody>
-                    </table>
-            </section>
-    </div>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-2">
+                            <code>path</code>
+                        </td>
+                        <td class="col-md-10">
+                            <div><p>Returns the path for a given data point. Clients must implement this method, d3ng does not
+compute paths on its own!</p>
+</div>
+                        </td>
+                    </tr>
+                            <tr>
+                                <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="37" class="link-to-prism">src/lib/d3ng-path-plot.component.ts:37</a></div>
+                                </td>
+                            </tr>
+                </tbody>
+            </table>
+    </section>
+
+
+
+    <section>
+        
+            <h3 id="methods">
+                Methods
+            </h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b> onXChange</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+    <code>onXChange(event: any)</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="49" class="link-to-prism">src/lib/d3ng-path-plot.component.ts:49</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code>void</code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b> onYChange</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+    <code>onYChange(event: any)</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="54" class="link-to-prism">src/lib/d3ng-path-plot.component.ts:54</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code>void</code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b><span class="modifier">Protected</span> drawSelection</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <span class="modifier-icon method fa fa-play circle"></span>
+                            <code>drawSelection(selection: <a href="../classes/D3ngSelection.html">D3ngSelection</a>)</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="59" class="link-to-prism">src/lib/d3ng-path-plot.component.ts:59</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code>void</code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b><span class="modifier">Protected</span> clear</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <span class="modifier-icon method fa fa-play circle"></span>
+                            <code>clear()</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="71" class="link-to-prism">src/lib/d3ng-path-plot.component.ts:71</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code>void</code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b><span class="modifier">Protected</span> draw</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <span class="modifier-icon method fa fa-play circle"></span>
+                            <code>draw()</code>
+                        </td>
+                    </tr>
+    
+    
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="75" class="link-to-prism">src/lib/d3ng-path-plot.component.ts:75</a></div>
+                                </td>
+                            </tr>
+    
+                    <tr>
+                        <td class="col-md-4">
+    
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code>void</code>
+    
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+    </section>
+
+    <section>
+        
+            <h3 id="inputs">
+                Properties
+            </h3>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b> chart</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <code>chart:     <code></code>
+    </bcode>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Decorators : </i><code>ViewChild</code>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="31" class="link-to-prism">src/lib/d3ng-path-plot.component.ts:31</a></div>
+                                </td>
+                            </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b><span class="modifier">Private</span> d3Chart</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <span class="modifier-icon fa fa-lock"></span><code>d3Chart:     <code></code>
+    </bcode>
+                        </td>
+                    </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="44" class="link-to-prism">src/lib/d3ng-path-plot.component.ts:44</a></div>
+                                </td>
+                            </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b> x</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <code>x:     <code>any</code>
+    </bcode>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Type : </i>    <code>any</code>
+    
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="46" class="link-to-prism">src/lib/d3ng-path-plot.component.ts:46</a></div>
+                                </td>
+                            </tr>
+                </tbody>
+            </table>
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="col-md-4">
+                            <b> y</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <code>y:     <code>any</code>
+    </bcode>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <i>Type : </i>    <code>any</code>
+    
+                            </td>
+                        </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="47" class="link-to-prism">src/lib/d3ng-path-plot.component.ts:47</a></div>
+                                </td>
+                            </tr>
+                </tbody>
+            </table>
+    </section>
+</div>
+
+
     <div class="tab-pane fade tab-source-code" id="source">
-        <pre class="line-numbers"><code class="language-typescript">import {AfterContentInit, Component, ContentChild, EventEmitter, Input, OnDestroy, Output} from &quot;@angular/core&quot;;
-import {D3ngChart} from &quot;./d3ng-chart&quot;;
+        <pre class="line-numbers"><code class="language-typescript"></code></pre>
+    </div>
 
-export class D3ngGroupContext {
-  public groups: D3ngGroup[] &#x3D; [new D3ngGroup(), new D3ngGroup(), new D3ngGroup(), new D3ngGroup() ];
-}
 
-@Component({
-  selector: &#x27;d3ng-groups&#x27;,
-  template: &#x60;
-    &lt;div class&#x3D;&quot;container&quot;&gt;
-      &lt;div class&#x3D;&quot;controls&quot;&gt;
-        &lt;div class&#x3D;&quot;group-controls&quot;&gt;
-          &lt;d3ng-group-selection [(value)]&#x3D;&quot;chart.currentSelectionGroup&quot; [groups]&#x3D;&quot;groups&quot;&gt;&lt;/d3ng-group-selection&gt;
-        &lt;/div&gt;
-        &lt;div class&#x3D;&quot;selection-controls&quot;&gt;
-          &lt;!--&lt;md-slide-toggle color&#x3D;&quot;warn&quot; [(checked)]&#x3D;&quot;isHold&quot;&gt;&lt;/md-slide-toggle&gt;--&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class&#x3D;&quot;content&quot;&gt;
-        &lt;ng-content&gt;&lt;/ng-content&gt;  
-      &lt;/div&gt;
-    &lt;/div&gt;  
-  &#x60;,
-  styles: [
-    &#x27;:host { display: block; }&#x27;,
-    &#x27;.container, .content { height: 100%; }&#x27;,
-    &#x27;.controls { position: relative; }&#x27;,
-    &#x27;.selection-controls { position: absolute; left: 0px; z-index: 1000; }&#x27;,
-    &#x27;.group-controls { position: absolute; right: 10px; z-index: 1000;}&#x27;,
-    &#x27;md-button-toggle-group { height: 15px; }&#x27;,
-    &#x27;.mat-button-toggle-checked { border: solid grey 1px; }&#x27;,
-    &#x27;:host /deep/ .mat-button-toggle-label-content { line-height: 0; !important; }&#x27;,
-    &#x27;.group-btn-0.mat-button-toggle-checked { background-color: #9E2622; }&#x27;,
-    &#x27;.group-btn-0:not(.mat-button-toggle-checked) {background-color: #CC8574; }&#x27;,
-    &#x27;.group-btn-1.mat-button-toggle-checked { background-color: #005A9C; }&#x27;,
-    &#x27;.group-btn-1:not(.mat-button-toggle-checked) {background-color: #B3C1DF; }&#x27;,
-    &#x27;.group-btn-2.mat-button-toggle-checked { background-color: #D4C48E; }&#x27;,
-    &#x27;.group-btn-2:not(.mat-button-toggle-checked) {background-color: #E8DEC0; }&#x27;,
-    &#x27;.group-btn-3.mat-button-toggle-checked { background-color: #76A58E; }&#x27;,
-    &#x27;.group-btn-3:not(.mat-button-toggle-checked) {background-color: #006C45; }&#x27;,
-  ]
-})
-export class D3ngGroupsComponent implements AfterContentInit, OnDestroy {
-
-  @ContentChild(D3ngChart) chart: D3ngChart;
-  @Input() context: D3ngGroupContext &#x3D; null;
-  @Input() groups: number[] &#x3D; [0];
-  @Output() selectedChanged &#x3D; new EventEmitter&lt;{group: number, selected: any[]}&gt;();
-
-  private isHold &#x3D; false;
-  private groupEventHandlers &#x3D; [];
-
-  constructor() {
-
-  }
-
-  public ngAfterContentInit() {
-    if (!this.context) {
-      throw new Error(&quot;No group context set.&quot;);
-    }
-    this.chart.selectedChange.subscribe(selected &#x3D;&gt; this.onDirectSelectedChanged(selected));
-    if (this.groups.indexOf(this.chart.currentSelectionGroup) &#x3D;&#x3D; -1) {
-      this.chart.currentSelectionGroup &#x3D; this.groups[0];
-    }
-    this.groups.forEach(group &#x3D;&gt; {
-      const handler &#x3D; selected &#x3D;&gt; {
-        this.onIndirectSelectedChanged(group, selected);
-      };
-      this.groupEventHandlers.push(handler);
-      this.context.groups[group].subscribe(handler);
-    });
-    const order &#x3D; this.groups.slice(0);
-    [0, 1, 2, 3].forEach(g &#x3D;&gt; {
-      if (order.indexOf(g) &#x3D;&#x3D; -1) {
-        order.push(g);
-      }
-    });
-    this.chart.groupOrder &#x3D; order;
-  }
-
-  private onIndirectSelectedChanged(group: number, selected: Array&lt;any&gt;) {
-    this.chart.onIndirectSelectionChanged(selected, group);
-    this.selectedChanged.emit({group: group, selected: selected});
-  }
-
-  private onDirectSelectedChanged(selected: Array&lt;any&gt;) {
-    this.context.groups[this.chart.currentSelectionGroup].onDirectSelectedChanged(this.chart, selected);
-  }
-
-  ngOnDestroy() {
-    this.groups.forEach(group &#x3D;&gt; {
-      this.context.groups[group].cancelSubscription(this.groupEventHandlers[group]);
-    });
-  }
-}
-
-export class D3ngGroup {
-  private selections: Map&lt;D3ngChart, Array&lt;any&gt;&gt; &#x3D; new Map&lt;D3ngChart, Array&lt;any&gt;&gt;();
-  private handler: Array&lt;(selected: any[]) &#x3D;&gt; void&gt; &#x3D; [];
-
-  constructor() {}
-
-  public onDirectSelectedChanged(chart: D3ngChart, selected: Array&lt;any&gt;) {
-    if (!selected) {
-      throw new Error(&quot;Selected must be defined.&quot;);
-    }
-    this.selections.set(chart, selected);
-    const indirectSelected &#x3D; this.getSelected();
-
-    this.handler.forEach(handler &#x3D;&gt; handler(indirectSelected));
-  }
-
-  public getSelected() {
-    const selected &#x3D; [];
-    const it &#x3D; this.selections.values();
-    let itResult &#x3D; it.next();
-    while (!itResult.done) {
-      const selection &#x3D; itResult.value;
-      itResult &#x3D; it.next();
-      selection.forEach(s &#x3D;&gt; {
-        if (selected.indexOf(s) !&#x3D; 1) {
-          selected.push(s);
-        }
-      });
-    }
-    return selected;
-  }
-
-  public subscribe(handler: (selected: Array&lt;any&gt;) &#x3D;&gt; void) {
-    this.handler.push(handler);
-  }
-
-  public cancelSubscription(handler: any) {
-    const index &#x3D; this.handler.indexOf(handler);
-    if (index !&#x3D; -1) {
-      this.handler.splice(index, 1);
-    }
-  }
-}
-</code></pre>
+    <div class="tab-pane fade" id="tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
     </div>
 </div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div #xSelect *ngIf="dimensions" class="y-controls">  <md-select [(ngModel)]="y" (change)="onYChange($event)">    <md-option *ngFor="let dim of dimensions ? dimensions : [y]" [value]="dim">{{ dim }}</md-option>  </md-select></div><div #ySelect *ngIf="dimensions" class="x-controls">  <md-select [(ngModel)]="x" (change)="onXChange($event)">    <md-option *ngFor="let dim of dimensions ? dimensions : [x]" [value]="dim">{{ dim }}</md-option>  </md-select></div><div #chart class="content"></div></div>'
+    var COMPONENTS = [{'name': 'D3ngBubbleHistogramComponent', 'selector': 'd3ng-bubble-histogram'},{'name': 'D3ngChordDiagramComponent', 'selector': 'd3ng-chord-diagram'},{'name': 'D3ngCollapsibleIndentedTreeComponent', 'selector': 'd3ng-collapsible-indented-tree'},{'name': 'D3ngForceGraphComponent', 'selector': 'd3ng-force-graph'},{'name': 'D3ngGroupSelectionComponent', 'selector': 'd3ng-group-selection'},{'name': 'D3ngGroupsComponent', 'selector': 'd3ng-groups'},{'name': 'D3ngHistogramComponent', 'selector': 'd3ng-histogram'},{'name': 'D3ngListComponent', 'selector': 'd3ng-list'},{'name': 'D3ngMapComponent', 'selector': 'd3ng-map'},{'name': 'D3ngParallelCoordinatesComponent', 'selector': 'd3ng-parallel-coordinates'},{'name': 'D3ngPathPlotComponent', 'selector': 'd3ng-path-plot'},{'name': 'D3ngRadialEdgeBundlingComponent', 'selector': 'd3ng-radial-edge-bundling'},{'name': 'D3ngScatterPlotComponent', 'selector': 'd3ng-scatter-plot'},{'name': 'D3ngTreeMapComponent', 'selector': 'd3ng-tree-map'}];
+    var DIRECTIVES = [{'name': 'D3ngSourceDirective', 'selector': '[d3ngSource]'}];
+    var ACTUAL_COMPONENT = {'name': 'D3ngPathPlotComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
 
 
 
